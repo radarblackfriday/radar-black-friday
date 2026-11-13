@@ -21,8 +21,11 @@ BRT = timezone(timedelta(hours=-3))
 
 # Campos que a busca precisa. Os opcionais são removidos sozinhos se a API reclamar deles.
 REQUIRED = ["productName", "price", "imageUrl", "offerLink"]
-OPTIONAL = ["priceMin", "priceMax", "shopName", "sales", "soldCount", "ratingStar", "priceDiscountRate"]
+OPTIONAL = ["priceMin", "priceMax", "shopName", "sales", "ratingStar", "priceDiscountRate"]
 FIELDS = list(REQUIRED) + list(OPTIONAL)
+
+# sortType da Shopee: 1 relevância, 2 mais vendidos, 3 maior preço, 4 menor preço, 5 maior comissão
+ORDEM_PADRAO = 2
 
 
 class ApiError(Exception):
@@ -84,25 +87,38 @@ def montar_query(termo, campos, limite, ordem):
 
 
 def buscar(app_id, secret, termo, limite, ordem, estado):
-    """Busca um termo; se a API reclamar de um campo opcional, remove e tenta de novo."""
-    for _ in range(len(OPTIONAL) + 3):
-        dados = chamar(app_id, secret, montar_query(termo, estado["campos"], limite, ordem))
-        if dados.get("errors"):
-            msg = texto_erros(dados)
-            if re.search(r"signature|credential|unauthori|forbidden|invalid app|auth", msg, re.I):
-                raise ApiError("Autenticação recusada: %s" % msg)
-            ruins = [c for c in estado["campos"] if c not in REQUIRED and re.search(r"\b%s\b" % c, msg)]
-            if ruins:
-                print("  campo(s) não aceito(s), removendo: %s" % ", ".join(ruins))
-                estado["campos"] = [c for c in estado["campos"] if c not in ruins]
-                continue
-            if estado["campos"] != REQUIRED:
-                print("  erro na busca (%s). Tentando só com os campos básicos." % msg)
-                estado["campos"] = list(REQUIRED)
-                continue
-            raise ApiError(msg)
-        bloco = ((dados.get("data") or {}).get("productOfferV2") or {})
-        return bloco.get("nodes") or []
+    """Busca um termo. Remove campos opcionais que a API recusa e trata 'System Error' com novas tentativas."""
+    campos = list(estado["campos"])
+    erros_10000 = 0
+    for _ in range(14):
+        dados = chamar(app_id, secret, montar_query(termo, campos, limite, ordem))
+        if not dados.get("errors"):
+            bloco = ((dados.get("data") or {}).get("productOfferV2") or {})
+            return bloco.get("nodes") or []
+        msg = texto_erros(dados)
+        if re.search(r"signature|credential|unauthori|forbidden|invalid app|auth", msg, re.I):
+            raise ApiError("Autenticação recusada: %s" % msg)
+        ruins = [c for c in campos if c not in REQUIRED and re.search(r"\b%s\b" % c, msg)]
+        if ruins:
+            print("  campo(s) não aceito(s), removendo: %s" % ", ".join(ruins))
+            campos = [c for c in campos if c not in ruins]
+            estado["campos"] = [c for c in estado["campos"] if c not in ruins]
+            continue
+        if "10000" in msg or "system error" in msg.lower():
+            erros_10000 += 1
+            if erros_10000 == 1:
+                print("  Shopee respondeu 'System Error'. Esperando 4s e tentando de novo.")
+                time.sleep(4)
+            elif erros_10000 == 2 and ordem:
+                print("  Ainda com erro. Tentando sem ordenação.")
+                ordem = None
+            elif erros_10000 <= 3 and campos != REQUIRED:
+                print("  Ainda com erro. Tentando só com os campos básicos.")
+                campos = list(REQUIRED)
+            else:
+                raise ApiError(msg)
+            continue
+        raise ApiError(msg)
     raise ApiError("Não consegui montar uma busca aceita pela API")
 
 
@@ -120,6 +136,7 @@ def limpar(nome):
 def escolher(nos, cat, cfg, hoje):
     """Filtra e ordena os resultados de uma busca e devolve produtos no formato do site."""
     divisor = numero(cfg.get("preco_divisor")) or 1
+    teto = numero(cfg.get("preco_max"))
     itens = []
     for n in nos:
         nome = limpar(n.get("productName"))
@@ -128,9 +145,10 @@ def escolher(nos, cat, cfg, hoje):
         img = str(n.get("imageUrl") or "")
         if not nome or not preco or preco <= 0 or not link.startswith("https://"):
             continue
+        preco_final = round(preco / divisor, 2)
+        if teto and preco_final > teto:
+            continue
         vendas = numero(n.get("sales"))
-        if vendas is None:
-            vendas = numero(n.get("soldCount"))
         nota = numero(n.get("ratingStar"))
         if vendas is not None and vendas < cfg.get("min_vendas", 0):
             continue
@@ -138,7 +156,7 @@ def escolher(nos, cat, cfg, hoje):
             continue
         prod = {
             "nome": nome, "loja": "Shopee", "cat": cat,
-            "preco": round(preco / divisor, 2), "antes": None,
+            "preco": preco_final, "antes": None,
             "visto": hoje, "link": link,
             "imagem": img if img.startswith("https://") else "",
             "exemplo": False, "auto": True,
@@ -166,12 +184,15 @@ def main():
 
     estado = {"campos": list(FIELDS)}
     autos, ok, falhas, mostrou = [], 0, 0, False
-    for b in buscas:
+    for i, b in enumerate(buscas):
         termo, cat = b.get("termo"), b.get("cat", "Outros")
         if not termo:
             continue
+        if i > 0:
+            time.sleep(1.5)
+        ordem = b.get("ordem", cfg.get("ordem", ORDEM_PADRAO))
         try:
-            nos = buscar(app_id, secret, termo, int(cfg.get("busca_limite", 30)), b.get("ordem", cfg.get("ordem")), estado)
+            nos = buscar(app_id, secret, termo, int(cfg.get("busca_limite", 30)), ordem, estado)
         except ApiError as e:
             falhas += 1
             print("FALHOU '%s': %s" % (termo, e))
@@ -182,7 +203,10 @@ def main():
         if nos and not mostrou:
             print("Exemplo do que a API devolveu (primeiro item): %s" % json.dumps(nos[0], ensure_ascii=False)[:700])
             mostrou = True
-        escolhidos = escolher(nos, cat, cfg, hoje)
+        cfg_busca = dict(cfg)
+        if b.get("preco_max") is not None:
+            cfg_busca["preco_max"] = b["preco_max"]
+        escolhidos = escolher(nos, cat, cfg_busca, hoje)
         print("'%s': %d resultados, %d escolhidos" % (termo, len(nos), len(escolhidos)))
         autos.extend(escolhidos)
 
