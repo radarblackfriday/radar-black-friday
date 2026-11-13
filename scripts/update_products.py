@@ -20,6 +20,10 @@ BRT = timezone(timedelta(hours=-3))
 # no buscas.json.
 MIN_DESCONTO_PADRAO = 20
 
+# Produtos com estas palavras no nome são descartados. Dá para somar
+# outras palavras com "bloquear" no buscas.json.
+BLOQUEADAS_PADRAO = ["airpods", "airpod", "apple", "iphone"]
+
 
 def ler_json(nome, padrao):
     caminho = os.path.join(ROOT, nome)
@@ -47,6 +51,8 @@ def escolher(nos, cat, cfg, hoje):
     minimo_desc = numero(cfg.get("min_desconto"))
     if minimo_desc is None:
         minimo_desc = MIN_DESCONTO_PADRAO
+    extras = cfg.get("bloquear") or []
+    bloqueadas = [str(x).lower() for x in BLOQUEADAS_PADRAO + list(extras)]
     itens = []
     for n in nos:
         nome = limpar(n.get("productName"))
@@ -56,6 +62,9 @@ def escolher(nos, cat, cfg, hoje):
         if not nome or not preco or preco <= 0:
             continue
         if not link.startswith("https://"):
+            continue
+        minusculo = nome.lower()
+        if any(p in minusculo for p in bloqueadas):
             continue
         preco_final = round(preco / divisor, 2)
         if teto and preco_final > teto:
