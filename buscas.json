@@ -8,11 +8,19 @@
     { "termo": "fone de ouvido bluetooth", "cat": "Eletrônicos" },
     { "termo": "smartwatch", "cat": "Eletrônicos" },
     { "termo": "caixa de som bluetooth", "cat": "Eletrônicos" },
+    { "termo": "fone gamer", "cat": "Eletrônicos" },
+    { "termo": "carregador portátil power bank", "cat": "Eletrônicos" },
     { "termo": "air fryer", "cat": "Casa e cozinha" },
     { "termo": "liquidificador", "cat": "Casa e cozinha" },
     { "termo": "kit organizador cozinha", "cat": "Casa e cozinha" },
+    { "termo": "panela antiaderente", "cat": "Casa e cozinha" },
+    { "termo": "ventilador", "cat": "Casa e cozinha" },
+    { "termo": "garrafa térmica", "cat": "Casa e cozinha" },
     { "termo": "tênis masculino", "cat": "Moda e acessórios" },
     { "termo": "mochila", "cat": "Moda e acessórios" },
-    { "termo": "kit skincare", "cat": "Beleza" }
+    { "termo": "camiseta masculina", "cat": "Moda e acessórios" },
+    { "termo": "bolsa feminina", "cat": "Moda e acessórios" },
+    { "termo": "kit skincare", "cat": "Beleza" },
+    { "termo": "perfume", "cat": "Beleza" }
   ]
 }
