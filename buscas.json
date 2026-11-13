@@ -1,0 +1,18 @@
+{
+  "por_busca": 4,
+  "busca_limite": 30,
+  "min_vendas": 50,
+  "min_nota": 4.5,
+  "preco_divisor": 1,
+  "buscas": [
+    { "termo": "fone de ouvido bluetooth", "cat": "Eletrônicos" },
+    { "termo": "smartwatch", "cat": "Eletrônicos" },
+    { "termo": "caixa de som bluetooth", "cat": "Eletrônicos" },
+    { "termo": "air fryer", "cat": "Casa e cozinha" },
+    { "termo": "liquidificador", "cat": "Casa e cozinha" },
+    { "termo": "kit organizador cozinha", "cat": "Casa e cozinha" },
+    { "termo": "tênis masculino", "cat": "Moda e acessórios" },
+    { "termo": "mochila", "cat": "Moda e acessórios" },
+    { "termo": "kit skincare", "cat": "Beleza" }
+  ]
+}
