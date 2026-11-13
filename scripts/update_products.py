@@ -44,7 +44,7 @@ def limpar(nome):
     return re.sub(r"\s+", " ", str(nome or "")).strip()[:120]
 
 
-def escolher(nos, cat, cfg, hoje):
+def escolher(nos, cat, cfg, hoje, termo):
     """Filtra e escolhe os de maior desconto (empate: mais vendas)."""
     divisor = numero(cfg.get("preco_divisor")) or 1
     teto = numero(cfg.get("preco_max"))
@@ -89,12 +89,42 @@ def escolher(nos, cat, cfg, hoje):
             "imagem": img if img.startswith("https://") else "",
             "exemplo": False,
             "auto": True,
+            "busca": termo,
             "desconto": int(round(desc)),
         }
         itens.append((desc, vendas or 0, nota or 0, prod))
     itens.sort(key=lambda t: (t[0], t[1], t[2]), reverse=True)
     quantos = int(cfg.get("por_busca", 4))
     return [t[3] for t in itens[:quantos]]
+
+
+def rodar_busca(b, cfg, estado, app_id, secret, hoje):
+    """Roda uma busca. Devolve a lista de produtos, ou None se falhar."""
+    termo = b.get("termo")
+    cat = b.get("cat", "Outros")
+    ordem = b.get("ordem", cfg.get("ordem", ORDEM_PADRAO))
+    limite = int(cfg.get("busca_limite", 30))
+    try:
+        nos = buscar(app_id, secret, termo, limite, ordem, estado)
+    except ApiError as e:
+        print("FALHOU '%s': %s" % (termo, e))
+        if "Autenticação" in str(e):
+            estado["auth"] = True
+        return None
+    if nos and not estado.get("mostrou"):
+        exemplo = json.dumps(nos[0], ensure_ascii=False)[:700]
+        print("Exemplo do que a API devolveu (primeiro item):")
+        print(exemplo)
+        estado["mostrou"] = True
+    cfg_busca = dict(cfg)
+    for chave in ("preco_max", "min_desconto"):
+        if b.get(chave) is not None:
+            cfg_busca[chave] = b[chave]
+    escolhidos = escolher(nos, cat, cfg_busca, hoje, termo)
+    linha = "'%s': %d resultados, " % (termo, len(nos))
+    linha += "%d escolhidos" % len(escolhidos)
+    print(linha)
+    return escolhidos
 
 
 def main():
@@ -105,7 +135,7 @@ def main():
         return 1
 
     cfg = ler_json("buscas.json", {})
-    buscas = cfg.get("buscas") or []
+    buscas = [b for b in (cfg.get("buscas") or []) if b.get("termo")]
     manual = []
     for p in ler_json("manual.json", []):
         if isinstance(p, dict) and not p.get("exemplo"):
@@ -115,45 +145,50 @@ def main():
 
     estado = {"campos": list(FIELDS)}
     autos = []
-    ok = 0
-    falhas = 0
-    mostrou = False
+    falhadas = []
     for i, b in enumerate(buscas):
-        termo = b.get("termo")
-        cat = b.get("cat", "Outros")
-        if not termo:
-            continue
+        if estado.get("auth"):
+            break
         if i > 0:
             time.sleep(1.5)
-        ordem = b.get("ordem", cfg.get("ordem", ORDEM_PADRAO))
-        limite = int(cfg.get("busca_limite", 30))
-        try:
-            nos = buscar(app_id, secret, termo, limite, ordem, estado)
-        except ApiError as e:
-            falhas += 1
-            print("FALHOU '%s': %s" % (termo, e))
-            if "Autenticação" in str(e):
-                break
-            continue
-        ok += 1
-        if nos and not mostrou:
-            exemplo = json.dumps(nos[0], ensure_ascii=False)[:700]
-            print("Exemplo do que a API devolveu (primeiro item):")
-            print(exemplo)
-            mostrou = True
-        cfg_busca = dict(cfg)
-        for chave in ("preco_max", "min_desconto"):
-            if b.get(chave) is not None:
-                cfg_busca[chave] = b[chave]
-        escolhidos = escolher(nos, cat, cfg_busca, hoje)
-        linha = "'%s': %d resultados, " % (termo, len(nos))
-        linha += "%d escolhidos" % len(escolhidos)
-        print(linha)
-        autos.extend(escolhidos)
+        res = rodar_busca(b, cfg, estado, app_id, secret, hoje)
+        if res is None:
+            falhadas.append(b)
+        else:
+            autos.extend(res)
 
-    if buscas and ok == 0:
+    if falhadas and not estado.get("auth"):
+        print("Repetindo %d busca(s) que falharam..." % len(falhadas))
+        time.sleep(20)
+        ainda = []
+        for b in falhadas:
+            if estado.get("auth"):
+                ainda.append(b)
+                continue
+            time.sleep(3)
+            res = rodar_busca(b, cfg, estado, app_id, secret, hoje)
+            if res is None:
+                ainda.append(b)
+            else:
+                autos.extend(res)
+        falhadas = ainda
+
+    if buscas and len(falhadas) == len(buscas):
         print("ERRO: nenhuma busca funcionou. products.json NÃO alterado.")
         return 1
+
+    atual = ler_json("products.json", {})
+    antigos = atual.get("produtos") or []
+    for b in falhadas:
+        termo = b.get("termo")
+        guardados = []
+        for p in antigos:
+            if p.get("auto") and p.get("busca") == termo:
+                guardados.append(p)
+        if guardados:
+            msg = "Mantendo %d produto(s) antigo(s) de '%s'"
+            print(msg % (len(guardados), termo))
+            autos.extend(guardados)
 
     vistos = set()
     for p in manual:
@@ -171,7 +206,6 @@ def main():
         print("ERRO: lista vazia. products.json NÃO alterado.")
         return 1
 
-    atual = ler_json("products.json", {})
     if atual.get("produtos") == produtos:
         print("Sem mudanças nos produtos (%d)." % len(produtos))
         return 0
@@ -184,7 +218,7 @@ def main():
     da_api = len(produtos) - len(manual)
     msg = "products.json atualizado: %d produtos" % len(produtos)
     msg += " (%d manuais, %d da API)." % (len(manual), da_api)
-    msg += " Buscas com falha: %d." % falhas
+    msg += " Buscas com falha: %d." % len(falhadas)
     print(msg)
     return 0
 
