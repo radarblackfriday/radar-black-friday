@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """Atualiza o products.json do Radar Black Friday.
 
-Junta os produtos escolhidos à mão (manual.json) com ofertas buscadas na API
-de afiliados da Shopee (termos em buscas.json). As chaves vêm dos Secrets do
-GitHub (SHOPEE_APP_ID e SHOPEE_SECRET) e nunca são impressas.
+Junta os produtos escolhidos à mão (manual.json) com ofertas buscadas
+na API de afiliados da Shopee (termos em buscas.json). As chaves vêm
+dos Secrets do GitHub e nunca são impressas.
 """
 import hashlib
 import json
@@ -15,19 +15,27 @@ import urllib.error
 import urllib.request
 from datetime import datetime, timedelta, timezone
 
-API_URL = os.environ.get("SHOPEE_API_URL", "https://open-api.affiliate.shopee.com.br/graphql")
+API_URL = os.environ.get(
+    "SHOPEE_API_URL",
+    "https://open-api.affiliate.shopee.com.br/graphql",
+)
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BRT = timezone(timedelta(hours=-3))
 
-# Campos que a busca precisa. Os opcionais são removidos sozinhos se a API reclamar deles.
+# Campos que a busca precisa. Os opcionais saem sozinhos se a API recusar.
 REQUIRED = ["productName", "price", "imageUrl", "offerLink"]
-OPTIONAL = ["priceMin", "priceMax", "shopName", "sales", "ratingStar", "priceDiscountRate"]
+OPTIONAL = [
+    "priceMin", "priceMax", "shopName",
+    "sales", "ratingStar", "priceDiscountRate",
+]
 FIELDS = list(REQUIRED) + list(OPTIONAL)
 
-# sortType da Shopee: 1 relevância, 2 mais vendidos, 3 maior preço, 4 menor preço, 5 maior comissão
+# sortType: 1 relevância, 2 mais vendidos, 3 maior preço,
+# 4 menor preço, 5 maior comissão
 ORDEM_PADRAO = 2
 
-# Desconto mínimo (em %) para um produto entrar. Pode ser trocado com "min_desconto" no buscas.json.
+# Desconto mínimo (%) para entrar. Dá para mudar com "min_desconto"
+# no buscas.json.
 MIN_DESCONTO_PADRAO = 20
 
 
@@ -44,18 +52,25 @@ def ler_json(nome, padrao):
 
 
 def chamar(app_id, secret, query):
-    """Faz uma chamada assinada. Assinatura = SHA256(AppId + Timestamp + Payload + Secret)."""
-    payload = json.dumps({"query": query}, ensure_ascii=False, separators=(",", ":"))
+    """Chamada assinada: SHA256(AppId + Timestamp + Payload + Secret)."""
+    payload = json.dumps(
+        {"query": query}, ensure_ascii=False, separators=(",", ":")
+    )
+    dados = {}
     for tentativa in range(3):
         ts = str(int(time.time()))
-        assinatura = hashlib.sha256((app_id + ts + payload + secret).encode("utf-8")).hexdigest()
+        texto = app_id + ts + payload + secret
+        assinatura = hashlib.sha256(texto.encode("utf-8")).hexdigest()
+        auth = "SHA256 Credential=%s, " % app_id
+        auth += "Timestamp=%s, " % ts
+        auth += "Signature=%s" % assinatura
         req = urllib.request.Request(
             API_URL,
             data=payload.encode("utf-8"),
             method="POST",
             headers={
                 "Content-Type": "application/json",
-                "Authorization": "SHA256 Credential=%s, Timestamp=%s, Signature=%s" % (app_id, ts, assinatura),
+                "Authorization": auth,
             },
         )
         try:
@@ -70,7 +85,8 @@ def chamar(app_id, secret, query):
         except ValueError:
             raise ApiError("Resposta que não é JSON: %s" % corpo[:200])
         erros = dados.get("errors") if isinstance(dados, dict) else None
-        if erros and "10030" in json.dumps(erros) and tentativa < 2:  # limite de requisições
+        limite = erros and "10030" in json.dumps(erros)
+        if limite and tentativa < 2:
             time.sleep(3 * (tentativa + 1))
             continue
         return dados
@@ -79,44 +95,55 @@ def chamar(app_id, secret, query):
 
 def texto_erros(dados):
     erros = dados.get("errors") or []
-    return " | ".join(str(e.get("message", e)) for e in erros)[:400]
+    junto = " | ".join(str(e.get("message", e)) for e in erros)
+    return junto[:400]
 
 
 def montar_query(termo, campos, limite, ordem):
-    args = "keyword: %s, page: 1, limit: %d" % (json.dumps(termo, ensure_ascii=False), limite)
+    args = "keyword: %s, " % json.dumps(termo, ensure_ascii=False)
+    args += "page: 1, limit: %d" % limite
     if ordem:
         args += ", sortType: %d" % int(ordem)
-    return "{ productOfferV2(%s) { nodes { %s } } }" % (args, " ".join(campos))
+    lista = " ".join(campos)
+    return "{ productOfferV2(%s) { nodes { %s } } }" % (args, lista)
 
 
 def buscar(app_id, secret, termo, limite, ordem, estado):
-    """Busca um termo. Remove campos opcionais que a API recusa e trata 'System Error' com novas tentativas."""
+    """Busca um termo. Tira campos recusados e repete se der System Error."""
     campos = list(estado["campos"])
     erros_10000 = 0
     for _ in range(14):
-        dados = chamar(app_id, secret, montar_query(termo, campos, limite, ordem))
+        query = montar_query(termo, campos, limite, ordem)
+        dados = chamar(app_id, secret, query)
         if not dados.get("errors"):
-            bloco = ((dados.get("data") or {}).get("productOfferV2") or {})
+            data = dados.get("data") or {}
+            bloco = data.get("productOfferV2") or {}
             return bloco.get("nodes") or []
         msg = texto_erros(dados)
-        if re.search(r"signature|credential|unauthori|forbidden|invalid app|auth", msg, re.I):
+        padrao_auth = r"signature|credential|unauthori|forbidden|invalid app|auth"
+        if re.search(padrao_auth, msg, re.I):
             raise ApiError("Autenticação recusada: %s" % msg)
-        ruins = [c for c in campos if c not in REQUIRED and re.search(r"\b%s\b" % c, msg)]
+        ruins = []
+        for c in campos:
+            if c in REQUIRED:
+                continue
+            if re.search(r"\b%s\b" % c, msg):
+                ruins.append(c)
         if ruins:
-            print("  campo(s) não aceito(s), removendo: %s" % ", ".join(ruins))
+            print("  campo(s) não aceito(s), removendo: " + ", ".join(ruins))
             campos = [c for c in campos if c not in ruins]
             estado["campos"] = [c for c in estado["campos"] if c not in ruins]
             continue
         if "10000" in msg or "system error" in msg.lower():
             erros_10000 += 1
             if erros_10000 == 1:
-                print("  Shopee respondeu 'System Error'. Esperando 4s e tentando de novo.")
+                print("  Shopee respondeu System Error. Esperando 4s.")
                 time.sleep(4)
             elif erros_10000 == 2 and ordem:
                 print("  Ainda com erro. Tentando sem ordenação.")
                 ordem = None
             elif erros_10000 <= 3 and campos != REQUIRED:
-                print("  Ainda com erro. Tentando só com os campos básicos.")
+                print("  Ainda com erro. Tentando só com campos básicos.")
                 campos = list(REQUIRED)
             else:
                 raise ApiError(msg)
@@ -129,77 +156,4 @@ def numero(v):
     try:
         return float(str(v).strip().replace(",", "."))
     except (ValueError, TypeError):
-        return None
-
-
-def limpar(nome):
-    return re.sub(r"\s+", " ", str(nome or "")).strip()[:120]
-
-
-def escolher(nos, cat, cfg, hoje):
-    """Filtra os resultados e escolhe os de maior desconto (empate: mais vendas)."""
-    divisor = numero(cfg.get("preco_divisor")) or 1
-    teto = numero(cfg.get("preco_max"))
-    minimo_desc = numero(cfg.get("min_desconto"))
-    if minimo_desc is None:
-        minimo_desc = MIN_DESCONTO_PADRAO
-    itens = []
-    for n in nos:
-        nome = limpar(n.get("productName"))
-        preco = numero(n.get("price")) or numero(n.get("priceMin"))
-        link = str(n.get("offerLink") or "")
-        img = str(n.get("imageUrl") or "")
-        if not nome or not preco or preco <= 0 or not link.startswith("https://"):
-            continue
-        preco_final = round(preco / divisor, 2)
-        if teto and preco_final > teto:
-            continue
-        vendas = numero(n.get("sales"))
-        nota = numero(n.get("ratingStar"))
-        if vendas is not None and vendas < cfg.get("min_vendas", 0):
-            continue
-        if nota and nota < cfg.get("min_nota", 0):
-            continue
-        desc = numero(n.get("priceDiscountRate")) or 0
-        if desc < minimo_desc:
-            continue
-        prod = {
-            "nome": nome, "loja": "Shopee", "cat": cat,
-            "preco": preco_final, "antes": None,
-            "visto": hoje, "link": link,
-            "imagem": img if img.startswith("https://") else "",
-            "exemplo": False, "auto": True,
-            "desconto": int(round(desc)),
-        }
-        itens.append((desc, vendas or 0, nota or 0, prod))
-    itens.sort(key=lambda t: (t[0], t[1], t[2]), reverse=True)
-    return [p for _, _, _, p in itens[: int(cfg.get("por_busca", 4))]]
-
-
-def main():
-    app_id = os.environ.get("SHOPEE_APP_ID", "").strip()
-    secret = os.environ.get("SHOPEE_SECRET", "").strip()
-    if not app_id or not secret:
-        print("ERRO: faltam os Secrets SHOPEE_APP_ID e SHOPEE_SECRET no GitHub.")
-        return 1
-
-    cfg = ler_json("buscas.json", {})
-    buscas = cfg.get("buscas") or []
-    manual = [p for p in ler_json("manual.json", []) if isinstance(p, dict) and not p.get("exemplo")]
-    hoje = datetime.now(BRT).strftime("%d/%m")
-    print("Produtos manuais: %d | buscas: %d" % (len(manual), len(buscas)))
-
-    estado = {"campos": list(FIELDS)}
-    autos, ok, falhas, mostrou = [], 0, 0, False
-    for i, b in enumerate(buscas):
-        termo, cat = b.get("termo"), b.get("cat", "Outros")
-        if not termo:
-            continue
-        if i > 0:
-            time.sleep(1.5)
-        ordem = b.get("ordem", cfg.get("ordem", ORDEM_PADRAO))
-        try:
-            nos = buscar(app_id, secret, termo, int(cfg.get("busca_limite", 30)), ordem, estado)
-        except ApiError as e:
-            falhas += 1
-            print("
+        return No
