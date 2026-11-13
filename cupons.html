@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Cupons | Radar Black Friday</title>
+<meta name="description" content="Cupons de desconto das lojas para usar na Black Friday.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap">
+<style>
+:root {
+  color-scheme: light;
+  --bg: #f6f4ef; --surface: #ffffff; --fg: #1b1a17; --muted: #6a665c; --line: #dedacd;
+  --accent: #c7321b; --accent-fg: #ffffff;
+  --note-bg: #fff3cf; --note-fg: #6b4a00;
+  --font-display: "Space Grotesk", system-ui, sans-serif;
+  --font-body: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --bg: #15130f; --surface: #201d17; --fg: #f0ece2; --muted: #a8a293; --line: #38342a;
+    --accent: #ff6a50; --accent-fg: #1b0b07;
+    --note-bg: #3a2f10; --note-fg: #f0cd7a;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--bg); color: var(--fg); font-family: var(--font-body); font-size: 16px; line-height: 1.5;
+  padding: 28px max(16px, env(safe-area-inset-right, 0px)) 48px max(16px, env(safe-area-inset-left, 0px));
+}
+main { max-width: 720px; margin: 0 auto; display: flex; flex-direction: column; gap: 20px; }
+h1 { font-family: var(--font-display); font-size: 2.1rem; line-height: 1.08; margin: 0; letter-spacing: -0.01em; }
+p { margin: 0; }
+a.back { color: var(--muted); text-decoration: none; font-size: 0.92rem; }
+.eyebrow { font-size: 0.75rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); font-weight: 600; }
+header { display: flex; flex-direction: column; gap: 8px; }
+.lede { color: var(--muted); }
+.note { background: var(--note-bg); color: var(--note-fg); border-radius: 8px; padding: 10px 14px; font-size: 0.9rem; }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 16px; display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+.store { font-size: 0.75rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
+.title { font-family: var(--font-display); font-weight: 700; font-size: 1.35rem; line-height: 1.2; overflow-wrap: anywhere; }
+.info { color: var(--muted); font-size: 0.9rem; }
+.code-row { display: flex; gap: 8px; margin-top: 4px; }
+.code-row code { flex: 1; min-width: 0; text-align: center; font-size: 1.05rem; letter-spacing: 0.06em; padding: 11px 10px; border: 1px dashed var(--line); border-radius: 8px; overflow-wrap: anywhere; }
+button { font: inherit; font-weight: 600; cursor: pointer; padding: 10px 16px; border-radius: 8px; border: 1px solid var(--line); background: var(--surface); color: var(--fg); }
+.btn { display: block; text-align: center; text-decoration: none; font-weight: 600; padding: 11px 14px; border-radius: 8px; background: var(--accent); color: var(--accent-fg); margin-top: 4px; }
+:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+.empty { padding: 32px 12px; text-align: center; color: var(--muted); }
+.fine { color: var(--muted); font-size: 0.82rem; max-width: 70ch; }
+</style>
+</head>
+<body>
+<main>
+  <a class="back" href="./">&larr; Voltar para as ofertas</a>
+  <header>
+    <span class="eyebrow">Black Friday 27/11/2026</span>
+    <h1>Cupons</h1>
+    <p class="lede">Cupons das lojas para usar junto com as ofertas.</p>
+    <p class="note">Cupons mudam rápido e podem ter limite de uso. Confira as condições na loja antes de pagar.</p>
+  </header>
+  <section id="lista" aria-label="Cupons" style="display:flex;flex-direction:column;gap:14px"></section>
+  <p class="fine">Os links são de afiliado: posso receber uma comissão se você comprar, sem custo extra para você.</p>
+</main>
+
+<script>
+(function () {
+  var lista = document.getElementById("lista");
+
+  function el(tag, cls, text) { var n = document.createElement(tag); if (cls) n.className = cls; if (text != null) n.textContent = text; return n; }
+  function safeLink(u) { return /^https?:\/\//i.test(u || "") ? u : ""; }
+
+  function vencido(v) {
+    var m = /^(\d{2})\/(\d{2})\/(\d{4})$/.exec(v || "");
+    if (!m) return false;
+    return new Date(+m[3], +m[2] - 1, +m[1], 23, 59, 59) < new Date();
+  }
+
+  function copiar(texto, botao) {
+    function ok() { botao.textContent = "Copiado!"; setTimeout(function () { botao.textContent = "Copiar"; }, 1800); }
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(texto).then(ok, function () {});
+    } else {
+      var t = document.createElement("textarea"); t.value = texto; document.body.appendChild(t); t.select();
+      try { document.execCommand("copy"); ok(); } catch (e) {}
+      document.body.removeChild(t);
+    }
+  }
+
+  function mostrar(cupons) {
+    var ativos = cupons.filter(function (c) { return c && c.titulo && !vencido(c.validade); });
+    if (!ativos.length) { lista.appendChild(el("p", "empty", "Nenhum cupom cadastrado agora. Volte mais tarde.")); return; }
+    ativos.forEach(function (c) {
+      var card = el("article", "card");
+      card.appendChild(el("div", "store", c.loja || ""));
+      card.appendChild(el("div", "title", c.titulo));
+      if (c.condicao) card.appendChild(el("div", "info", c.condicao));
+      card.appendChild(el("div", "info", c.validade ? "Validade: " + c.validade : "Validade: confira na loja"));
+      if (c.codigo) {
+        var row = el("div", "code-row");
+        row.appendChild(el("code", "", c.codigo));
+        var b = el("button", "", "Copiar"); b.type = "button";
+        b.addEventListener("click", function () { copiar(c.codigo, b); });
+        row.appendChild(b);
+        card.appendChild(row);
+      }
+      var href = safeLink(c.link);
+      if (href) {
+        var a = el("a", "btn", "Ir para a " + (c.loja || "loja"));
+        a.href = href; a.target = "_blank"; a.rel = "noopener noreferrer sponsored nofollow";
+        card.appendChild(a);
+      }
+      lista.appendChild(card);
+    });
+  }
+
+  fetch("cupons.json?v=" + Date.now())
+    .then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
+    .then(function (d) { mostrar(Array.isArray(d) ? d : (d && d.cupons) || []); })
+    .catch(function () { lista.appendChild(el("p", "empty", "Não consegui carregar os cupons agora. Tente de novo em instantes.")); });
+})();
+</script>
+</body>
+</html>
