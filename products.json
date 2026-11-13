@@ -1,0 +1,137 @@
+{
+  "atualizado_em": "13/11/2026 01:17",
+  "produtos": [
+    {
+      "nome": "Fone Bluetooth com cancelamento de ruído",
+      "loja": "Shopee",
+      "cat": "Eletrônicos",
+      "preco": 89.9,
+      "antes": 159.9,
+      "visto": "13/11",
+      "link": "",
+      "imagem": "",
+      "exemplo": true
+    },
+    {
+      "nome": "Fritadeira elétrica 4 litros",
+      "loja": "Mercado Livre",
+      "cat": "Casa e cozinha",
+      "preco": 279,
+      "antes": 399,
+      "visto": "13/11",
+      "link": "",
+      "imagem": "",
+      "exemplo": true
+    },
+    {
+      "nome": "Smartwatch com monitor de batimentos",
+      "loja": "AliExpress",
+      "cat": "Eletrônicos",
+      "preco": 119,
+      "antes": 249,
+      "visto": "13/11",
+      "link": "",
+      "imagem": "",
+      "exemplo": true
+    },
+    {
+      "nome": "Kit com 3 máscaras faciais",
+      "loja": "Shopee",
+      "cat": "Beleza",
+      "preco": 24.9,
+      "antes": 49.9,
+      "visto": "13/11",
+      "link": "",
+      "imagem": "",
+      "exemplo": true
+    },
+    {
+      "nome": "Cadeira gamer reclinável",
+      "loja": "Magalu",
+      "cat": "Casa e cozinha",
+      "preco": 699,
+      "antes": 1099,
+      "visto": "13/11",
+      "link": "",
+      "imagem": "",
+      "exemplo": true
+    },
+    {
+      "nome": "Caixa de som inteligente com assistente de voz",
+      "loja": "Amazon",
+      "cat": "Eletrônicos",
+      "preco": 229,
+      "antes": 449,
+      "visto": "13/11",
+      "link": "",
+      "imagem": "",
+      "exemplo": true
+    },
+    {
+      "nome": "Panela de pressão elétrica 5 litros",
+      "loja": "Mercado Livre",
+      "cat": "Casa e cozinha",
+      "preco": 349,
+      "antes": 499,
+      "visto": "13/11",
+      "link": "",
+      "imagem": "",
+      "exemplo": true
+    },
+    {
+      "nome": "Mochila antifurto com entrada USB",
+      "loja": "Shopee",
+      "cat": "Moda e acessórios",
+      "preco": 69.9,
+      "antes": 129.9,
+      "visto": "13/11",
+      "link": "",
+      "imagem": "",
+      "exemplo": true
+    },
+    {
+      "nome": "Tênis de corrida masculino",
+      "loja": "Magalu",
+      "cat": "Moda e acessórios",
+      "preco": 199,
+      "antes": 349,
+      "visto": "13/11",
+      "link": "",
+      "imagem": "",
+      "exemplo": true
+    },
+    {
+      "nome": "Carregador portátil 20.000 mAh",
+      "loja": "AliExpress",
+      "cat": "Eletrônicos",
+      "preco": 59,
+      "antes": 119,
+      "visto": "13/11",
+      "link": "",
+      "imagem": "",
+      "exemplo": true
+    },
+    {
+      "nome": "Kit organizador de cozinha com 8 peças",
+      "loja": "Shopee",
+      "cat": "Casa e cozinha",
+      "preco": 34.9,
+      "antes": 69.9,
+      "visto": "13/11",
+      "link": "",
+      "imagem": "",
+      "exemplo": true
+    },
+    {
+      "nome": "Liquidificador 1000 W",
+      "loja": "Amazon",
+      "cat": "Casa e cozinha",
+      "preco": 129,
+      "antes": 219,
+      "visto": "13/11",
+      "link": "",
+      "imagem": "",
+      "exemplo": true
+    }
+  ]
+}
