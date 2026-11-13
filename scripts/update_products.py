@@ -27,6 +27,9 @@ FIELDS = list(REQUIRED) + list(OPTIONAL)
 # sortType da Shopee: 1 relevância, 2 mais vendidos, 3 maior preço, 4 menor preço, 5 maior comissão
 ORDEM_PADRAO = 2
 
+# Desconto mínimo (em %) para um produto entrar. Pode ser trocado com "min_desconto" no buscas.json.
+MIN_DESCONTO_PADRAO = 20
+
 
 class ApiError(Exception):
     pass
@@ -134,9 +137,12 @@ def limpar(nome):
 
 
 def escolher(nos, cat, cfg, hoje):
-    """Filtra e ordena os resultados de uma busca e devolve produtos no formato do site."""
+    """Filtra os resultados e escolhe os de maior desconto (empate: mais vendas)."""
     divisor = numero(cfg.get("preco_divisor")) or 1
     teto = numero(cfg.get("preco_max"))
+    minimo_desc = numero(cfg.get("min_desconto"))
+    if minimo_desc is None:
+        minimo_desc = MIN_DESCONTO_PADRAO
     itens = []
     for n in nos:
         nome = limpar(n.get("productName"))
@@ -154,19 +160,20 @@ def escolher(nos, cat, cfg, hoje):
             continue
         if nota and nota < cfg.get("min_nota", 0):
             continue
+        desc = numero(n.get("priceDiscountRate")) or 0
+        if desc < minimo_desc:
+            continue
         prod = {
             "nome": nome, "loja": "Shopee", "cat": cat,
             "preco": preco_final, "antes": None,
             "visto": hoje, "link": link,
             "imagem": img if img.startswith("https://") else "",
             "exemplo": False, "auto": True,
+            "desconto": int(round(desc)),
         }
-        desc = numero(n.get("priceDiscountRate"))
-        if desc and desc > 0:
-            prod["desconto"] = int(round(desc))
-        itens.append((vendas or 0, nota or 0, prod))
-    itens.sort(key=lambda t: (t[0], t[1]), reverse=True)
-    return [p for _, _, p in itens[: int(cfg.get("por_busca", 4))]]
+        itens.append((desc, vendas or 0, nota or 0, prod))
+    itens.sort(key=lambda t: (t[0], t[1], t[2]), reverse=True)
+    return [p for _, _, _, p in itens[: int(cfg.get("por_busca", 4))]]
 
 
 def main():
@@ -195,53 +202,4 @@ def main():
             nos = buscar(app_id, secret, termo, int(cfg.get("busca_limite", 30)), ordem, estado)
         except ApiError as e:
             falhas += 1
-            print("FALHOU '%s': %s" % (termo, e))
-            if "Autenticação" in str(e):
-                break
-            continue
-        ok += 1
-        if nos and not mostrou:
-            print("Exemplo do que a API devolveu (primeiro item): %s" % json.dumps(nos[0], ensure_ascii=False)[:700])
-            mostrou = True
-        cfg_busca = dict(cfg)
-        if b.get("preco_max") is not None:
-            cfg_busca["preco_max"] = b["preco_max"]
-        escolhidos = escolher(nos, cat, cfg_busca, hoje)
-        print("'%s': %d resultados, %d escolhidos" % (termo, len(nos), len(escolhidos)))
-        autos.extend(escolhidos)
-
-    if buscas and ok == 0:
-        print("ERRO: nenhuma busca funcionou. O products.json NÃO foi alterado.")
-        return 1
-
-    vistos = set()
-    for p in manual:
-        vistos.add(p.get("link"))
-        vistos.add(str(p.get("nome", "")).lower())
-    produtos = list(manual)
-    for p in autos:
-        if p["link"] in vistos or p["nome"].lower() in vistos:
-            continue
-        vistos.add(p["link"])
-        vistos.add(p["nome"].lower())
-        produtos.append(p)
-
-    if not produtos:
-        print("ERRO: lista vazia. O products.json NÃO foi alterado.")
-        return 1
-
-    atual = ler_json("products.json", {})
-    if atual.get("produtos") == produtos:
-        print("Sem mudanças nos produtos (%d)." % len(produtos))
-        return 0
-    saida = {"atualizado_em": datetime.now(BRT).strftime("%d/%m/%Y %H:%M"), "produtos": produtos}
-    with open(os.path.join(ROOT, "products.json"), "w", encoding="utf-8") as f:
-        json.dump(saida, f, ensure_ascii=False, indent=2)
-        f.write("\n")
-    print("products.json atualizado: %d produtos (%d manuais, %d da API). Buscas com falha: %d." % (
-        len(produtos), len(manual), len(produtos) - len(manual), falhas))
-    return 0
-
-
-if __name__ == "__main__":
-    sys.exit(main())
+            print("
