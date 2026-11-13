@@ -1,10 +1,108 @@
 {
-  "atualizado_em": "13/11/2026 16:50",
+  "atualizado_em": "13/11/2026 17:02",
   "produtos": [
-    { "nome": "Panela de Pressão 4,5 Litros ASJ Preta Craqueada", "loja": "Shopee", "cat": "Casa e cozinha", "preco": 64.56, "antes": 69.9, "visto": "13/11 com cupom", "link": "https://s.shopee.com.br/9pfqUca2Sq", "imagem": "br-11134207-7r98o-m810o7g1ovf563.avif", "exemplo": false },
-    { "nome": "Tapete Peludo Felpudo 4 cm Impermeável", "loja": "Shopee", "cat": "Casa e cozinha", "preco": 43.9, "antes": 44.9, "visto": "13/11 com cupom", "link": "https://s.shopee.com.br/8VASuJOHQ0", "imagem": "", "exemplo": false },
-    { "nome": "Conjunto Feminino Saia Longa e Cropped Alcinha com Fenda", "loja": "Shopee", "cat": "Moda e acessórios", "preco": 38.72, "antes": 44, "visto": "13/11 com cupom", "link": "https://s.shopee.com.br/9AQ9hlxwjw", "imagem": "", "exemplo": false },
-    { "nome": "COIBEU Microfones Sem Fio Duplo Recarregável UHF com RGB", "loja": "Shopee", "cat": "Eletrônicos", "preco": 129.79, "antes": 148.49, "visto": "13/11 no Pix com cupom", "link": "https://s.shopee.com.br/AUvXIUUP8z", "imagem": "", "exemplo": false },
-    { "nome": "Liquidificador Britânia 2,6L 4 Velocidades Diamante 1100", "loja": "Shopee", "cat": "Casa e cozinha", "preco": 79.12, "antes": 89.9, "visto": "13/11 com cupom", "link": "https://s.shopee.com.br/9AQ9i9Aitr", "imagem": "", "exemplo": false }
+    {
+      "nome": "Panela de Pressão 4,5 Litros ASJ Preta Craqueada",
+      "loja": "Shopee",
+      "cat": "Casa e cozinha",
+      "preco": 64.56,
+      "antes": 69.9,
+      "visto": "13/11 com cupom",
+      "link": "https://s.shopee.com.br/9pfqUca2Sq",
+      "imagem": "br-11134207-7r98o-m810o7g1ovf563.avif",
+      "exemplo": false
+    },
+    {
+      "nome": "Tapete Peludo Felpudo 4 cm Impermeável",
+      "loja": "Shopee",
+      "cat": "Casa e cozinha",
+      "preco": 43.9,
+      "antes": 44.9,
+      "visto": "13/11 com cupom",
+      "link": "https://s.shopee.com.br/8VASuJOHQ0",
+      "imagem": "",
+      "exemplo": false
+    },
+    {
+      "nome": "Conjunto Feminino Saia Longa e Cropped Alcinha com Fenda",
+      "loja": "Shopee",
+      "cat": "Moda e acessórios",
+      "preco": 38.72,
+      "antes": 44,
+      "visto": "13/11 com cupom",
+      "link": "https://s.shopee.com.br/9AQ9hlxwjw",
+      "imagem": "",
+      "exemplo": false
+    },
+    {
+      "nome": "COIBEU Microfones Sem Fio Duplo Recarregável UHF com RGB",
+      "loja": "Shopee",
+      "cat": "Eletrônicos",
+      "preco": 129.79,
+      "antes": 148.49,
+      "visto": "13/11 no Pix com cupom",
+      "link": "https://s.shopee.com.br/AUvXIUUP8z",
+      "imagem": "",
+      "exemplo": false
+    },
+    {
+      "nome": "Liquidificador Britânia 2,6L 4 Velocidades Diamante 1100",
+      "loja": "Shopee",
+      "cat": "Casa e cozinha",
+      "preco": 79.12,
+      "antes": 89.9,
+      "visto": "13/11 com cupom",
+      "link": "https://s.shopee.com.br/9AQ9i9Aitr",
+      "imagem": "",
+      "exemplo": false
+    },
+    {
+      "nome": "MINI CAIXA DE SOM KARAOKÊ PORTÁTIL BLUETOOTH COM 2 MICROFONES SEM FIO E LUZES LED RGB",
+      "loja": "Shopee",
+      "cat": "Eletrônicos",
+      "preco": 49.9,
+      "antes": null,
+      "visto": "13/11",
+      "link": "https://s.shopee.com.br/9pfrVS1gCY",
+      "imagem": "https://cf.shopee.com.br/file/br-11134207-820m1-mueb3inb4we9c0",
+      "exemplo": false,
+      "auto": true
+    },
+    {
+      "nome": "Caixa caixinha de som portátil Bluetooth Modelo go Resistente À Água - Tech Otoni",
+      "loja": "Shopee",
+      "cat": "Eletrônicos",
+      "preco": 55.5,
+      "antes": null,
+      "visto": "13/11",
+      "link": "https://s.shopee.com.br/9fMRJ92JXX",
+      "imagem": "https://cf.shopee.com.br/file/sg-11134201-81zuh-mn3me9grj952a4",
+      "exemplo": false,
+      "auto": true
+    },
+    {
+      "nome": "Kit Som Ambiente Bluetooth Amplificador 4 Canais + 4 Arandelas De Teto 6 Pol 70W Alexa Bivolt",
+      "loja": "Shopee",
+      "cat": "Eletrônicos",
+      "preco": 655.62,
+      "antes": null,
+      "visto": "13/11",
+      "link": "https://s.shopee.com.br/AAIhu40PWe",
+      "imagem": "https://cf.shopee.com.br/file/br-11134207-81z1k-mfiej56adslc90",
+      "exemplo": false,
+      "auto": true
+    },
+    {
+      "nome": "Kit Som Ambiente Bluetooth 2 Zonas + 8 Caixas De Som Coaxial Amplificador",
+      "loja": "Shopee",
+      "cat": "Eletrônicos",
+      "preco": 760.73,
+      "antes": null,
+      "visto": "13/11",
+      "link": "https://s.shopee.com.br/9zzHhl12rd",
+      "imagem": "https://cf.shopee.com.br/file/br-11134207-81z1k-mfcv66ug5f5z62",
+      "exemplo": false,
+      "auto": true
+    }
   ]
 }
