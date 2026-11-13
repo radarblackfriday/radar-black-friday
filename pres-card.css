@@ -1,0 +1,15 @@
+.chips{display:flex;gap:8px;overflow-x:auto}
+.chip{font:inherit;font-weight:600;cursor:pointer;white-space:nowrap;padding:9px 16px;border-radius:99px;border:1px solid var(--ln);background:var(--sf);color:var(--fg)}
+.chip.on{background:var(--fg);color:var(--bg)}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+@media(min-width:720px){.grid{grid-template-columns:repeat(4,minmax(0,1fr))}}
+.card{position:relative;background:var(--sf);border:1px solid var(--ln);border-radius:12px;overflow:hidden;display:flex;flex-direction:column}
+.card img{width:100%;aspect-ratio:1;object-fit:cover;background:var(--in)}
+.off{position:absolute;top:8px;left:8px;background:var(--ac);color:var(--af);font-weight:700;font-size:.8rem;padding:3px 8px;border-radius:6px}
+.cb{padding:12px;display:flex;flex-direction:column;gap:6px;flex:1}
+.st{font-size:.7rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--mu)}
+.nm{font-weight:600;line-height:1.25;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.pr{font:700 1.3rem "Space Grotesk",system-ui,sans-serif;color:var(--ac)}
+.nt{font-size:.78rem;color:var(--mu)}
+.btn{margin-top:auto;display:block;text-align:center;text-decoration:none;font-weight:600;padding:10px;border-radius:8px;background:var(--ac);color:var(--af)}
+.empty{grid-column:1/-1;padding:32px 12px;text-align:center;color:var(--mu)}
