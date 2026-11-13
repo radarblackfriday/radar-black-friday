@@ -92,4 +92,93 @@ def main():
     app_id = os.environ.get("SHOPEE_APP_ID", "").strip()
     secret = os.environ.get("SHOPEE_SECRET", "").strip()
     if not app_id or not secret:
-        print("ERRO: faltam os Secrets SHOPEE_APP_ID e SHOPEE_SECRET.
+        print("ERRO: faltam os Secrets SHOPEE_APP_ID e SHOPEE_SECRET.")
+        return 1
+
+    cfg = ler_json("buscas.json", {})
+    buscas = cfg.get("buscas") or []
+    manual = []
+    for p in ler_json("manual.json", []):
+        if isinstance(p, dict) and not p.get("exemplo"):
+            manual.append(p)
+    hoje = datetime.now(BRT).strftime("%d/%m")
+    print("Produtos manuais: %d | buscas: %d" % (len(manual), len(buscas)))
+
+    estado = {"campos": list(FIELDS)}
+    autos = []
+    ok = 0
+    falhas = 0
+    mostrou = False
+    for i, b in enumerate(buscas):
+        termo = b.get("termo")
+        cat = b.get("cat", "Outros")
+        if not termo:
+            continue
+        if i > 0:
+            time.sleep(1.5)
+        ordem = b.get("ordem", cfg.get("ordem", ORDEM_PADRAO))
+        limite = int(cfg.get("busca_limite", 30))
+        try:
+            nos = buscar(app_id, secret, termo, limite, ordem, estado)
+        except ApiError as e:
+            falhas += 1
+            print("FALHOU '%s': %s" % (termo, e))
+            if "Autenticação" in str(e):
+                break
+            continue
+        ok += 1
+        if nos and not mostrou:
+            exemplo = json.dumps(nos[0], ensure_ascii=False)[:700]
+            print("Exemplo do que a API devolveu (primeiro item):")
+            print(exemplo)
+            mostrou = True
+        cfg_busca = dict(cfg)
+        for chave in ("preco_max", "min_desconto"):
+            if b.get(chave) is not None:
+                cfg_busca[chave] = b[chave]
+        escolhidos = escolher(nos, cat, cfg_busca, hoje)
+        linha = "'%s': %d resultados, " % (termo, len(nos))
+        linha += "%d escolhidos" % len(escolhidos)
+        print(linha)
+        autos.extend(escolhidos)
+
+    if buscas and ok == 0:
+        print("ERRO: nenhuma busca funcionou. products.json NÃO alterado.")
+        return 1
+
+    vistos = set()
+    for p in manual:
+        vistos.add(p.get("link"))
+        vistos.add(str(p.get("nome", "")).lower())
+    produtos = list(manual)
+    for p in autos:
+        if p["link"] in vistos or p["nome"].lower() in vistos:
+            continue
+        vistos.add(p["link"])
+        vistos.add(p["nome"].lower())
+        produtos.append(p)
+
+    if not produtos:
+        print("ERRO: lista vazia. products.json NÃO alterado.")
+        return 1
+
+    atual = ler_json("products.json", {})
+    if atual.get("produtos") == produtos:
+        print("Sem mudanças nos produtos (%d)." % len(produtos))
+        return 0
+    agora = datetime.now(BRT).strftime("%d/%m/%Y %H:%M")
+    saida = {"atualizado_em": agora, "produtos": produtos}
+    caminho = os.path.join(ROOT, "products.json")
+    with open(caminho, "w", encoding="utf-8") as f:
+        json.dump(saida, f, ensure_ascii=False, indent=2)
+        f.write("\n")
+    da_api = len(produtos) - len(manual)
+    msg = "products.json atualizado: %d produtos" % len(produtos)
+    msg += " (%d manuais, %d da API)." % (len(manual), da_api)
+    msg += " Buscas com falha: %d." % falhas
+    print(msg)
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())
