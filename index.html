@@ -145,7 +145,7 @@ a { color: inherit; }
   var catsEl = document.getElementById("cats");
   var allStores, allCats, atualizado = "";
 
-  function pct(p) { return p.antes && p.antes > p.preco ? Math.round((1 - p.preco / p.antes) * 100) : 0; }
+  function pct(p) { if (p.antes && p.antes > p.preco) { return Math.round((1 - p.preco / p.antes) * 100); } return p.desconto > 0 ? Math.round(p.desconto) : 0; }
   function el(tag, cls, text) { var n = document.createElement(tag); if (cls) n.className = cls; if (text != null) n.textContent = text; return n; }
   function safeLink(u) { return /^https?:\/\//i.test(u || "") ? u : ""; }
   function safeImg(u) {
