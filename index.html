@@ -4,134 +4,201 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Radar Black Friday</title>
-<meta name="description" content="Ofertas da Black Friday de Shopee, Mercado Livre, Amazon, Magalu e AliExpress em um só lugar.">
+<meta name="description" content="Ofertas da Black Friday com link direto para a loja. Filtre por categoria e compare preços.">
+<meta name="theme-color" content="#16130f">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap">
 <style>
 :root {
   color-scheme: light;
-  --bg: #f6f4ef; --surface: #ffffff; --fg: #1b1a17; --muted: #6a665c; --line: #dedacd;
-  --accent: #c7321b; --accent-fg: #ffffff; --deal: #1f6b3a; --deal-bg: #e1f1e6;
-  --note-bg: #fff3cf; --note-fg: #6b4a00;
+  --bg: #f3f1ec; --surface: #ffffff; --fg: #1b1a17; --muted: #6a665c; --line: #e4e0d6;
+  --accent: #d93a1c; --accent-fg: #ffffff; --head: #16130f; --head-fg: #ffffff; --input-bg: #ffffff; --input-fg: #1b1a17;
+  --tag-bg: #e1f1e6; --tag-fg: #1f6b3a; --ph: #ece9e1; --note-bg: #fff3cf; --note-fg: #6b4a00;
   --font-display: "Space Grotesk", system-ui, sans-serif;
   --font-body: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
 }
 @media (prefers-color-scheme: dark) {
   :root {
     color-scheme: dark;
-    --bg: #15130f; --surface: #201d17; --fg: #f0ece2; --muted: #a8a293; --line: #38342a;
-    --accent: #ff6a50; --accent-fg: #1b0b07; --deal: #6fd093; --deal-bg: #173325;
-    --note-bg: #3a2f10; --note-fg: #f0cd7a;
+    --bg: #0f0d0a; --surface: #1c1914; --fg: #f0ece2; --muted: #a8a293; --line: #34302a;
+    --accent: #ff6a50; --accent-fg: #1b0b07; --head: #000000; --input-bg: #26231d; --input-fg: #f0ece2;
+    --tag-bg: #173325; --tag-fg: #6fd093; --ph: #26231d; --note-bg: #3a2f10; --note-fg: #f0cd7a;
   }
 }
 * { box-sizing: border-box; }
-body {
-  margin: 0; background: var(--bg); color: var(--fg); font-family: var(--font-body); font-size: 16px; line-height: 1.5;
-  padding: 28px max(16px, env(safe-area-inset-right, 0px)) 48px max(16px, env(safe-area-inset-left, 0px));
-}
-main { max-width: 980px; margin: 0 auto; display: flex; flex-direction: column; gap: 22px; }
-h1 { font-family: var(--font-display); font-size: 2.1rem; line-height: 1.08; margin: 0; letter-spacing: -0.01em; text-wrap: balance; }
-p { margin: 0; }
-.eyebrow { font-size: 0.75rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); font-weight: 600; }
-header { display: flex; flex-direction: column; gap: 8px; }
-.lede { color: var(--muted); max-width: 62ch; }
-.note { background: var(--note-bg); color: var(--note-fg); border-radius: 8px; padding: 10px 14px; font-size: 0.9rem; }
-.filters { display: flex; flex-direction: column; gap: 12px; }
-.row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
-.row input, .row select { font: inherit; padding: 10px 12px; border-radius: 8px; border: 1px solid var(--line); background: var(--surface); color: var(--fg); min-width: 0; }
-.row input { flex: 1 1 200px; }
-.chip { font: inherit; font-size: 0.88rem; font-weight: 500; cursor: pointer; padding: 7px 13px; border-radius: 99px; border: 1px solid var(--line); background: var(--surface); color: var(--fg); }
-.chip[aria-pressed="true"] { background: var(--fg); color: var(--bg); border-color: var(--fg); }
+body { margin: 0; background: var(--bg); color: var(--fg); font-family: var(--font-body); font-size: 16px; line-height: 1.45; }
+p, h1, h2 { margin: 0; }
+a { color: inherit; }
 :focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
-.count { color: var(--muted); font-size: 0.88rem; }
-.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 14px; }
-.card { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 16px; display: flex; flex-direction: column; gap: 10px; min-width: 0; }
-.thumb { width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 8px; background: var(--bg); }
-.top { display: flex; justify-content: space-between; gap: 8px; align-items: center; }
-.store { font-size: 0.75rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
-.ex { font-size: 0.68rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; padding: 2px 8px; border-radius: 99px; background: var(--note-bg); color: var(--note-fg); }
-.name { font-weight: 600; font-size: 1.02rem; line-height: 1.3; overflow-wrap: anywhere; }
-.cat { font-size: 0.82rem; color: var(--muted); }
-.prices { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; font-variant-numeric: tabular-nums; }
-.price { font-family: var(--font-display); font-weight: 700; font-size: 1.6rem; }
-.was { color: var(--muted); text-decoration: line-through; font-size: 0.92rem; }
-.off { background: var(--deal-bg); color: var(--deal); font-weight: 600; font-size: 0.8rem; padding: 2px 8px; border-radius: 99px; }
-.seen { font-size: 0.78rem; color: var(--muted); }
-.btn { margin-top: auto; display: block; text-align: center; text-decoration: none; font-weight: 600; padding: 11px 14px; border-radius: 8px; background: var(--accent); color: var(--accent-fg); }
-.btn[aria-disabled="true"] { background: transparent; color: var(--muted); border: 1px dashed var(--line); pointer-events: none; }
-.empty { padding: 32px 12px; text-align: center; color: var(--muted); grid-column: 1 / -1; }
-.fine { color: var(--muted); font-size: 0.82rem; max-width: 70ch; }
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 [hidden] { display: none !important; }
+
+.top { background: var(--head); color: var(--head-fg); }
+.top-in { max-width: 1100px; margin: 0 auto; padding: 12px max(16px, env(safe-area-inset-right, 0px)) 10px max(16px, env(safe-area-inset-left, 0px)); display: flex; flex-wrap: wrap; align-items: center; gap: 10px 18px; }
+.brand { display: flex; align-items: center; gap: 9px; text-decoration: none; color: inherit; font-family: var(--font-display); font-weight: 700; font-size: 1.2rem; letter-spacing: -0.01em; }
+.brand b { color: #ff7a5c; font-weight: 700; }
+.search { position: relative; flex: 1 1 100%; order: 3; }
+.search svg { position: absolute; left: 12px; top: 50%; transform: translateY(-50%); color: #8a857a; pointer-events: none; }
+.search input { width: 100%; font: inherit; height: 44px; padding: 0 14px 0 40px; border: 0; border-radius: 10px; background: var(--input-bg); color: var(--input-fg); }
+.tabs { max-width: 1100px; margin: 0 auto; padding: 0 max(12px, env(safe-area-inset-right, 0px)) 0 max(12px, env(safe-area-inset-left, 0px)); display: flex; gap: 2px; }
+.tabs a { text-decoration: none; padding: 10px 14px; font-weight: 600; font-size: 0.95rem; color: rgba(255,255,255,0.72); border-bottom: 3px solid transparent; }
+.tabs a[aria-current="page"] { color: #fff; border-bottom-color: #ff6a50; }
+@media (min-width: 720px) { .search { order: 0; flex: 1 1 360px; max-width: 560px; margin-left: auto; } }
+
+.wrap { max-width: 1100px; margin: 0 auto; padding: 14px max(12px, env(safe-area-inset-right, 0px)) 48px max(12px, env(safe-area-inset-left, 0px)); display: flex; flex-direction: column; gap: 14px; }
+.hero { border-radius: 12px; padding: 16px 18px; color: #fff; background: linear-gradient(100deg, #b82a12, #d93a1c); display: flex; align-items: center; justify-content: space-between; gap: 14px; flex-wrap: wrap; }
+.hero .eyebrow { font-size: 0.72rem; letter-spacing: 0.08em; text-transform: uppercase; font-weight: 600; opacity: 0.92; }
+.hero strong { display: block; font-family: var(--font-display); font-size: 1.7rem; line-height: 1.1; margin: 2px 0 4px; }
+.hero p { font-size: 0.9rem; opacity: 0.95; }
+.hero a { text-decoration: none; background: #fff; color: #8f200c; font-weight: 700; padding: 10px 16px; border-radius: 8px; white-space: nowrap; }
+.note { background: var(--note-bg); color: var(--note-fg); border-radius: 8px; padding: 10px 14px; font-size: 0.88rem; }
+
+.chips { display: flex; gap: 8px; flex-wrap: wrap; }
+.chips.scroll { flex-wrap: nowrap; overflow-x: auto; margin: 0 -12px; padding: 2px 12px; scrollbar-width: none; }
+.chips.scroll::-webkit-scrollbar { display: none; }
+.chip { flex: none; font: inherit; font-size: 0.88rem; font-weight: 500; cursor: pointer; padding: 8px 14px; border-radius: 99px; border: 1px solid var(--line); background: var(--surface); color: var(--fg); }
+.chip[aria-pressed="true"] { background: var(--fg); color: var(--bg); border-color: var(--fg); }
+.chips.stores .chip { font-size: 0.8rem; padding: 6px 12px; color: var(--muted); }
+.chips.stores .chip[aria-pressed="true"] { color: var(--bg); }
+.meta { display: flex; justify-content: space-between; align-items: center; gap: 10px; }
+.count { color: var(--muted); font-size: 0.85rem; }
+.sort select { font: inherit; font-size: 0.88rem; padding: 7px 10px; border-radius: 8px; border: 1px solid var(--line); background: var(--surface); color: var(--fg); }
+
+.grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+@media (min-width: 640px) { .grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; } }
+@media (min-width: 900px) { .grid { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; display: flex; flex-direction: column; min-width: 0; }
+.media { position: relative; display: block; aspect-ratio: 1 / 1; background: #fff; text-decoration: none; color: inherit; }
+.media img { width: 100%; height: 100%; object-fit: contain; display: block; }
+.ph { width: 100%; height: 100%; background: var(--ph); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; color: var(--muted); font-size: 0.72rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; }
+.badge { position: absolute; top: 8px; left: 8px; background: var(--accent); color: var(--accent-fg); font-weight: 700; font-size: 0.78rem; padding: 3px 8px; border-radius: 6px; }
+.body { padding: 10px 12px 12px; display: flex; flex-direction: column; gap: 6px; flex: 1; }
+.store { font-size: 0.7rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); display: flex; gap: 6px; align-items: center; flex-wrap: wrap; }
+.ex { font-size: 0.64rem; padding: 1px 7px; border-radius: 99px; background: var(--note-bg); color: var(--note-fg); }
+.name { font-size: 0.92rem; font-weight: 500; line-height: 1.3; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; overflow-wrap: anywhere; text-decoration: none; min-height: 2.6em; }
+.prices { display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; margin-top: 2px; font-variant-numeric: tabular-nums; }
+.price { font-family: var(--font-display); font-weight: 700; font-size: 1.3rem; color: var(--accent); }
+.was { color: var(--muted); text-decoration: line-through; font-size: 0.82rem; }
+.tag { align-self: flex-start; background: var(--tag-bg); color: var(--tag-fg); font-size: 0.72rem; font-weight: 600; padding: 2px 8px; border-radius: 99px; }
+.seen { font-size: 0.72rem; color: var(--muted); }
+.btn { margin-top: auto; display: block; text-align: center; text-decoration: none; font-weight: 600; font-size: 0.92rem; padding: 10px 12px; border-radius: 8px; background: var(--accent); color: var(--accent-fg); }
+.btn[aria-disabled="true"] { background: transparent; color: var(--muted); border: 1px dashed var(--line); }
+.empty { padding: 32px 12px; text-align: center; color: var(--muted); grid-column: 1 / -1; }
+.fine { color: var(--muted); font-size: 0.8rem; max-width: 74ch; }
 </style>
 </head>
 <body>
-<main>
-  <header>
-    <span class="eyebrow">Black Friday 27/11/2026</span>
-    <h1>Radar Black Friday</h1>
-    <p class="lede">Ofertas de Shopee, Mercado Livre, Amazon, Magalu e AliExpress em um lugar só. Filtre por loja e categoria e vá direto para a página da oferta.</p>
-    <p class="note" id="mode" hidden>Os produtos e preços abaixo são exemplos para testar o visual. Não são ofertas reais.</p>
-  </header>
+<header class="top">
+  <div class="top-in">
+    <a class="brand" href="./" aria-label="Radar Black Friday, página inicial">
+      <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true"><rect width="28" height="28" rx="8" fill="#d93a1c"/><circle cx="14" cy="14" r="9" stroke="#fff" stroke-width="2" opacity=".55"/><circle cx="14" cy="14" r="4.5" stroke="#fff" stroke-width="2"/><circle cx="14" cy="14" r="1.6" fill="#fff"/></svg>
+      <span>Radar <b>Black Friday</b></span>
+    </a>
+    <label class="search">
+      <span class="sr">Buscar produto</span>
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+      <input id="q" type="search" placeholder="Buscar produtos" autocomplete="off">
+    </label>
+  </div>
+  <nav class="tabs" aria-label="Seções">
+    <a href="./" aria-current="page">Ofertas</a>
+    <a href="cupons.html">Cupons</a>
+  </nav>
+</header>
 
-  <section class="filters" aria-label="Filtros">
-    <div class="row">
-      <input id="q" type="search" placeholder="Buscar produto" aria-label="Buscar produto" autocomplete="off">
-      <select id="cat" aria-label="Categoria"></select>
-      <select id="sort" aria-label="Ordenar por">
-        <option value="off">Maior desconto</option>
-        <option value="low">Menor preço</option>
-        <option value="high">Maior preço</option>
-      </select>
+<main class="wrap">
+  <section class="hero" aria-label="Black Friday">
+    <div>
+      <span class="eyebrow">Black Friday 27/11/2026</span>
+      <strong id="dias">Ofertas da Black Friday</strong>
+      <p>Ofertas selecionadas, com link direto para a loja.</p>
     </div>
-    <div class="row" id="stores" role="group" aria-label="Lojas"></div>
-    <p class="count" id="count" aria-live="polite">Carregando ofertas...</p>
+    <a href="cupons.html">Ver cupons</a>
+  </section>
+  <p class="note" id="mode" hidden>Os produtos e preços abaixo são exemplos para testar o visual. Não são ofertas reais.</p>
+
+  <section aria-label="Filtros" style="display:flex;flex-direction:column;gap:10px">
+    <div class="chips scroll" id="cats" role="group" aria-label="Categorias"></div>
+    <div class="chips stores" id="stores" role="group" aria-label="Lojas" hidden></div>
+    <div class="meta">
+      <p class="count" id="count" aria-live="polite">Carregando ofertas...</p>
+      <label class="sort"><span class="sr">Ordenar por</span>
+        <select id="sort">
+          <option value="off">Maior desconto</option>
+          <option value="low">Menor preço</option>
+          <option value="high">Maior preço</option>
+        </select>
+      </label>
+    </div>
   </section>
 
   <section class="grid" id="grid" aria-label="Ofertas"></section>
 
-  <p class="fine">Os preços mudam rápido e podem acabar antes do que está indicado aqui. Confira o valor final no site da loja antes de pagar. Os botões são links de afiliado: posso receber uma comissão se você comprar, sem custo extra para você. O desconto mostrado compara o preço atual com o preço anterior informado pela loja.</p>
+  <p class="fine">Os preços mudam rápido e podem acabar antes do que está indicado aqui. Confira o valor final na loja antes de pagar. Os botões são links de afiliado: posso receber uma comissão se você comprar, sem custo extra para você. O preço riscado é o preço anterior ou sem cupom informado pela loja; o desconto compara os dois.</p>
 </main>
 
 <script>
 (function () {
   var brl = new Intl.NumberFormat("pt-BR", { style: "currency", currency: "BRL" });
-  var PRODUTOS = [], LOJAS = [], CATS = [], chips = {};
+  var PRODUTOS = [], LOJAS = [], CATS = [], chipsL = {}, chipsC = {};
   var state = { q: "", cat: "", sort: "off", lojas: {} };
   var storesEl = document.getElementById("stores");
-  var catEl = document.getElementById("cat");
-  var all;
+  var catsEl = document.getElementById("cats");
+  var allStores, allCats, atualizado = "";
 
   function pct(p) { return p.antes && p.antes > p.preco ? Math.round((1 - p.preco / p.antes) * 100) : 0; }
   function el(tag, cls, text) { var n = document.createElement(tag); if (cls) n.className = cls; if (text != null) n.textContent = text; return n; }
   function safeLink(u) { return /^https?:\/\//i.test(u || "") ? u : ""; }
+  function safeImg(u) {
+    u = String(u || "").trim();
+    if (/^https:\/\//i.test(u)) return u;
+    if (/^[\w\-][\w\-.\/]*\.(jpe?g|png|webp|gif|avif)$/i.test(u) && u.indexOf("..") < 0) return u;
+    return "";
+  }
+  var BAG = '<svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 8h14l-1 12H6L5 8z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg>';
+  function placeholder(p) { var d = el("div", "ph"); d.innerHTML = BAG; d.appendChild(el("span", "", p.loja)); return d; }
+
+  (function contagem() {
+    var alvo = new Date(2026, 10, 27), hoje = new Date(); hoje.setHours(0, 0, 0, 0);
+    var d = Math.round((alvo - hoje) / 86400000), t = document.getElementById("dias");
+    if (d > 1) t.textContent = "Faltam " + d + " dias";
+    else if (d === 1) t.textContent = "Falta 1 dia";
+    else if (d === 0) t.textContent = "A Black Friday é hoje!";
+  })();
 
   function sync() {
     var any = LOJAS.some(function (l) { return state.lojas[l]; });
-    all.setAttribute("aria-pressed", any ? "false" : "true");
-    LOJAS.forEach(function (l) { chips[l].setAttribute("aria-pressed", state.lojas[l] ? "true" : "false"); });
+    allStores.setAttribute("aria-pressed", any ? "false" : "true");
+    LOJAS.forEach(function (l) { chipsL[l].setAttribute("aria-pressed", state.lojas[l] ? "true" : "false"); });
+    allCats.setAttribute("aria-pressed", state.cat ? "false" : "true");
+    CATS.forEach(function (c) { chipsC[c].setAttribute("aria-pressed", state.cat === c ? "true" : "false"); });
   }
 
   function montarFiltros() {
-    LOJAS = []; CATS = [];
     PRODUTOS.forEach(function (p) {
       if (LOJAS.indexOf(p.loja) < 0) LOJAS.push(p.loja);
       if (CATS.indexOf(p.cat) < 0) CATS.push(p.cat);
     });
-    all = el("button", "chip", "Todas as lojas"); all.type = "button"; all.setAttribute("aria-pressed", "true");
-    all.addEventListener("click", function () { state.lojas = {}; sync(); render(); });
-    storesEl.appendChild(all);
+    allCats = el("button", "chip", "Tudo"); allCats.type = "button"; allCats.setAttribute("aria-pressed", "true");
+    allCats.addEventListener("click", function () { state.cat = ""; sync(); render(); });
+    catsEl.appendChild(allCats);
+    CATS.forEach(function (c) {
+      var b = el("button", "chip", c); b.type = "button"; b.setAttribute("aria-pressed", "false");
+      b.addEventListener("click", function () { state.cat = c; sync(); render(); });
+      catsEl.appendChild(b); chipsC[c] = b;
+    });
+    allStores = el("button", "chip", "Todas as lojas"); allStores.type = "button"; allStores.setAttribute("aria-pressed", "true");
+    allStores.addEventListener("click", function () { state.lojas = {}; sync(); render(); });
+    storesEl.appendChild(allStores);
     LOJAS.forEach(function (l) {
       var b = el("button", "chip", l); b.type = "button"; b.setAttribute("aria-pressed", "false");
       b.addEventListener("click", function () { state.lojas[l] = !state.lojas[l]; sync(); render(); });
-      storesEl.appendChild(b); chips[l] = b;
+      storesEl.appendChild(b); chipsL[l] = b;
     });
-    var o0 = el("option", "", "Todas as categorias"); o0.value = ""; catEl.appendChild(o0);
-    CATS.forEach(function (c) { var o = el("option", "", c); o.value = c; catEl.appendChild(o); });
+    storesEl.hidden = LOJAS.length < 2;
     document.getElementById("q").addEventListener("input", function (e) { state.q = e.target.value.toLowerCase().trim(); render(); });
-    catEl.addEventListener("change", function (e) { state.cat = e.target.value; render(); });
     document.getElementById("sort").addEventListener("change", function (e) { state.sort = e.target.value; render(); });
   }
 
-  var atualizado = "";
   function render() {
     var anyStore = LOJAS.some(function (l) { return state.lojas[l]; });
     var list = PRODUTOS.filter(function (p) {
@@ -145,30 +212,39 @@ header { display: flex; flex-direction: column; gap: 8px; }
       if (state.sort === "high") return b.preco - a.preco;
       return pct(b) - pct(a);
     });
-    document.getElementById("count").textContent = list.length + (list.length === 1 ? " oferta" : " ofertas") + (atualizado ? ". Atualizado em " + atualizado + "." : "");
+    document.getElementById("count").textContent = list.length + (list.length === 1 ? " oferta" : " ofertas") + (atualizado ? " · atualizado em " + atualizado : "");
     var grid = document.getElementById("grid"); grid.innerHTML = "";
-    if (!list.length) { grid.appendChild(el("p", "empty", "Nenhuma oferta com esses filtros. Limpe a busca ou escolha outra loja.")); return; }
+    if (!list.length) { grid.appendChild(el("p", "empty", "Nenhuma oferta com esses filtros. Limpe a busca ou escolha outra categoria.")); return; }
     list.forEach(function (p) {
+      var href = safeLink(p.link), img = safeImg(p.imagem);
       var c = el("article", "card");
-      var img = safeLink(p.imagem);
+      var media = el(href ? "a" : "div", "media");
+      if (href) { media.href = href; media.target = "_blank"; media.rel = "noopener noreferrer sponsored nofollow"; media.tabIndex = -1; media.setAttribute("aria-hidden", "true"); }
       if (img) {
-        var im = el("img", "thumb"); im.src = img; im.alt = p.nome; im.loading = "lazy"; im.referrerPolicy = "no-referrer";
-        im.addEventListener("error", function () { im.hidden = true; });
-        c.appendChild(im);
-      }
-      var top = el("div", "top"); top.appendChild(el("span", "store", p.loja));
-      if (p.exemplo) top.appendChild(el("span", "ex", "Exemplo"));
-      c.appendChild(top);
-      c.appendChild(el("div", "name", p.nome));
-      c.appendChild(el("div", "cat", p.cat));
+        var im = el("img"); im.src = img; im.alt = p.nome; im.loading = "lazy"; im.referrerPolicy = "no-referrer";
+        im.addEventListener("error", function () { if (im.parentNode) im.parentNode.replaceChild(placeholder(p), im); });
+        media.appendChild(im);
+      } else { media.appendChild(placeholder(p)); }
+      if (pct(p) > 0) media.appendChild(el("span", "badge", "-" + pct(p) + "%"));
+      c.appendChild(media);
+
+      var body = el("div", "body");
+      var st = el("div", "store"); st.appendChild(el("span", "", p.loja));
+      if (p.exemplo) st.appendChild(el("span", "ex", "Exemplo"));
+      body.appendChild(st);
+      var nm = el(href ? "a" : "div", "name", p.nome); nm.title = p.nome;
+      if (href) { nm.href = href; nm.target = "_blank"; nm.rel = "noopener noreferrer sponsored nofollow"; }
+      body.appendChild(nm);
       var pr = el("div", "prices"); pr.appendChild(el("span", "price", brl.format(p.preco)));
-      if (p.antes > p.preco) { pr.appendChild(el("span", "was", brl.format(p.antes))); pr.appendChild(el("span", "off", "-" + pct(p) + "%")); }
-      c.appendChild(pr);
-      c.appendChild(el("div", "seen", "Preço visto em " + (p.visto || "data não informada") + ". Confira no site."));
-      var a = el("a", "btn"), href = safeLink(p.link);
-      if (href) { a.href = href; a.target = "_blank"; a.rel = "noopener noreferrer sponsored nofollow"; a.textContent = "Ver oferta na " + p.loja; }
-      else { a.setAttribute("aria-disabled", "true"); a.tabIndex = -1; a.textContent = "Link de afiliado pendente"; }
-      c.appendChild(a);
+      if (p.antes > p.preco) pr.appendChild(el("span", "was", brl.format(p.antes)));
+      body.appendChild(pr);
+      if (/cupom/i.test(p.visto || "")) body.appendChild(el("span", "tag", "Preço com cupom"));
+      body.appendChild(el("div", "seen", "Preço visto em " + (p.visto || "data não informada") + ". Confira na loja."));
+      var a = el("a", "btn");
+      if (href) { a.href = href; a.target = "_blank"; a.rel = "noopener noreferrer sponsored nofollow"; a.textContent = "Ver oferta"; }
+      else { a.setAttribute("aria-disabled", "true"); a.tabIndex = -1; a.textContent = "Link em breve"; }
+      body.appendChild(a);
+      c.appendChild(body);
       grid.appendChild(c);
     });
   }
@@ -179,7 +255,7 @@ header { display: flex; flex-direction: column; gap: 8px; }
       PRODUTOS = (d.produtos || []).filter(function (p) { return p && p.nome && p.loja && typeof p.preco === "number"; });
       atualizado = d.atualizado_em || "";
       document.getElementById("mode").hidden = !PRODUTOS.some(function (p) { return p.exemplo; });
-      montarFiltros(); render();
+      montarFiltros(); sync(); render();
     })
     .catch(function () {
       document.getElementById("count").textContent = "Não consegui carregar as ofertas agora. Tente de novo em instantes.";
