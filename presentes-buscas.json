@@ -2,8 +2,17 @@
 {"termo": "presente namorada", "categoria": "Casal"},
 {"termo": "presente namorado", "categoria": "Casal"},
 {"termo": "kit presente casal", "categoria": "Casal"},
+{"termo": "presente casal romântico", "categoria": "Casal"},
+{"termo": "presente dia dos namorados", "categoria": "Casal"},
 {"termo": "presente amigo secreto", "categoria": "Natal"},
 {"termo": "presente natal", "categoria": "Natal"},
+{"termo": "presente natal mulher", "categoria": "Natal"},
+{"termo": "presente natal homem", "categoria": "Natal"},
+{"termo": "presente natal criança", "categoria": "Natal"},
+{"termo": "kit presente natal", "categoria": "Natal"},
 {"termo": "vestido réveillon", "categoria": "Réveillon"},
-{"termo": "taça champanhe", "categoria": "Réveillon"}
+{"termo": "taça champanhe", "categoria": "Réveillon"},
+{"termo": "conjunto réveillon", "categoria": "Réveillon"},
+{"termo": "roupa branca réveillon", "categoria": "Réveillon"},
+{"termo": "kit réveillon", "categoria": "Réveillon"}
 ]}
