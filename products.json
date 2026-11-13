@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "13/11/2026 02:05",
+  "atualizado_em": "13/11/2026 02:10",
   "produtos": [
-    { "nome": "Panela de Pressão 4,5 Litros ASJ Preta Craqueada", "loja": "Shopee", "cat": "Casa e cozinha", "preco": 69.9, "antes": null, "visto": "13/11", "link": "https://s.shopee.com.br/9pfqUca2Sq", "imagem": "", "exemplo": false },
-    { "nome": "Tapete Peludo Felpudo 4 cm Impermeável", "loja": "Shopee", "cat": "Casa e cozinha", "preco": 44.9, "antes": null, "visto": "13/11", "link": "https://s.shopee.com.br/8VASuJOHQ0", "imagem": "", "exemplo": false },
-    { "nome": "Conjunto Feminino Saia Longa e Cropped Alcinha com Fenda", "loja": "Shopee", "cat": "Moda e acessórios", "preco": 44, "antes": null, "visto": "13/11", "link": "https://s.shopee.com.br/9AQ9hlxwjw", "imagem": "", "exemplo": false },
-    { "nome": "COIBEU Microfones Sem Fio Duplo Recarregável UHF com RGB", "loja": "Shopee", "cat": "Eletrônicos", "preco": 148.49, "antes": null, "visto": "13/11", "link": "https://s.shopee.com.br/AUvXIUUP8z", "imagem": "", "exemplo": false },
-    { "nome": "Liquidificador Britânia 2,6L 4 Velocidades Diamante 1100", "loja": "Shopee", "cat": "Casa e cozinha", "preco": 89.9, "antes": null, "visto": "13/11", "link": "https://s.shopee.com.br/9AQ9i9Aitr", "imagem": "", "exemplo": false }
+    { "nome": "Panela de Pressão 4,5 Litros ASJ Preta Craqueada", "loja": "Shopee", "cat": "Casa e cozinha", "preco": 64.56, "antes": 69.9, "visto": "13/11 com cupom", "link": "https://s.shopee.com.br/9pfqUca2Sq", "imagem": "", "exemplo": false },
+    { "nome": "Tapete Peludo Felpudo 4 cm Impermeável", "loja": "Shopee", "cat": "Casa e cozinha", "preco": 43.9, "antes": 44.9, "visto": "13/11 com cupom", "link": "https://s.shopee.com.br/8VASuJOHQ0", "imagem": "", "exemplo": false },
+    { "nome": "Conjunto Feminino Saia Longa e Cropped Alcinha com Fenda", "loja": "Shopee", "cat": "Moda e acessórios", "preco": 38.72, "antes": 44, "visto": "13/11 com cupom", "link": "https://s.shopee.com.br/9AQ9hlxwjw", "imagem": "", "exemplo": false },
+    { "nome": "COIBEU Microfones Sem Fio Duplo Recarregável UHF com RGB", "loja": "Shopee", "cat": "Eletrônicos", "preco": 129.79, "antes": 148.49, "visto": "13/11 no Pix com cupom", "link": "https://s.shopee.com.br/AUvXIUUP8z", "imagem": "", "exemplo": false },
+    { "nome": "Liquidificador Britânia 2,6L 4 Velocidades Diamante 1100", "loja": "Shopee", "cat": "Casa e cozinha", "preco": 79.12, "antes": 89.9, "visto": "13/11 no cupom", "link": "https://s.shopee.com.br/9AQ9i9Aitr", "imagem": "", "exemplo": false }
   ]
 }
