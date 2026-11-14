@@ -1,0 +1,38 @@
+name: Atualizar tendencia
+
+on:
+  schedule:
+    - cron: "45 */3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: atualizar-tendencia
+  cancel-in-progress: false
+
+jobs:
+  tendencia:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Buscar tendencia
+        env:
+          SHOPEE_APP_ID: ${{ secrets.SHOPEE_APP_ID }}
+          SHOPEE_SECRET: ${{ secrets.SHOPEE_SECRET }}
+        run: python3 scripts/update_trend.py
+
+      - name: Salvar mudanças
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add tendencia.json
+          if git diff --cached --quiet; then
+            echo "Sem mudanças para salvar."
+          else
+            git commit -m "Atualizar tendencia"
+            git pull --rebase origin main
+            git push
+          fi
