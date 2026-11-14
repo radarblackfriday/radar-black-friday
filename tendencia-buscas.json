@@ -1,0 +1,16 @@
+{
+  "buscas": [
+    { "termo": "vestido de natal", "categoria": "Vestidos" },
+    { "termo": "vestido réveillon branco", "categoria": "Vestidos" },
+    { "termo": "vestido longo festa", "categoria": "Vestidos" },
+    { "termo": "vestido curto festa", "categoria": "Vestidos" },
+    { "termo": "macacão feminino festa", "categoria": "Vestidos" },
+    { "termo": "conjunto feminino réveillon", "categoria": "Vestidos" },
+    { "termo": "decoração de natal", "categoria": "Decoração" },
+    { "termo": "árvore de natal", "categoria": "Decoração" },
+    { "termo": "pisca pisca led natal", "categoria": "Decoração" },
+    { "termo": "guirlanda de natal", "categoria": "Decoração" },
+    { "termo": "bolsa festa feminina", "categoria": "Acessórios" },
+    { "termo": "brinco feminino", "categoria": "Acessórios" }
+  ]
+}
