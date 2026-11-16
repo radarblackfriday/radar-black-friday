@@ -1,5 +1,5 @@
 {
- "atualizado": "15/11/2026 22:25",
+ "atualizado": "16/11/2026 09:05",
  "produtos": [
   {
    "nome": "Vestido Infantil Menina Vermelho Pompom MODELO LUXO FESTAS NATAL",
@@ -122,56 +122,6 @@
    "busca": "vestido de natal"
   },
   {
-   "nome": "Vestido Curto Soltinho Frente Unica elegante",
-   "preco": 39.25,
-   "foto": "https://cf.shopee.com.br/file/sg-11134201-822y0-mhxejpm0ga9ue1",
-   "link": "https://s.shopee.com.br/9fMRuqzQNc",
-   "desconto": 70,
-   "loja": "Fortis",
-   "categoria": "Vestidos",
-   "busca": "vestido réveillon branco"
-  },
-  {
-   "nome": "Vestido Longo Réveillon Branco Trançado nas Costas com Fenda Alça Fina Festa Ano Novo Madrinha Formatura Verão",
-   "preco": 38.94,
-   "foto": "https://cf.shopee.com.br/file/br-11134207-820lx-mu0r13pqik1u89",
-   "link": "https://s.shopee.com.br/AUvYTz2Mua",
-   "desconto": 40,
-   "loja": "tibstore2",
-   "categoria": "Vestidos",
-   "busca": "vestido réveillon branco"
-  },
-  {
-   "nome": "Vestido Pet Réveillon Roupinha Para Cachorro Para Virada de Ano Vestido De Cachorro Branco",
-   "preco": 37.74,
-   "foto": "https://cf.shopee.com.br/file/br-11134207-81z1k-mhxuhecd8gsi55",
-   "link": "https://s.shopee.com.br/6VPPidHb1w",
-   "desconto": 37,
-   "loja": "MW Pet Shop Acessórios",
-   "categoria": "Vestidos",
-   "busca": "vestido réveillon branco"
-  },
-  {
-   "nome": "Vestido Feminino Midi Branco Vermelho Um Ombro Só Modelador Moda Gringa Sofisticado Festas",
-   "preco": 59.39,
-   "foto": "https://cf.shopee.com.br/file/br-11134207-820l5-mt476pfc5c07d1",
-   "link": "https://s.shopee.com.br/4B1XiKZF1g",
-   "desconto": 34,
-   "loja": "MODA FASHION SECRET",
-   "categoria": "Vestidos",
-   "busca": "vestido réveillon branco"
-  },
-  {
-   "nome": "Vestido Midi Nula Manga com Laço Off White Branco Casamento Civil Noivado Batizado Eventos Reveillon",
-   "preco": 166.49,
-   "foto": "https://cf.shopee.com.br/file/br-11134207-820mc-moe36gr9ua6de5",
-   "link": "https://s.shopee.com.br/5fqIj6Klij",
-   "desconto": 21,
-   "loja": "Detrix",
-   "categoria": "Vestidos",
-   "busca": "vestido réveillon branco"
-  },
-  {
    "nome": "Vestido Longo De Festa Feminino Elegante Super Promoção",
    "preco": 49.9,
    "foto": "https://cf.shopee.com.br/file/br-11134207-81ztm-mkmhh6ezk8ox05",
@@ -292,122 +242,22 @@
    "busca": "vestido longo festa"
   },
   {
-   "nome": "Vestido Feminino Curto Gola Alta Nula Manga Moda Gringa Paty Show vestido de festa chique",
-   "preco": 47.95,
-   "foto": "https://cf.shopee.com.br/file/br-11134207-81ztc-misvquug0i6a82",
-   "link": "https://s.shopee.com.br/30pXyHK1ko",
-   "desconto": 76,
-   "loja": "Modas Liz ",
+   "nome": "Vestido Plus Size Feminino Curto Transpassado Drapeado Decote V Elegante Festa Casual",
+   "preco": 56.0,
+   "foto": "https://cf.shopee.com.br/file/br-11134207-820lj-mr57ejzo5csk4e",
+   "link": "https://s.shopee.com.br/4B1VfDXQNf",
+   "desconto": 38,
+   "loja": "lovemodas052",
    "categoria": "Vestidos",
    "busca": "vestido curto festa"
   },
   {
-   "nome": "Vestido Tubinho Feminino Justo Curto Alcinha Fina Básico Casual Festa Balada Verão",
-   "preco": 16.99,
-   "foto": "https://cf.shopee.com.br/file/br-11134207-820ll-msr3mimmoiyv36",
-   "link": "https://s.shopee.com.br/114TabRdok",
-   "desconto": 72,
-   "loja": "rafristal_fashion",
-   "categoria": "Vestidos",
-   "busca": "vestido curto festa"
-  },
-  {
-   "nome": "Vestido Feminino Curto Festa de Alcinha Soltinho Conforto Leve Casual Fluido",
-   "preco": 34.38,
-   "foto": "https://cf.shopee.com.br/file/br-11134207-820l8-mp9vxnsth2itd6",
-   "link": "https://s.shopee.com.br/2BGQykNCRp",
-   "desconto": 69,
-   "loja": "Amora Verde",
-   "categoria": "Vestidos",
-   "busca": "vestido curto festa"
-  },
-  {
-   "nome": "Vestido Curto Gola Alta Frente Única Festa Assimétrico Leve Casual Duna Leve Não Amassa",
-   "preco": 34.99,
-   "foto": "https://cf.shopee.com.br/file/br-11134207-820lo-msz2aq8xpati9b",
-   "link": "https://s.shopee.com.br/4fxlxLDgN2",
-   "desconto": 56,
-   "loja": "Estilosa Modas.",
-   "categoria": "Vestidos",
-   "busca": "vestido curto festa"
-  },
-  {
-   "nome": "Vestido Feminino Curto Festa Elegante Frente Unica Gola Alta Babado ASSIMETRICO",
-   "preco": 35.99,
-   "foto": "https://cf.shopee.com.br/file/br-11134207-820lg-mtlpuy0rhfk0e6",
-   "link": "https://s.shopee.com.br/ql3OISH9h",
-   "desconto": 55,
-   "loja": "Estilosa Modas.",
-   "categoria": "Vestidos",
-   "busca": "vestido curto festa"
-  },
-  {
-   "nome": "VESTIDO FEMININO CURTO DE FESTA COM BABADOS E OMBRO ASSIMETRICO",
-   "preco": 55.0,
-   "foto": "https://cf.shopee.com.br/file/br-11134207-820m8-mnnkgfaffsaqaf",
-   "link": "https://s.shopee.com.br/3qOexoGr43",
-   "desconto": 54,
-   "loja": "TIENDA VIRTUAL ADA",
-   "categoria": "Vestidos",
-   "busca": "vestido curto festa"
-  },
-  {
-   "nome": "Vestido Plus Size Curto Um Ombro Só Noturno – Festa Balada Moda Plus Size do 46 ao 58",
-   "preco": 45.9,
-   "foto": "https://cf.shopee.com.br/file/br-11134207-820lm-mls3pv8cv4ee0e",
-   "link": "https://s.shopee.com.br/9KjbVuvuuO",
-   "desconto": 54,
-   "loja": "Maçã Vermelha_",
-   "categoria": "Vestidos",
-   "busca": "vestido curto festa"
-  },
-  {
-   "nome": "Vestido Curto Feminino Justo Sem Alça Colado Festa Balada Casual Verão Suplex",
-   "preco": 19.8,
-   "foto": "https://cf.shopee.com.br/file/br-11134207-820lj-ms2zsw33a4g52b",
-   "link": "https://s.shopee.com.br/4qHC9eD325",
-   "desconto": 50,
-   "loja": "emperialstore",
-   "categoria": "Vestidos",
-   "busca": "vestido curto festa"
-  },
-  {
-   "nome": "Vestido Feminino Curto para Festa Elegante Frente Única Costa Nua Rodado",
-   "preco": 45.9,
-   "foto": "https://cf.shopee.com.br/file/br-11134207-820mg-mt0d6m4c9vk479",
-   "link": "https://s.shopee.com.br/1qdaa8OT7j",
-   "desconto": 46,
-   "loja": "Lady-Pink",
-   "categoria": "Vestidos",
-   "busca": "vestido curto festa"
-  },
-  {
-   "nome": "Vestido Curto Gola Alta Frente Única Festa Assimétrico Leve Casual Balada Duna Leve Não Amassa",
-   "preco": 43.9,
-   "foto": "https://cf.shopee.com.br/file/br-11134207-820lc-mr16hgeq7nd330",
-   "link": "https://s.shopee.com.br/3g5ElVHUP0",
-   "desconto": 44,
-   "loja": "Pé De Moleca",
-   "categoria": "Vestidos",
-   "busca": "vestido curto festa"
-  },
-  {
-   "nome": "Vestido Macaquinho Feminino Curto Alcinha Com Bojo Soltinho Verão Festa Praia Macaquinho Short Saia Liso P ao GG",
-   "preco": 77.9,
-   "foto": "https://cf.shopee.com.br/file/br-11134207-820m5-muouyp594c8x89",
-   "link": "https://s.shopee.com.br/80EDvTMzXA",
-   "desconto": 44,
-   "loja": "Goli Shop",
-   "categoria": "Vestidos",
-   "busca": "vestido curto festa"
-  },
-  {
-   "nome": "Vestido Curto Moda Gringa Elegante Modelador Casual Festa",
-   "preco": 19.9,
-   "foto": "https://cf.shopee.com.br/file/br-11134207-7r98o-m1yg2hm99eu732",
-   "link": "https://s.shopee.com.br/3LSOMtIl4u",
-   "desconto": 43,
-   "loja": "Lorz Fashion",
+   "nome": "Vestido Tubinho Curto Feminino Gola Alta Fenda Lateral Com Acessório Dourado Festa Balada Luxo",
+   "preco": 49.41,
+   "foto": "https://cf.shopee.com.br/file/br-11134207-820lv-mmvz6i0monpe03",
+   "link": "https://s.shopee.com.br/50acekUFgq",
+   "desconto": 27,
+   "loja": "lovemodas052",
    "categoria": "Vestidos",
    "busca": "vestido curto festa"
   },
@@ -533,11 +383,111 @@
   },
   {
    "nome": "Biquíni Feminino Fio Duplo Bojo Removível Asa Delta",
-   "preco": 32.99,
+   "preco": 37.99,
    "foto": "https://cf.shopee.com.br/file/sg-11134201-821g4-mgmhdrwe2ih91c",
    "link": "https://s.shopee.com.br/906l8UKdE2",
-   "desconto": 63,
+   "desconto": 58,
    "loja": "Mooka Mrs.",
+   "categoria": "Vestidos",
+   "busca": "conjunto feminino réveillon"
+  },
+  {
+   "nome": "Conjunto Maiô Body e Saia Longa Praia Feminino Luxo Verão Decote V Saia Fenda ano novo réveillon natal",
+   "preco": 54.99,
+   "foto": "https://cf.shopee.com.br/file/br-11134207-820ln-mu9io5j3x7nl55",
+   "link": "https://s.shopee.com.br/LomOn7yPo",
+   "desconto": 52,
+   "loja": "Capricho&Store",
+   "categoria": "Vestidos",
+   "busca": "conjunto feminino réveillon"
+  },
+  {
+   "nome": "Conjunto Maiô Feminino com Saída de Praia Elegante Moda Praia Verão Luxo ano novo réveillon natal",
+   "preco": 54.99,
+   "foto": "https://cf.shopee.com.br/file/br-11134207-820ln-mu9io5j3x7nl55",
+   "link": "https://s.shopee.com.br/9KjfARkuZh",
+   "desconto": 50,
+   "loja": "Capricho&Store",
+   "categoria": "Vestidos",
+   "busca": "conjunto feminino réveillon"
+  },
+  {
+   "nome": "Conjunto feminino Plus Size Short Saia com Botões – Elegante para Festa G GG G1 G2,  Final de ano e Natal, Reveillon",
+   "preco": 49.59,
+   "foto": "https://cf.shopee.com.br/file/sg-11134201-8259s-muif55p7cpoib9",
+   "link": "https://s.shopee.com.br/9zzLxfiNDl",
+   "desconto": 38,
+   "loja": "Luna Modas Oficial",
+   "categoria": "Vestidos",
+   "busca": "conjunto feminino réveillon"
+  },
+  {
+   "nome": "conjunto Feminino branco short saia longa + Cropped de paetê estilo réveillon praia lual",
+   "preco": 70.0,
+   "foto": "https://cf.shopee.com.br/file/sg-11134201-824i9-mehtucxpp62v4e",
+   "link": "https://s.shopee.com.br/AUvcYagTCs",
+   "desconto": 36,
+   "loja": "Vorastore",
+   "categoria": "Vestidos",
+   "busca": "conjunto feminino réveillon"
+  },
+  {
+   "nome": "Conjunto Feminino Alfaiataria Elegante Colete e Short Social Look Fim de Ano e Réveillon",
+   "preco": 47.0,
+   "foto": "https://cf.shopee.com.br/file/br-11134207-81z1k-mgcqmj2ahx5128",
+   "link": "https://s.shopee.com.br/AAIm9yhjsm",
+   "desconto": 33,
+   "loja": "Criss Modas",
+   "categoria": "Vestidos",
+   "busca": "conjunto feminino réveillon"
+  },
+  {
+   "nome": "Conjunto Feminino Elegante Saia e Top Cropped em Tule Festa Reveillon Ano Novo",
+   "preco": 56.9,
+   "foto": "https://cf.shopee.com.br/file/br-11134207-820lu-mvj1og0y3p4x21",
+   "link": "https://s.shopee.com.br/8Kr7yboibf",
+   "desconto": 32,
+   "loja": "Charmosa e Poderosa",
+   "categoria": "Vestidos",
+   "busca": "conjunto feminino réveillon"
+  },
+  {
+   "nome": "Conjunto Cropped e Saia Longa Feminino Tricot Rendando Moda Verão Natal Réveillon Moda Blogueira",
+   "preco": 112.48,
+   "foto": "https://cf.shopee.com.br/file/br-11134207-820lb-mu3z4dpoz8xu8e",
+   "link": "https://s.shopee.com.br/AKcCMHh6Xr",
+   "desconto": 30,
+   "loja": "Cagê Store",
+   "categoria": "Vestidos",
+   "busca": "conjunto feminino réveillon"
+  },
+  {
+   "nome": "Conjunto Feminino Cropped + Pantalona Wide Leg Canelado Réveillon Natal Ano Novo Festa Elegante",
+   "preco": 53.89,
+   "foto": "https://cf.shopee.com.br/file/br-11134207-820mg-mshqg5e11jwnc3",
+   "link": "https://s.shopee.com.br/20x0Nr1d26",
+   "desconto": 29,
+   "loja": "HUBCOMMERCE LTDA",
+   "categoria": "Vestidos",
+   "busca": "conjunto feminino réveillon"
+  },
+  {
+   "nome": "Conjunto Feminino Alfaiataria com Colete e Short Zíper Elegante Verão Natal Réveillon Festas Fim De Ano LUXO  LUXO",
+   "preco": 76.92,
+   "foto": "https://cf.shopee.com.br/file/br-11134201-820m9-mvlnvpwqqghva1",
+   "link": "https://s.shopee.com.br/LoqRuJApq",
+   "desconto": 23,
+   "loja": "Entronize",
+   "categoria": "Vestidos",
+   "busca": "conjunto feminino réveillon"
+  },
+  {
+   "nome": "Conjunto Feminino Alfaiataria Peplum Shorts Blusa Elegante Verão Natal Revéillon Festas Festas Fim De Ano Luxo",
+   "preco": 76.92,
+   "foto": "https://cf.shopee.com.br/file/br-11134207-820m1-mvkygy9f0yyqe5",
+   "link": "https://s.shopee.com.br/8pnOZWmoae",
+   "desconto": 23,
+   "loja": "Entronize",
    "categoria": "Vestidos",
    "busca": "conjunto feminino réveillon"
   },
@@ -702,6 +652,16 @@
    "busca": "pisca pisca led natal"
   },
   {
+   "nome": "LED Cortina luz led pisca pisca de natal ao Luzes Pisca Cascata Decoração Branco Quente Janela",
+   "preco": 25.0,
+   "foto": "https://cf.shopee.com.br/file/br-11134207-820lh-mudnxmogs077a2",
+   "link": "https://s.shopee.com.br/60TAXchpYh",
+   "desconto": 62,
+   "loja": "CHUANGXIN",
+   "categoria": "Decoração",
+   "busca": "pisca pisca led natal"
+  },
+  {
    "nome": "3M Bivolt 110V–220V Cortina de Luz Natal Estrela 5 Pontas, Pisca-pisca LED, Quintal KL-511",
    "preco": 38.99,
    "foto": "https://cf.shopee.com.br/file/br-11134207-820m8-msnpda76ji100f",
@@ -722,32 +682,42 @@
    "busca": "pisca pisca led natal"
   },
   {
-   "nome": "LED Cortina luz led pisca pisca de natal ao Luzes Pisca Cascata Decoração Branco Quente Janela",
-   "preco": 25.9,
-   "foto": "https://cf.shopee.com.br/file/br-11134207-820lh-mudnxmogs077a2",
-   "link": "https://s.shopee.com.br/60TAXchpYh",
-   "desconto": 59,
-   "loja": "CHUANGXIN",
+   "nome": "Cortina luz 300/600 LED 3/6x3M cortina com 8 Modos USB Natal Fadas Luzes Pisca Cascata Decoração Janela 110v-220v",
+   "preco": 35.99,
+   "foto": "https://cf.shopee.com.br/file/br-11134207-820m8-msnwhylh0p38e3",
+   "link": "https://s.shopee.com.br/7KyX8H7Bvz",
+   "desconto": 60,
+   "loja": "VAULT NET COMERCIAL E DISTRIBUIDORA",
    "categoria": "Decoração",
    "busca": "pisca pisca led natal"
   },
   {
    "nome": "Pisca Pisca Natal Cordão 100 Leds 10m 8 Funções Varias Cores 110v / 220v ANJIN",
-   "preco": 13.9,
+   "preco": 13.5,
    "foto": "https://cf.shopee.com.br/file/sg-11134201-7rdyh-m0yj94qxv1hjb2",
    "link": "https://s.shopee.com.br/2qW7m0OK3f",
-   "desconto": 54,
+   "desconto": 55,
    "loja": "ANJIN IMPORTS",
    "categoria": "Decoração",
    "busca": "pisca pisca led natal"
   },
   {
    "nome": "Pisca Pisca Natal Cordão 100 Leds 10m 8 Funções Varias Cores 110v / 220v - 99P",
-   "preco": 13.9,
+   "preco": 13.59,
    "foto": "https://cf.shopee.com.br/file/sg-11134201-7rdyh-m0yj94qxv1hjb2",
    "link": "https://s.shopee.com.br/7punjC5Hv2",
-   "desconto": 54,
+   "desconto": 55,
    "loja": "99 Presentes",
+   "categoria": "Decoração",
+   "busca": "pisca pisca led natal"
+  },
+  {
+   "nome": "Cortina de Luz LED Multicolorida 3x3m ou 4x3m USB com Controle Remoto, 8 Modos para Festa e Decoração",
+   "preco": 26.9,
+   "foto": "https://cf.shopee.com.br/file/br-11134207-820lm-mt5crbng84cm72",
+   "link": "https://s.shopee.com.br/4qHCA0Z638",
+   "desconto": 54,
+   "loja": "PICOMERCE",
    "categoria": "Decoração",
    "busca": "pisca pisca led natal"
   },
@@ -758,26 +728,6 @@
    "link": "https://s.shopee.com.br/2BGQz6jFSs",
    "desconto": 53,
    "loja": "RITA BOUTIQUES-999",
-   "categoria": "Decoração",
-   "busca": "pisca pisca led natal"
-  },
-  {
-   "nome": "Cortina de Luz LED Multicolorida 3x3m ou 4x3m USB com Controle Remoto, 8 Modos para Festa e Decoração",
-   "preco": 28.4,
-   "foto": "https://cf.shopee.com.br/file/br-11134207-820lm-mt5crbng84cm72",
-   "link": "https://s.shopee.com.br/4qHCA0Z638",
-   "desconto": 52,
-   "loja": "PICOMERCE",
-   "categoria": "Decoração",
-   "busca": "pisca pisca led natal"
-  },
-  {
-   "nome": "Pisca Pisca de Natal Cordão 100 Leds 10 m 8 Funçõe Fio Transparente/Verde 110V",
-   "preco": 13.9,
-   "foto": "https://cf.shopee.com.br/file/br-11134207-820lc-mubdxr4qsbnm3e",
-   "link": "https://s.shopee.com.br/50acLzG4fE",
-   "desconto": 52,
-   "loja": "ASINA CASA E DECORAÇAO",
    "categoria": "Decoração",
    "busca": "pisca pisca led natal"
   },
