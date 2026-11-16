@@ -1,5 +1,5 @@
 {
- "atualizado": "15/11/2026 16:08",
+ "atualizado": "15/11/2026 22:25",
  "produtos": [
   {
    "nome": "Vestido Infantil Menina Vermelho Pompom MODELO LUXO FESTAS NATAL",
@@ -120,6 +120,56 @@
    "loja": "CHIC ESTILO",
    "categoria": "Vestidos",
    "busca": "vestido de natal"
+  },
+  {
+   "nome": "Vestido Curto Soltinho Frente Unica elegante",
+   "preco": 39.25,
+   "foto": "https://cf.shopee.com.br/file/sg-11134201-822y0-mhxejpm0ga9ue1",
+   "link": "https://s.shopee.com.br/9fMRuqzQNc",
+   "desconto": 70,
+   "loja": "Fortis",
+   "categoria": "Vestidos",
+   "busca": "vestido réveillon branco"
+  },
+  {
+   "nome": "Vestido Longo Réveillon Branco Trançado nas Costas com Fenda Alça Fina Festa Ano Novo Madrinha Formatura Verão",
+   "preco": 38.94,
+   "foto": "https://cf.shopee.com.br/file/br-11134207-820lx-mu0r13pqik1u89",
+   "link": "https://s.shopee.com.br/AUvYTz2Mua",
+   "desconto": 40,
+   "loja": "tibstore2",
+   "categoria": "Vestidos",
+   "busca": "vestido réveillon branco"
+  },
+  {
+   "nome": "Vestido Pet Réveillon Roupinha Para Cachorro Para Virada de Ano Vestido De Cachorro Branco",
+   "preco": 37.74,
+   "foto": "https://cf.shopee.com.br/file/br-11134207-81z1k-mhxuhecd8gsi55",
+   "link": "https://s.shopee.com.br/6VPPidHb1w",
+   "desconto": 37,
+   "loja": "MW Pet Shop Acessórios",
+   "categoria": "Vestidos",
+   "busca": "vestido réveillon branco"
+  },
+  {
+   "nome": "Vestido Feminino Midi Branco Vermelho Um Ombro Só Modelador Moda Gringa Sofisticado Festas",
+   "preco": 59.39,
+   "foto": "https://cf.shopee.com.br/file/br-11134207-820l5-mt476pfc5c07d1",
+   "link": "https://s.shopee.com.br/4B1XiKZF1g",
+   "desconto": 34,
+   "loja": "MODA FASHION SECRET",
+   "categoria": "Vestidos",
+   "busca": "vestido réveillon branco"
+  },
+  {
+   "nome": "Vestido Midi Nula Manga com Laço Off White Branco Casamento Civil Noivado Batizado Eventos Reveillon",
+   "preco": 166.49,
+   "foto": "https://cf.shopee.com.br/file/br-11134207-820mc-moe36gr9ua6de5",
+   "link": "https://s.shopee.com.br/5fqIj6Klij",
+   "desconto": 21,
+   "loja": "Detrix",
+   "categoria": "Vestidos",
+   "busca": "vestido réveillon branco"
   },
   {
    "nome": "Vestido Longo De Festa Feminino Elegante Super Promoção",
@@ -273,20 +323,20 @@
   },
   {
    "nome": "Vestido Curto Gola Alta Frente Única Festa Assimétrico Leve Casual Duna Leve Não Amassa",
-   "preco": 29.99,
+   "preco": 34.99,
    "foto": "https://cf.shopee.com.br/file/br-11134207-820lo-msz2aq8xpati9b",
    "link": "https://s.shopee.com.br/4fxlxLDgN2",
-   "desconto": 62,
+   "desconto": 56,
    "loja": "Estilosa Modas.",
    "categoria": "Vestidos",
    "busca": "vestido curto festa"
   },
   {
    "nome": "Vestido Feminino Curto Festa Elegante Frente Unica Gola Alta Babado ASSIMETRICO",
-   "preco": 29.99,
+   "preco": 35.99,
    "foto": "https://cf.shopee.com.br/file/br-11134207-820lg-mtlpuy0rhfk0e6",
    "link": "https://s.shopee.com.br/ql3OISH9h",
-   "desconto": 62,
+   "desconto": 55,
    "loja": "Estilosa Modas.",
    "categoria": "Vestidos",
    "busca": "vestido curto festa"
@@ -462,22 +512,22 @@
    "busca": "macacão feminino festa"
   },
   {
-   "nome": "Macacão Feminino Longo Elegante Pantalona Slim e Plus Size Alcinha Decote V Social Alfaiataria Duna Festas Casamentos",
-   "preco": 49.9,
-   "foto": "https://cf.shopee.com.br/file/sg-11134201-8259o-mte64fb65yiu55",
-   "link": "https://s.shopee.com.br/1qdaa8kT38",
-   "desconto": 44,
-   "loja": "Lanour MODA",
-   "categoria": "Vestidos",
-   "busca": "macacão feminino festa"
-  },
-  {
    "nome": "Macacão Feminino Elegante Pantalona com Bojo | Tecido Duna Premium | Festa e Casamento",
    "preco": 69.6,
    "foto": "https://cf.shopee.com.br/file/br-11134207-820ly-mmlxk2j4v6ro2b",
    "link": "https://s.shopee.com.br/1BwOlrRlt",
    "desconto": 42,
    "loja": "MUNOZ MODAS",
+   "categoria": "Vestidos",
+   "busca": "macacão feminino festa"
+  },
+  {
+   "nome": "Macacão Longo Feminino Alfaiataria Social Alça Fina Com Cinto Festa Eventos",
+   "preco": 79.99,
+   "foto": "https://cf.shopee.com.br/file/br-11134207-7r98o-mbx5ysja38o71e",
+   "link": "https://s.shopee.com.br/2BGQykjCN6",
+   "desconto": 34,
+   "loja": "JHFASHION_",
    "categoria": "Vestidos",
    "busca": "macacão feminino festa"
   },
@@ -490,126 +540,6 @@
    "loja": "Mooka Mrs.",
    "categoria": "Vestidos",
    "busca": "conjunto feminino réveillon"
-  },
-  {
-   "nome": "Bloco De Construção De Natal Série Papai Noel Rena Quebra-Cabeça Montagem Tijolos Decoração De Mesa Brinquedos Infantis Para O Miúdo Presente",
-   "preco": 6.99,
-   "foto": "https://cf.shopee.com.br/file/sg-11134201-7rdyo-m13xoc765m5ae8",
-   "link": "https://s.shopee.com.br/1BNtnGn3Um",
-   "desconto": 93,
-   "loja": "MagicMart.br",
-   "categoria": "Decoração",
-   "busca": "decoração de natal"
-  },
-  {
-   "nome": "Capa de Porta Painel de Mesa Decoração de Natal Papai Noel Natalina",
-   "preco": 18.9,
-   "foto": "https://cf.shopee.com.br/file/br-11134207-820lx-ms4h9vh6zbph48",
-   "link": "https://s.shopee.com.br/1qdaaUkW8q",
-   "desconto": 79,
-   "loja": "Celebra Arte",
-   "categoria": "Decoração",
-   "busca": "decoração de natal"
-  },
-  {
-   "nome": "Fio De Fada De 2M Com Luzes De Fadas Led Para Decoração De Casa E Festa De Natal",
-   "preco": 4.99,
-   "foto": "https://cf.shopee.com.br/file/cn-11134207-7ras8-m4sgd4jf2pep7f",
-   "link": "https://s.shopee.com.br/5Au2YcXpNA",
-   "desconto": 71,
-   "loja": "HONG11.br",
-   "categoria": "Decoração",
-   "busca": "decoração de natal"
-  },
-  {
-   "nome": "Fio De Fada De 2M Com Luzes De Fadas Led Para Decoração De Casa E Festa De Natal",
-   "preco": 4.99,
-   "foto": "https://cf.shopee.com.br/file/sg-11134201-7ra1c-m4sgiysdbniif0",
-   "link": "https://s.shopee.com.br/4B1VMmbdP4",
-   "desconto": 71,
-   "loja": "SZFG1.br",
-   "categoria": "Decoração",
-   "busca": "decoração de natal"
-  },
-  {
-   "nome": "Flores De Natal Premium  Arvore Artificial Decoração Enfeites Para Arvore de Natal Brilhante Luxo Pick Up",
-   "preco": 25.73,
-   "foto": "https://cf.shopee.com.br/file/sg-11134201-8258x-msejixjr1ukke1",
-   "link": "https://s.shopee.com.br/3LSONFeo5z",
-   "desconto": 71,
-   "loja": "MMS-IMP",
-   "categoria": "Decoração",
-   "busca": "decoração de natal"
-  },
-  {
-   "nome": "1/2/5 Pcs Colorido Fio Fada 2M Com Luzes Led Fada Para Decoração De Casa e Natal Festa",
-   "preco": 9.9,
-   "foto": "https://cf.shopee.com.br/file/br-11134207-7r98o-lknc2jcks6ab26",
-   "link": "https://s.shopee.com.br/4VeLlOaMj6",
-   "desconto": 60,
-   "loja": "1000 Coisas Variedades",
-   "categoria": "Decoração",
-   "busca": "decoração de natal"
-  },
-  {
-   "nome": "Projetor LED Natalino 16 Temas Luzes de Natal Desenhos Coloridos Rotação 270° Decoração Casa Jardim Parede Festa",
-   "preco": 39.88,
-   "foto": "https://cf.shopee.com.br/file/br-11134207-820lg-mtw3amr9o4xu08",
-   "link": "https://s.shopee.com.br/3B8yAwfRQy",
-   "desconto": 60,
-   "loja": "PENGFA TECH LTDA",
-   "categoria": "Decoração",
-   "busca": "decoração de natal"
-  },
-  {
-   "nome": "1/2/5 Pcs Colorido Fio Fada 2M Com Luzes Led Fada Para Decoração De Casa e Natal Festa",
-   "preco": 9.9,
-   "foto": "https://cf.shopee.com.br/file/sg-11134201-825ao-mu7dow70hmgw59",
-   "link": "https://s.shopee.com.br/2gCha1hLRv",
-   "desconto": 60,
-   "loja": "INFINITY COMERCIO DE VARIEDADES",
-   "categoria": "Decoração",
-   "busca": "decoração de natal"
-  },
-  {
-   "nome": "Pisca Pisca Natal Cordão 100 Leds 10m 8 Funções Varias Cores 110v / 220v ANJIN",
-   "preco": 13.9,
-   "foto": "https://cf.shopee.com.br/file/sg-11134201-7rdyh-m0yj94qxv1hjb2",
-   "link": "https://s.shopee.com.br/2qW7m0OK3f",
-   "desconto": 54,
-   "loja": "ANJIN IMPORTS",
-   "categoria": "Decoração",
-   "busca": "decoração de natal"
-  },
-  {
-   "nome": "Cortina de Luz LED Natal Pisca Pisca Cascata 5m 148 LEDs Decoração Natalina para Janela Porta Parede",
-   "preco": 69.99,
-   "foto": "https://cf.shopee.com.br/file/br-11134207-820ld-mtp0rmc3egw2f1",
-   "link": "https://s.shopee.com.br/2BGQz6jFSs",
-   "desconto": 53,
-   "loja": "RITA BOUTIQUES-999",
-   "categoria": "Decoração",
-   "busca": "decoração de natal"
-  },
-  {
-   "nome": "Cortina de Luz LED Multicolorida 3x3m ou 4x3m USB com Controle Remoto, 8 Modos para Festa e Decoração",
-   "preco": 28.4,
-   "foto": "https://cf.shopee.com.br/file/br-11134207-820lm-mt5crbng84cm72",
-   "link": "https://s.shopee.com.br/4qHCA0Z638",
-   "desconto": 52,
-   "loja": "PICOMERCE",
-   "categoria": "Decoração",
-   "busca": "decoração de natal"
-  },
-  {
-   "nome": "Festão Aramado Galhos Verde Cru Enfeite de Natal Rattan Decoração Natalina Ambientes Diversos - XL3227",
-   "preco": 29.99,
-   "foto": "https://cf.shopee.com.br/file/sg-11134201-7rdvi-lzqk7nzoeh7u07",
-   "link": "https://s.shopee.com.br/1LhJzZmQ9n",
-   "desconto": 51,
-   "loja": "VIA FLOWER",
-   "categoria": "Decoração",
-   "busca": "decoração de natal"
   },
   {
    "nome": "【 exquisite Alta Qualidade 】 Snowflake Cartas Vermelhas Meias De Natal Pingentes De Árvore Ornamentos E Presentes",
@@ -638,6 +568,16 @@
    "link": "https://s.shopee.com.br/3VloZDvSHq",
    "desconto": 74,
    "loja": "videcor",
+   "categoria": "Decoração",
+   "busca": "árvore de natal"
+  },
+  {
+   "nome": "Flores De Natal Premium  Arvore Artificial Decoração Enfeites Para Arvore de Natal Brilhante Luxo Pick Up",
+   "preco": 25.73,
+   "foto": "https://cf.shopee.com.br/file/sg-11134201-8258x-msejixjr1ukke1",
+   "link": "https://s.shopee.com.br/3LSONFeo5z",
+   "desconto": 71,
+   "loja": "MMS-IMP",
    "categoria": "Decoração",
    "busca": "árvore de natal"
   },
@@ -722,16 +662,6 @@
    "busca": "árvore de natal"
   },
   {
-   "nome": "Árvore de Natal LED 1,80m Espiral com Estrela Iluminada e Enfeites Inclusos para Decoração",
-   "preco": 146.5,
-   "foto": "https://cf.shopee.com.br/file/br-11134207-820l6-mtgg98a4ljwi51",
-   "link": "https://s.shopee.com.br/W8Czi6sNY",
-   "desconto": 49,
-   "loja": "ZAKKA BAZAR  LTDA",
-   "categoria": "Decoração",
-   "busca": "árvore de natal"
-  },
-  {
    "nome": "Strobo Pisca Pisca Cordão Natal 500 Leds 50m Prova D'Água Bivolt  100 Flash  Decoração Enfeite Natal LuvinCo",
    "preco": 159.99,
    "foto": "https://cf.shopee.com.br/file/br-11134207-820lg-mu2deg1ohybl3b",
@@ -802,6 +732,16 @@
    "busca": "pisca pisca led natal"
   },
   {
+   "nome": "Pisca Pisca Natal Cordão 100 Leds 10m 8 Funções Varias Cores 110v / 220v ANJIN",
+   "preco": 13.9,
+   "foto": "https://cf.shopee.com.br/file/sg-11134201-7rdyh-m0yj94qxv1hjb2",
+   "link": "https://s.shopee.com.br/2qW7m0OK3f",
+   "desconto": 54,
+   "loja": "ANJIN IMPORTS",
+   "categoria": "Decoração",
+   "busca": "pisca pisca led natal"
+  },
+  {
    "nome": "Pisca Pisca Natal Cordão 100 Leds 10m 8 Funções Varias Cores 110v / 220v - 99P",
    "preco": 13.9,
    "foto": "https://cf.shopee.com.br/file/sg-11134201-7rdyh-m0yj94qxv1hjb2",
@@ -812,42 +752,32 @@
    "busca": "pisca pisca led natal"
   },
   {
+   "nome": "Cortina de Luz LED Natal Pisca Pisca Cascata 5m 148 LEDs Decoração Natalina para Janela Porta Parede",
+   "preco": 69.99,
+   "foto": "https://cf.shopee.com.br/file/br-11134207-820ld-mtp0rmc3egw2f1",
+   "link": "https://s.shopee.com.br/2BGQz6jFSs",
+   "desconto": 53,
+   "loja": "RITA BOUTIQUES-999",
+   "categoria": "Decoração",
+   "busca": "pisca pisca led natal"
+  },
+  {
+   "nome": "Cortina de Luz LED Multicolorida 3x3m ou 4x3m USB com Controle Remoto, 8 Modos para Festa e Decoração",
+   "preco": 28.4,
+   "foto": "https://cf.shopee.com.br/file/br-11134207-820lm-mt5crbng84cm72",
+   "link": "https://s.shopee.com.br/4qHCA0Z638",
+   "desconto": 52,
+   "loja": "PICOMERCE",
+   "categoria": "Decoração",
+   "busca": "pisca pisca led natal"
+  },
+  {
    "nome": "Pisca Pisca de Natal Cordão 100 Leds 10 m 8 Funçõe Fio Transparente/Verde 110V",
    "preco": 13.9,
    "foto": "https://cf.shopee.com.br/file/br-11134207-820lc-mubdxr4qsbnm3e",
    "link": "https://s.shopee.com.br/50acLzG4fE",
    "desconto": 52,
    "loja": "ASINA CASA E DECORAÇAO",
-   "categoria": "Decoração",
-   "busca": "pisca pisca led natal"
-  },
-  {
-   "nome": "Pisca Pisca Natal 10m 100 LEDs 8 Funções 110V/220V Colorido ou Amarelo Decoração",
-   "preco": 16.9,
-   "foto": "https://cf.shopee.com.br/file/br-11134207-820ls-muixqmy72qyp4f",
-   "link": "https://s.shopee.com.br/7VHxKa6Yb0",
-   "desconto": 52,
-   "loja": "Tudo Bom ",
-   "categoria": "Decoração",
-   "busca": "pisca pisca led natal"
-  },
-  {
-   "nome": "Cortina de Luz LED 3x3m Branco Quente 300 LEDs USB com Controle Remoto e 8 Modos",
-   "preco": 25.18,
-   "foto": "https://cf.shopee.com.br/file/sg-11134201-7rdxa-ly58kn0dlmr881",
-   "link": "https://s.shopee.com.br/3qOexqKW1t",
-   "desconto": 50,
-   "loja": "PICOMERCE",
-   "categoria": "Decoração",
-   "busca": "pisca pisca led natal"
-  },
-  {
-   "nome": "Cascata de Natal Estrelas Bivolt Leds com 8 Funções em cores Branco Quente e Pisca Pisca",
-   "preco": 49.9,
-   "foto": "https://cf.shopee.com.br/file/br-11134207-820lo-mrgjznp82i2vcd",
-   "link": "https://s.shopee.com.br/7Af6vy7pGq",
-   "desconto": 50,
-   "loja": "PRATIKILAR",
    "categoria": "Decoração",
    "busca": "pisca pisca led natal"
   },
@@ -1052,16 +982,6 @@
    "busca": "bolsa festa feminina"
   },
   {
-   "nome": "Bolsa Clutch Festa Dourada com Brilho e Alça Transversal Elegante para Casamento Festas Y1032",
-   "preco": 57.2,
-   "foto": "https://cf.shopee.com.br/file/sg-11134201-7rd55-m7c12ncjpxpya1",
-   "link": "https://s.shopee.com.br/5fqLHYTnoX",
-   "desconto": 56,
-   "loja": "LuxClutch",
-   "categoria": "Acessórios",
-   "busca": "bolsa festa feminina"
-  },
-  {
    "nome": "Bolsa clutch festa Casament bolsa com brilho de fest Carteira Feminina Com Glitter brilho de fest Carteira Feminina jant",
    "preco": 48.99,
    "foto": "https://cf.shopee.com.br/file/sg-11134201-825b9-msr67sx0psec36",
@@ -1082,6 +1002,16 @@
    "busca": "bolsa festa feminina"
   },
   {
+   "nome": "Bolsa Clutch Festa Dourada com Brilho e Alça Transversal Elegante para Casamento Festas Y1032",
+   "preco": 66.37,
+   "foto": "https://cf.shopee.com.br/file/sg-11134201-7rd55-m7c12ncjpxpya1",
+   "link": "https://s.shopee.com.br/5fqLHYTnoX",
+   "desconto": 49,
+   "loja": "LuxClutch",
+   "categoria": "Acessórios",
+   "busca": "bolsa festa feminina"
+  },
+  {
    "nome": "Bolsa Luna Clutch Feminina Elegante com Alça de Corrente Dourada – Festa, Casamento e Eventos",
    "preco": 38.42,
    "foto": "https://cf.shopee.com.br/file/br-11134201-820m0-mtcnp2m42ups28",
@@ -1092,22 +1022,122 @@
    "busca": "bolsa festa feminina"
   },
   {
-   "nome": "Virginia Kit Brinco e Anel Prata 925 Ponto de Luz Duplo Feminino Zircônia 8mm Ajustável",
-   "preco": 21.95,
-   "foto": "https://cf.shopee.com.br/file/br-11134207-820lb-mujtuhixjvnm26",
-   "link": "https://s.shopee.com.br/1gKAghNK71",
-   "desconto": 56,
-   "loja": "Zatti Joias",
+   "nome": "925 prata elegante All-Match amor flor pequeno brinco feminino conjunto jóias antialérgicas",
+   "preco": 10.9,
+   "foto": "https://cf.shopee.com.br/file/sg-11134201-8258i-mrmvgv1acvesba",
+   "link": "https://s.shopee.com.br/W8Czk1WxS",
+   "desconto": 92,
+   "loja": "Robin Jewelry",
    "categoria": "Acessórios",
    "busca": "brinco feminino"
   },
   {
-   "nome": "Kit 3 Pares de Brincos Femininos Folheado a ouro 18k Coração e Pérola Dourado Delicado Elegante",
-   "preco": 14.0,
-   "foto": "https://cf.shopee.com.br/file/br-11134207-820m8-mtob63vw3aiqf4",
-   "link": "https://s.shopee.com.br/2BGRHcLQ68",
-   "desconto": 33,
-   "loja": "Zatti Joias",
+   "nome": "Brincos femininos 1 par, na cor dourada, com zircônia embutida, design de estrela de oito pontas, feitos de liga metálic",
+   "preco": 10.06,
+   "foto": "https://cf.shopee.com.br/file/sg-11134201-8257z-mvbgy7621clg9a",
+   "link": "https://s.shopee.com.br/50acM0kOot",
+   "desconto": 82,
+   "loja": "Choice Oficial",
+   "categoria": "Acessórios",
+   "busca": "brinco feminino"
+  },
+  {
+   "nome": "Conjunto de Joias Femininas 3 Peças Colar Brincos e Pulseira Flor Dourada",
+   "preco": 21.99,
+   "foto": "https://cf.shopee.com.br/file/sg-11134201-824g1-mpmbvrm0eqyq1e",
+   "link": "https://s.shopee.com.br/BVMb82ndM",
+   "desconto": 76,
+   "loja": "Bonito E Lindo",
+   "categoria": "Acessórios",
+   "busca": "brinco feminino"
+  },
+  {
+   "nome": "Conjunto Feminino 5 Peças Relógio Colar Brincos Pulseira Anel Dourado",
+   "preco": 37.99,
+   "foto": "https://cf.shopee.com.br/file/sg-11134201-8258m-mt566n3atc01c7",
+   "link": "https://s.shopee.com.br/40i5AAoCqj",
+   "desconto": 62,
+   "loja": "GlamGlow_Store",
+   "categoria": "Acessórios",
+   "busca": "brinco feminino"
+  },
+  {
+   "nome": "Kit Relógio Feminino Marrom + Colar Gota Brincos Pulseira Anel Dourado 5 Peças",
+   "preco": 37.99,
+   "foto": "https://cf.shopee.com.br/file/sg-11134201-82592-muzuj1j167ey56",
+   "link": "https://s.shopee.com.br/1W0kBZxivU",
+   "desconto": 62,
+   "loja": "Bonito E Lindo",
+   "categoria": "Acessórios",
+   "busca": "brinco feminino"
+  },
+  {
+   "nome": "Piercing Tragus Aço Inox com Zircônia Helix Flat Conch Lóbulo Labret Brinco Feminino Masculino Alta Qualidade Premium",
+   "preco": 14.4,
+   "foto": "https://cf.shopee.com.br/file/br-11134207-820mg-msznutbywow5c4",
+   "link": "https://s.shopee.com.br/3VloZFq6rg",
+   "desconto": 61,
+   "loja": "dellysmea",
+   "categoria": "Acessórios",
+   "busca": "brinco feminino"
+  },
+  {
+   "nome": "Kit 3 pares de brincos femininos prata 925, pingentes de flores incrustados com zircônia, banhados a ouro 18K",
+   "preco": 19.99,
+   "foto": "https://cf.shopee.com.br/file/br-11134207-81z1k-met3iuz8eb5t24",
+   "link": "https://s.shopee.com.br/3g5ElYpTWl",
+   "desconto": 60,
+   "loja": "Doce Semmijoias",
+   "categoria": "Acessórios",
+   "busca": "brinco feminino"
+  },
+  {
+   "nome": "Brincos de Folha em Aço Inoxidável Banho Ouro  Hipoalergênicos Estilo Minimalista Feminino presente",
+   "preco": 11.99,
+   "foto": "https://cf.shopee.com.br/file/br-11134207-820m9-mnx1u630wm4g88",
+   "link": "https://s.shopee.com.br/30pXyKs0sh",
+   "desconto": 60,
+   "loja": "Brilho Charmoso",
+   "categoria": "Acessórios",
+   "busca": "brinco feminino"
+  },
+  {
+   "nome": "Conjunto Feminino Dourado Gota Colar Pulseira e Brincos Acessórios Elegantes Presente",
+   "preco": 14.86,
+   "foto": "https://cf.shopee.com.br/file/br-11134207-820lc-msvebquitn2c6d",
+   "link": "https://s.shopee.com.br/20x0mUvouX",
+   "desconto": 60,
+   "loja": "An Fu",
+   "categoria": "Acessórios",
+   "busca": "brinco feminino"
+  },
+  {
+   "nome": "Kit 3 pares Brinco Trio Argola BANHADA PRATA OURO 18K com Zircônia PRA feminina Cravejada/Modelo aleatório",
+   "preco": 13.99,
+   "foto": "https://cf.shopee.com.br/file/sg-11134201-824it-mpsh6c5dg0lre5",
+   "link": "https://s.shopee.com.br/1qdaaBwSFa",
+   "desconto": 53,
+   "loja": "LEO Lux Acessórios & Cosméticos",
+   "categoria": "Acessórios",
+   "busca": "brinco feminino"
+  },
+  {
+   "nome": "Kit C/ 04 Acessórios Cosplay Audrey Hepburn Acessórios de Festa Anos 50/60 Retrô Com Óculos Lenço Colar Brinco",
+   "preco": 31.9,
+   "foto": "https://cf.shopee.com.br/file/sg-11134201-8258q-msjwn95r3k7e26",
+   "link": "https://s.shopee.com.br/2LZrB6uYEd",
+   "desconto": 51,
+   "loja": "G SILVER",
+   "categoria": "Acessórios",
+   "busca": "brinco feminino"
+  },
+  {
+   "nome": "Nova Tendência Garras Brincos De Com Pedra De Cristal Design Moderno Moda Acessórios Versáteis Jóias Femininas",
+   "preco": 10.2,
+   "foto": "https://cf.shopee.com.br/file/cn-11134207-7qukw-li1gii0do6ara2",
+   "link": "https://s.shopee.com.br/3LSOMwqkCf",
+   "desconto": 50,
+   "loja": "Fashionofficialjewelry.br",
    "categoria": "Acessórios",
    "busca": "brinco feminino"
   }
