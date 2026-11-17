@@ -1,5 +1,5 @@
 {
- "atualizado": "17/11/2026 05:31",
+ "atualizado": "17/11/2026 15:46",
  "produtos": [
   {
    "nome": "Vestido Infantil Menina Vermelho Pompom MODELO LUXO FESTAS NATAL",
@@ -92,6 +92,16 @@
    "busca": "vestido de natal"
   },
   {
+   "nome": "Vestido Feminino Saruel Midi Casual Elegante Look Natal Ano Novo Confortável",
+   "preco": 29.9,
+   "foto": "https://cf.shopee.com.br/file/br-11134207-820m0-muaow7yx1gqr9d",
+   "link": "https://s.shopee.com.br/3g5KDtlSoX",
+   "desconto": 53,
+   "loja": "Na Contra Mão",
+   "categoria": "Vestidos",
+   "busca": "vestido de natal"
+  },
+  {
    "nome": "Vestido Feminino Elegante Manga Princesa Tubinho Com Bojo Tendencia Natal",
    "preco": 44.9,
    "foto": "https://cf.shopee.com.br/file/br-11134207-81z1k-mgpkcapi1hc470",
@@ -108,16 +118,6 @@
    "link": "https://s.shopee.com.br/AAInKxbUtt",
    "desconto": 50,
    "loja": "IS_Modas",
-   "categoria": "Vestidos",
-   "busca": "vestido de natal"
-  },
-  {
-   "nome": "Vestido Infantil Juvenil Meninas Tecido Confortável Babado Tomara que Caia Rodado Moda Verão Natal Ano Novo Festas",
-   "preco": 34.5,
-   "foto": "https://cf.shopee.com.br/file/br-11134201-820le-mutyewcbi4ua49",
-   "link": "https://s.shopee.com.br/9KjgLQefam",
-   "desconto": 50,
-   "loja": "Sorellatshirt",
    "categoria": "Vestidos",
    "busca": "vestido de natal"
   },
@@ -170,126 +170,6 @@
    "loja": "Detrix",
    "categoria": "Vestidos",
    "busca": "vestido réveillon branco"
-  },
-  {
-   "nome": "Vestido Longo De Festa Feminino Elegante Super Promoção",
-   "preco": 49.9,
-   "foto": "https://cf.shopee.com.br/file/br-11134207-81ztm-mkmhh6ezk8ox05",
-   "link": "https://s.shopee.com.br/2VtMCsdOsB",
-   "desconto": 68,
-   "loja": "estilodellasatacado",
-   "categoria": "Vestidos",
-   "busca": "vestido longo festa"
-  },
-  {
-   "nome": "Vestido feminino Várias Formas Multiuso Infinity Longo Festa Madrinha Casamento Formatura Batizado",
-   "preco": 29.99,
-   "foto": "https://cf.shopee.com.br/file/sg-11134201-823rs-mon15xcdi0i3d5",
-   "link": "https://s.shopee.com.br/8fTzYDFvMC",
-   "desconto": 67,
-   "loja": "foryou moda feminina",
-   "categoria": "Vestidos",
-   "busca": "vestido longo festa"
-  },
-  {
-   "nome": "vestido Longo Várias Formas Infinity Multiformas Festas Roupa de Casamento Madrinhas Formatura",
-   "preco": 29.99,
-   "foto": "https://cf.shopee.com.br/file/sg-11134201-823ov-momxk3qskh6ped",
-   "link": "https://s.shopee.com.br/2BGVoGefY5",
-   "desconto": 67,
-   "loja": "foryou moda feminina",
-   "categoria": "Vestidos",
-   "busca": "vestido longo festa"
-  },
-  {
-   "nome": "Vestido Longo Feminino Midi Frente Unica Costa Nua de Festa Casamento Madrinha Formatura Branco Plus Size",
-   "preco": 29.89,
-   "foto": "https://cf.shopee.com.br/file/br-11134207-820m9-mpa71g3cy4nad0",
-   "link": "https://s.shopee.com.br/9V36XkCkfB",
-   "desconto": 63,
-   "loja": "GRA JEANS OFICIAL",
-   "categoria": "Vestidos",
-   "busca": "vestido longo festa"
-  },
-  {
-   "nome": "Vestido para casamento convidada civil Feminino Longo Elegante de Festa Formatura Madrinha plus size",
-   "preco": 32.99,
-   "foto": "https://cf.shopee.com.br/file/br-11134207-7r98o-lu4zgqvo0mlcae",
-   "link": "https://s.shopee.com.br/9pfwwMBTzH",
-   "desconto": 63,
-   "loja": "wistlefashion",
-   "categoria": "Vestidos",
-   "busca": "vestido longo festa"
-  },
-  {
-   "nome": "Vestido Longo Feminino Costa Nua Midi Inverno Elegante de Festa Plus Size Praia",
-   "preco": 29.9,
-   "foto": "https://cf.shopee.com.br/file/br-11134207-820lf-mp70jdh2wqh14e",
-   "link": "https://s.shopee.com.br/9zzN8fAqeK",
-   "desconto": 63,
-   "loja": "GRA JEANS OFICIAL",
-   "categoria": "Vestidos",
-   "busca": "vestido longo festa"
-  },
-  {
-   "nome": "Vestido Longo Gola Alta Com Costa Nua Frente Única Formatura Festa Madrinha Civil",
-   "preco": 29.9,
-   "foto": "https://cf.shopee.com.br/file/br-11134207-820lj-mp1pci1km0hxd6",
-   "link": "https://s.shopee.com.br/1W0p12hCtt",
-   "desconto": 63,
-   "loja": "GRA JEANS OFICIAL",
-   "categoria": "Vestidos",
-   "busca": "vestido longo festa"
-  },
-  {
-   "nome": "Vestido Longo Frente Unica Feminino Costa Nua de Festa Casamento Madrinha Formatura Plus Size",
-   "preco": 29.89,
-   "foto": "https://cf.shopee.com.br/file/br-11134207-820lm-mu2xqfvei51cc0",
-   "link": "https://s.shopee.com.br/LorctleGo",
-   "desconto": 63,
-   "loja": "DG FASHION",
-   "categoria": "Vestidos",
-   "busca": "vestido longo festa"
-  },
-  {
-   "nome": "Vestido Longo Costa Nua Gola Alta Frente Única Formatura Festa Madrinha Civil Noivado Plus Size",
-   "preco": 29.56,
-   "foto": "https://cf.shopee.com.br/file/sg-11134201-8259k-msms5p8d6wp6e1",
-   "link": "https://s.shopee.com.br/ql8DojkFx",
-   "desconto": 63,
-   "loja": "DG FASHION",
-   "categoria": "Vestidos",
-   "busca": "vestido longo festa"
-  },
-  {
-   "nome": "Vestido Longo Costa Nua Gola Alta Frente Única Formatura Festa Madrinha Civil Noivado Plus Size",
-   "preco": 29.98,
-   "foto": "https://cf.shopee.com.br/file/br-11134207-820ld-mpa8tlyxp62u1f",
-   "link": "https://s.shopee.com.br/906pwpEegI",
-   "desconto": 62,
-   "loja": "GRA JEANS OFICIAL",
-   "categoria": "Vestidos",
-   "busca": "vestido longo festa"
-  },
-  {
-   "nome": "Vestido Musa Suplex Premium Toque Macio Alta Qualidade Envio Imediato",
-   "preco": 53.2,
-   "foto": "https://cf.shopee.com.br/file/br-11134207-820l4-mt0alyr6c1dwaf",
-   "link": "https://s.shopee.com.br/2LZw0Ze2D8",
-   "desconto": 62,
-   "loja": "Verausa",
-   "categoria": "Vestidos",
-   "busca": "vestido longo festa"
-  },
-  {
-   "nome": "Vestido Musa Suplex Premium Elegante Confortável Melhor Custo Benefício",
-   "preco": 54.6,
-   "foto": "https://cf.shopee.com.br/file/br-11134201-820ly-mt0bbx8ngb9j10",
-   "link": "https://s.shopee.com.br/8VAZLuGYh9",
-   "desconto": 61,
-   "loja": "Heramuse",
-   "categoria": "Vestidos",
-   "busca": "vestido longo festa"
   },
   {
    "nome": "Vestido Feminino Curto Gola Alta Nula Manga Moda Gringa Paty Show vestido de festa chique",
@@ -535,7 +415,7 @@
    "nome": "Biquíni Feminino Fio Duplo Bojo Removível Asa Delta",
    "preco": 32.99,
    "foto": "https://cf.shopee.com.br/file/sg-11134201-821g4-mgmhdrwe2ih91c",
-   "link": "https://s.shopee.com.br/6VPUrFN5pj",
+   "link": "https://s.shopee.com.br/1LhPReSjjK",
    "desconto": 63,
    "loja": "Mooka Mrs.",
    "categoria": "Vestidos",
@@ -645,7 +525,7 @@
    "nome": "Bloco De Construção De Natal Série Papai Noel Rena Quebra-Cabeça Montagem Tijolos Decoração De Mesa Brinquedos Infantis Para O Miúdo Presente",
    "preco": 6.99,
    "foto": "https://cf.shopee.com.br/file/sg-11134201-7rdyo-m13xoc765m5ae8",
-   "link": "https://s.shopee.com.br/3LSTNb75KN",
+   "link": "https://s.shopee.com.br/9fMXMyRKQ2",
    "desconto": 93,
    "loja": "MagicMart.br",
    "categoria": "Decoração",
@@ -655,7 +535,7 @@
    "nome": "Capa de Porta Painel de Mesa Decoração de Natal Papai Noel Natalina",
    "preco": 18.9,
    "foto": "https://cf.shopee.com.br/file/br-11134207-820lx-ms4h9vh6zbph48",
-   "link": "https://s.shopee.com.br/3VltZu6RzO",
+   "link": "https://s.shopee.com.br/9pfxZHQh55",
    "desconto": 79,
    "loja": "Celebra Arte",
    "categoria": "Decoração",
@@ -665,7 +545,7 @@
    "nome": "Cordão de Luzes LED Solar 10m/20m para Uso Externo, 8 Funções, Prova d'Água, Decoração de Natal",
    "preco": 26.99,
    "foto": "https://cf.shopee.com.br/file/sg-11134201-82589-mgew8ukw0b2kba",
-   "link": "https://s.shopee.com.br/30pcyz8M0L",
+   "link": "https://s.shopee.com.br/9V37AfRxkz",
    "desconto": 73,
    "loja": "LuxeElectra",
    "categoria": "Decoração",
@@ -755,7 +635,7 @@
    "nome": "Festão Aramado Galhos Verde Cru Enfeite de Natal Rattan Decoração Natalina Ambientes Diversos - XL3227",
    "preco": 29.99,
    "foto": "https://cf.shopee.com.br/file/sg-11134201-7rdvi-lzqk7nzoeh7u07",
-   "link": "https://s.shopee.com.br/3B93BI7ifM",
+   "link": "https://s.shopee.com.br/8pnQNRUV6v",
    "desconto": 51,
    "loja": "VIA FLOWER",
    "categoria": "Decoração",
@@ -843,7 +723,7 @@
   },
   {
    "nome": "Árvore de Natal Premium Super Cheia Grande Luxo Decoração de Natal",
-   "preco": 294.0,
+   "preco": 190.0,
    "foto": "https://cf.shopee.com.br/file/br-11134207-81z1k-mfyeoex5dudh03",
    "link": "https://s.shopee.com.br/AKcDXIVegf",
    "desconto": 51,
@@ -933,7 +813,7 @@
   },
   {
    "nome": "LED Cortina luz led pisca pisca de natal ao Luzes Pisca Cascata Decoração Branco Quente Janela",
-   "preco": 25.0,
+   "preco": 25.9,
    "foto": "https://cf.shopee.com.br/file/br-11134207-820lh-mudnxmogs077a2",
    "link": "https://s.shopee.com.br/3qOjnM7WyT",
    "desconto": 62,
@@ -972,6 +852,16 @@
    "busca": "pisca pisca led natal"
   },
   {
+   "nome": "Cascata Natal 10m 400 LEDs Pisca Pisca 8 Funções/Fixo à Prova d'Água Uso Externo Decoração Natal 110V 220V Conector M/F",
+   "preco": 66.99,
+   "foto": "https://cf.shopee.com.br/file/br-11134211-820lr-mtqj3f4cfrb588",
+   "link": "https://s.shopee.com.br/1qdfPgF929",
+   "desconto": 55,
+   "loja": "KVLife",
+   "categoria": "Decoração",
+   "busca": "pisca pisca led natal"
+  },
+  {
    "nome": "Pisca Pisca de Natal Cordão 100 Leds 10 m 8 Funçõe Fio Transparente/Verde 110V",
    "preco": 13.9,
    "foto": "https://cf.shopee.com.br/file/br-11134207-820lc-mubdxr4qsbnm3e",
@@ -983,21 +873,11 @@
   },
   {
    "nome": "Pisca Pisca Natal 10m 100 LEDs 8 Funções 110V/220V Colorido ou Amarelo Decoração",
-   "preco": 16.8,
+   "preco": 16.9,
    "foto": "https://cf.shopee.com.br/file/br-11134207-820ls-muixqmy72qyp4f",
    "link": "https://s.shopee.com.br/40i9zf6tdK",
    "desconto": 52,
    "loja": "Tudo Bom ",
-   "categoria": "Decoração",
-   "busca": "pisca pisca led natal"
-  },
-  {
-   "nome": "Cascata de Natal Estrelas Bivolt Leds com 8 Funções em cores Branco Quente e Pisca Pisca",
-   "preco": 49.9,
-   "foto": "https://cf.shopee.com.br/file/br-11134207-820lo-mrgjznp82i2vcd",
-   "link": "https://s.shopee.com.br/2qWCbWBL0F",
-   "desconto": 50,
-   "loja": "PRATIKILAR",
    "categoria": "Decoração",
    "busca": "pisca pisca led natal"
   },
@@ -1062,16 +942,6 @@
    "busca": "guirlanda de natal"
   },
   {
-   "nome": "24 Flores Artificiais de Natal Vermelho e Dourado com Glitter 14cm Decoração Árvore Guirlanda Festão",
-   "preco": 22.9,
-   "foto": "https://cf.shopee.com.br/file/br-11134207-820m7-mtdqtx0e19fk5b",
-   "link": "https://s.shopee.com.br/8AXixKD24U",
-   "desconto": 61,
-   "loja": "Lu Utilites",
-   "categoria": "Decoração",
-   "busca": "guirlanda de natal"
-  },
-  {
    "nome": "Enfeite de Natal Grinch para Porta de Entrada Placa Redonda Guirlanda Pendurador Decoração Parede",
    "preco": 16.46,
    "foto": "https://cf.shopee.com.br/file/br-11134207-820m7-mtjw3evk45c1a9",
@@ -1118,6 +988,16 @@
    "link": "https://s.shopee.com.br/9AQG9A9E2a",
    "desconto": 49,
    "loja": "Mon Variedades",
+   "categoria": "Decoração",
+   "busca": "guirlanda de natal"
+  },
+  {
+   "nome": "Kit 12/24/36/48 Laços Natalinos Vermelho ou Dourado Enfeite para Árvore Guirlanda Decoração de Natal",
+   "preco": 12.54,
+   "foto": "https://cf.shopee.com.br/file/sg-11134201-825av-msvri1mxrk7b59",
+   "link": "https://s.shopee.com.br/80EIl1DfPT",
+   "desconto": 43,
+   "loja": "Five Co Utilidades",
    "categoria": "Decoração",
    "busca": "guirlanda de natal"
   },
