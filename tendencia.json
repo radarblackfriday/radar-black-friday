@@ -1,5 +1,5 @@
 {
- "atualizado": "21/11/2026 08:49",
+ "atualizado": "21/11/2026 16:49",
  "produtos": [
   {
    "nome": "Vestido Infantil Menina Vermelho Pompom MODELO LUXO FESTAS NATAL",
@@ -120,16 +120,6 @@
    "loja": "Sorellatshirt",
    "categoria": "Vestidos",
    "busca": "vestido de natal"
-  },
-  {
-   "nome": "Vestido Curto Soltinho Frente Unica elegante",
-   "preco": 39.25,
-   "foto": "https://cf.shopee.com.br/file/sg-11134201-822y0-mhxejpm0ga9ue1",
-   "link": "https://s.shopee.com.br/5fqUl12wbU",
-   "desconto": 70,
-   "loja": "Fortis",
-   "categoria": "Vestidos",
-   "busca": "vestido réveillon branco"
   },
   {
    "nome": "Vestido Pet Réveillon Roupinha Para Cachorro Para Virada de Ano Vestido De Cachorro Branco",
@@ -612,16 +602,6 @@
    "busca": "conjunto feminino réveillon"
   },
   {
-   "nome": "Conjunto Feminino Elegante Saia e Top Cropped em Tule Festa Reveillon Ano Novo",
-   "preco": 56.9,
-   "foto": "https://cf.shopee.com.br/file/br-11134207-820lj-mvgfga5b8t1c0a",
-   "link": "https://s.shopee.com.br/3qOnKMduQV",
-   "desconto": 30,
-   "loja": "Charmosa e Poderosa",
-   "categoria": "Vestidos",
-   "busca": "conjunto feminino réveillon"
-  },
-  {
    "nome": "Conjunto Feminino Cropped + Pantalona Wide Leg Canelado Réveillon Natal Ano Novo Festa Elegante",
    "preco": 53.89,
    "foto": "https://cf.shopee.com.br/file/br-11134207-820mg-mshqg5e11jwnc3",
@@ -662,122 +642,12 @@
    "busca": "conjunto feminino réveillon"
   },
   {
-   "nome": "Bloco De Construção De Natal Série Papai Noel Rena Quebra-Cabeça Montagem Tijolos Decoração De Mesa Brinquedos Infantis Para O Miúdo Presente",
-   "preco": 6.55,
-   "foto": "https://cf.shopee.com.br/file/sg-11134201-7rdyo-m13xoc765m5ae8",
-   "link": "https://s.shopee.com.br/5AuAuozIfk",
-   "desconto": 93,
-   "loja": "MagicMart.br",
-   "categoria": "Decoração",
-   "busca": "decoração de natal"
-  },
-  {
-   "nome": "Capa de Porta Painel de Mesa Decoração de Natal Papai Noel Natalina",
-   "preco": 18.9,
-   "foto": "https://cf.shopee.com.br/file/br-11134207-820lx-ms4h9vh6zbph48",
-   "link": "https://s.shopee.com.br/50akiVzw0j",
-   "desconto": 79,
-   "loja": "Celebra Arte",
-   "categoria": "Decoração",
-   "busca": "decoração de natal"
-  },
-  {
-   "nome": "Cordão de Luzes LED Solar 10m/20m para Uso Externo, 8 Funções, Prova d'Água, Decoração de Natal",
-   "preco": 26.99,
-   "foto": "https://cf.shopee.com.br/file/sg-11134201-82589-mgew8ukw0b2kba",
-   "link": "https://s.shopee.com.br/40iDWg3k2V",
-   "desconto": 73,
-   "loja": "LuxeElectra",
-   "categoria": "Decoração",
-   "busca": "decoração de natal"
-  },
-  {
-   "nome": "Fio De Fada De 2M Com Luzes De Fadas Led Para Decoração De Casa E Festa De Natal",
-   "preco": 4.99,
-   "foto": "https://cf.shopee.com.br/file/cn-11134207-7ras8-m4sgd4jf2pep7f",
-   "link": "https://s.shopee.com.br/gRlYYGQnX",
-   "desconto": 71,
-   "loja": "HONG11.br",
-   "categoria": "Decoração",
-   "busca": "decoração de natal"
-  },
-  {
-   "nome": "Fio De Fada De 2M Com Luzes De Fadas Led Para Decoração De Casa E Festa De Natal",
-   "preco": 4.99,
-   "foto": "https://cf.shopee.com.br/file/sg-11134201-7ra1c-m4sgiysdbniif0",
-   "link": "https://s.shopee.com.br/2BGZLJAikw",
-   "desconto": 71,
-   "loja": "SZFG1.br",
-   "categoria": "Decoração",
-   "busca": "decoração de natal"
-  },
-  {
-   "nome": "Flores De Natal Premium  Arvore Artificial Decoração Enfeites Para Arvore de Natal Brilhante Luxo Pick Up",
-   "preco": 25.73,
-   "foto": "https://cf.shopee.com.br/file/sg-11134201-8258x-msejixjr1ukke1",
-   "link": "https://s.shopee.com.br/30pgKq7Y49",
-   "desconto": 71,
-   "loja": "MMS-IMP",
-   "categoria": "Decoração",
-   "busca": "decoração de natal"
-  },
-  {
-   "nome": "1/2/5 Pcs Colorido Fio Fada 2M Com Luzes Led Fada Para Decoração De Casa e Natal Festa",
-   "preco": 9.9,
-   "foto": "https://cf.shopee.com.br/file/br-11134207-7r98o-lknc2jcks6ab26",
-   "link": "https://s.shopee.com.br/20x990BM5v",
-   "desconto": 60,
-   "loja": "1000 Coisas Variedades",
-   "categoria": "Decoração",
-   "busca": "decoração de natal"
-  },
-  {
-   "nome": "Projetor LED Natalino 16 Temas Luzes de Natal Desenhos Coloridos Rotação 270° Decoração Casa Jardim Parede Festa",
-   "preco": 39.88,
-   "foto": "https://cf.shopee.com.br/file/br-11134207-820lg-mtw3amr9o4xu08",
-   "link": "https://s.shopee.com.br/2gCpwE8ok7",
-   "desconto": 60,
-   "loja": "PENGFA TECH LTDA",
-   "categoria": "Decoração",
-   "busca": "decoração de natal"
-  },
-  {
-   "nome": "1/2/5 Pcs Colorido Fio Fada 2M Com Luzes Led Fada Para Decoração De Casa e Natal Festa",
-   "preco": 9.9,
-   "foto": "https://cf.shopee.com.br/file/sg-11134201-825ao-mu7dow70hmgw59",
-   "link": "https://s.shopee.com.br/4VeU7b1q1Y",
-   "desconto": 60,
-   "loja": "INFINITY COMERCIO DE VARIEDADES",
-   "categoria": "Decoração",
-   "busca": "decoração de natal"
-  },
-  {
-   "nome": "Pisca Pisca Natal Cordão 100 Leds 10m 8 Funções Varias Cores 110v / 220v ANJIN",
-   "preco": 13.89,
-   "foto": "https://cf.shopee.com.br/file/sg-11134201-7rdyh-m0yj94qxv1hjb2",
-   "link": "https://s.shopee.com.br/1BO29TEWma",
-   "desconto": 54,
-   "loja": "ANJIN IMPORTS",
-   "categoria": "Decoração",
-   "busca": "decoração de natal"
-  },
-  {
-   "nome": "Cortina de Luz LED Natal Pisca Pisca Cascata 5m 148 LEDs Decoração Natalina para Janela Porta Parede",
-   "preco": 69.99,
-   "foto": "https://cf.shopee.com.br/file/br-11134207-820ld-mtp0rmc3egw2f1",
-   "link": "https://s.shopee.com.br/2qWG8Xgy6d",
-   "desconto": 53,
-   "loja": "RITA BOUTIQUES-999",
-   "categoria": "Decoração",
-   "busca": "decoração de natal"
-  },
-  {
-   "nome": "Festão Aramado Galhos Verde Cru Enfeite de Natal Rattan Decoração Natalina Ambientes Diversos - XL3227",
-   "preco": 48.99,
-   "foto": "https://cf.shopee.com.br/file/sg-11134201-7rdvi-lzqk7nzoeh7u07",
-   "link": "https://s.shopee.com.br/4fxuJu1Cgh",
-   "desconto": 51,
-   "loja": "VIA FLOWER",
+   "nome": "Balão Metalizado Papai Noel 149 cm Decoração de Natal Grande.",
+   "preco": 32.94,
+   "foto": "https://cf.shopee.com.br/file/br-11134207-820le-muwun6ckzzsx29",
+   "link": "https://s.shopee.com.br/6VPcHZ4VRG",
+   "desconto": 45,
+   "loja": "Matriz Festas",
    "categoria": "Decoração",
    "busca": "decoração de natal"
   },
@@ -812,6 +682,16 @@
    "busca": "árvore de natal"
   },
   {
+   "nome": "Flores De Natal Premium  Arvore Artificial Decoração Enfeites Para Arvore de Natal Brilhante Luxo Pick Up",
+   "preco": 25.73,
+   "foto": "https://cf.shopee.com.br/file/sg-11134201-8258x-msejixjr1ukke1",
+   "link": "https://s.shopee.com.br/30pgKq7Y49",
+   "desconto": 71,
+   "loja": "MMS-IMP",
+   "categoria": "Decoração",
+   "busca": "árvore de natal"
+  },
+  {
    "nome": "Flores De Natal Premiun  Arvore Artificial Decoração Enfeites Para Arvore de Natal Brilhante Luxo Pick Up",
    "preco": 26.73,
    "foto": "https://cf.shopee.com.br/file/sg-11134201-8258x-msejixjr1ukke1",
@@ -823,10 +703,10 @@
   },
   {
    "nome": "Saia para Árvore de Natal 40cm 60cm 90cm Tapete Base Decorativa Vermelha Papai Noel Decoração Natalina",
-   "preco": 17.95,
+   "preco": 18.75,
    "foto": "https://cf.shopee.com.br/file/sg-11134201-8258u-mscq2j98q0asc0",
    "link": "https://s.shopee.com.br/9fMaM9MvIO",
-   "desconto": 62,
+   "desconto": 60,
    "loja": "VCOMMERCE_",
    "categoria": "Decoração",
    "busca": "árvore de natal"
@@ -892,16 +772,6 @@
    "busca": "árvore de natal"
   },
   {
-   "nome": "20/10Pcs Flores De Natal Pick Up Arvore Artificial Decoração Enfeites Para Arvore de Natal Brilhante Luxo",
-   "preco": 29.9,
-   "foto": "https://cf.shopee.com.br/file/sg-11134201-825aa-mtgdezxjturrf1",
-   "link": "https://s.shopee.com.br/AAIqx4L1Hb",
-   "desconto": 46,
-   "loja": "Musk G1",
-   "categoria": "Decoração",
-   "busca": "árvore de natal"
-  },
-  {
    "nome": "Strobo Pisca Pisca Cordão Natal 500 Leds 50m Prova D'Água Bivolt  100 Flash  Decoração Enfeite Natal LuvinCo",
    "preco": 159.99,
    "foto": "https://cf.shopee.com.br/file/br-11134207-820lg-mu2deg1ohybl3b",
@@ -932,22 +802,22 @@
    "busca": "pisca pisca led natal"
   },
   {
-   "nome": "LED Cortina luz led pisca pisca de natal ao Luzes Pisca Cascata Decoração Branco Quente Janela",
-   "preco": 25.0,
-   "foto": "https://cf.shopee.com.br/file/br-11134207-820lh-mudnxmogs077a2",
-   "link": "https://s.shopee.com.br/BVUxdr7WN",
-   "desconto": 62,
-   "loja": "CHUANGXIN",
-   "categoria": "Decoração",
-   "busca": "pisca pisca led natal"
-  },
-  {
    "nome": "10m Cascata 400 Led 8 Funções Decoração Natal 110v 220v Conexão Macho Branco Frio Quente Pisca Pisca Enfeites de Natal",
    "preco": 62.97,
    "foto": "https://cf.shopee.com.br/file/br-11134207-820mg-mtgwtlf6mjurf5",
    "link": "https://s.shopee.com.br/2VtPjviEmj",
    "desconto": 60,
    "loja": "Supreo",
+   "categoria": "Decoração",
+   "busca": "pisca pisca led natal"
+  },
+  {
+   "nome": "LED Cortina luz led pisca pisca de natal ao Luzes Pisca Cascata Decoração Branco Quente Janela",
+   "preco": 25.9,
+   "foto": "https://cf.shopee.com.br/file/br-11134207-820lh-mudnxmogs077a2",
+   "link": "https://s.shopee.com.br/BVUxdr7WN",
+   "desconto": 59,
+   "loja": "CHUANGXIN",
    "categoria": "Decoração",
    "busca": "pisca pisca led natal"
   },
@@ -962,6 +832,26 @@
    "busca": "pisca pisca led natal"
   },
   {
+   "nome": "Pisca Pisca Natal Cordão 100 Leds 10m 8 Funções Varias Cores 110v / 220v ANJIN",
+   "preco": 13.5,
+   "foto": "https://cf.shopee.com.br/file/sg-11134201-7rdyh-m0yj94qxv1hjb2",
+   "link": "https://s.shopee.com.br/1BO29TEWma",
+   "desconto": 55,
+   "loja": "ANJIN IMPORTS",
+   "categoria": "Decoração",
+   "busca": "pisca pisca led natal"
+  },
+  {
+   "nome": "Pisca Pisca Natal Cordão 100 Leds 10m 8 Funções Varias Cores 110v / 220v - 99P",
+   "preco": 13.59,
+   "foto": "https://cf.shopee.com.br/file/sg-11134201-7rdyh-m0yj94qxv1hjb2",
+   "link": "https://s.shopee.com.br/2LZzXcis7g",
+   "desconto": 55,
+   "loja": "99 Presentes",
+   "categoria": "Decoração",
+   "busca": "pisca pisca led natal"
+  },
+  {
    "nome": "Cascata Natal 10m 400 LEDs Pisca Pisca 8 Funções/Fixo à Prova d'Água Uso Externo Decoração Natal 110V 220V Conector M/F",
    "preco": 66.99,
    "foto": "https://cf.shopee.com.br/file/br-11134211-820lr-mtqj3f4cfrb588",
@@ -972,12 +862,12 @@
    "busca": "pisca pisca led natal"
   },
   {
-   "nome": "Pisca Pisca Natal Cordão 100 Leds 10m 8 Funções Varias Cores 110v / 220v - 99P",
-   "preco": 13.89,
-   "foto": "https://cf.shopee.com.br/file/sg-11134201-7rdyh-m0yj94qxv1hjb2",
-   "link": "https://s.shopee.com.br/2LZzXcis7g",
-   "desconto": 54,
-   "loja": "99 Presentes",
+   "nome": "Cortina de Luz LED Natal Pisca Pisca Cascata 5m 148 LEDs Decoração Natalina para Janela Porta Parede",
+   "preco": 69.99,
+   "foto": "https://cf.shopee.com.br/file/br-11134207-820ld-mtp0rmc3egw2f1",
+   "link": "https://s.shopee.com.br/2qWG8Xgy6d",
+   "desconto": 53,
+   "loja": "RITA BOUTIQUES-999",
    "categoria": "Decoração",
    "busca": "pisca pisca led natal"
   },
@@ -993,31 +883,11 @@
   },
   {
    "nome": "Pisca Pisca Natal 10m 100 LEDs 8 Funções 110V/220V Colorido ou Amarelo Decoração",
-   "preco": 16.8,
+   "preco": 16.9,
    "foto": "https://cf.shopee.com.br/file/br-11134207-820ls-muixqmy72qyp4f",
    "link": "https://s.shopee.com.br/1LhSLmmg9S",
    "desconto": 52,
    "loja": "Tudo Bom ",
-   "categoria": "Decoração",
-   "busca": "pisca pisca led natal"
-  },
-  {
-   "nome": "Cascata Natal 400/200/100 Lâmpadas LED Com 8 funções ou Fixo Fio Branco Pisca Pisca V8",
-   "preco": 29.9,
-   "foto": "https://cf.shopee.com.br/file/br-11134207-7r98o-lo61lzrevl8n6a",
-   "link": "https://s.shopee.com.br/gRlYYpDVW",
-   "desconto": 50,
-   "loja": "HH UTILIDADES",
-   "categoria": "Decoração",
-   "busca": "pisca pisca led natal"
-  },
-  {
-   "nome": "Pisca Pisca de Natal Bola de Gelo LED USB 8 Modos de Luz 3m/6m Decoração Árvore de Natal Quente Branco Frio Colorido",
-   "preco": 37.9,
-   "foto": "https://cf.shopee.com.br/file/sg-11134201-82598-muke29j5c3yg58",
-   "link": "https://s.shopee.com.br/2La2mwAA1Y",
-   "desconto": 50,
-   "loja": "Zafielle",
    "categoria": "Decoração",
    "busca": "pisca pisca led natal"
   },
@@ -1082,16 +952,6 @@
    "busca": "guirlanda de natal"
   },
   {
-   "nome": "Capa de Porta Natal Decoração de Natal 0,85x2,10m Sublimado em Tecido Enfeite para Porta Natalina",
-   "preco": 18.9,
-   "foto": "https://cf.shopee.com.br/file/br-11134207-820m4-muul30vbu6m950",
-   "link": "https://s.shopee.com.br/BVVY7jjVg",
-   "desconto": 62,
-   "loja": "Criatema",
-   "categoria": "Decoração",
-   "busca": "guirlanda de natal"
-  },
-  {
    "nome": "Enfeite de Natal Grinch para Porta de Entrada Placa Redonda Guirlanda Pendurador Decoração Parede",
    "preco": 16.46,
    "foto": "https://cf.shopee.com.br/file/br-11134207-820m7-mtjw3evk45c1a9",
@@ -1138,6 +998,16 @@
    "link": "https://s.shopee.com.br/2La086bU75",
    "desconto": 43,
    "loja": "Five Co Utilidades",
+   "categoria": "Decoração",
+   "busca": "guirlanda de natal"
+  },
+  {
+   "nome": "Guirlanda de Natal em MDF para Porta – Enfeite Natalino Feliz Natal com Presépio Decoração Natal",
+   "preco": 22.9,
+   "foto": "https://cf.shopee.com.br/file/br-11134207-820m1-mtsr4qicwqv64d",
+   "link": "https://s.shopee.com.br/1BO2jxfvTy",
+   "desconto": 43,
+   "loja": "MDF.Decor",
    "categoria": "Decoração",
    "busca": "guirlanda de natal"
   },
