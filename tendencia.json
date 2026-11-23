@@ -1,5 +1,5 @@
 {
- "atualizado": "22/11/2026 16:59",
+ "atualizado": "22/11/2026 22:59",
  "produtos": [
   {
    "nome": "Vestido Infantil Menina Vermelho Pompom MODELO LUXO FESTAS NATAL",
@@ -135,7 +135,7 @@
    "nome": "Vestido Branco de Ano Novo para Bebê com Pérolas Look Réveillon Infantil",
    "preco": 36.99,
    "foto": "https://cf.shopee.com.br/file/br-11134207-820l8-mvc7m4a9o4xv45",
-   "link": "https://s.shopee.com.br/5q9sN2Yzlb",
+   "link": "https://s.shopee.com.br/AAIwberWKy",
    "desconto": 47,
    "loja": "Fortuna Enxovais",
    "categoria": "Vestidos",
@@ -155,7 +155,7 @@
    "nome": "Vestido Feminino Midi Branco Vermelho Um Ombro Só Modelador Moda Gringa Sofisticado Festas",
    "preco": 59.39,
    "foto": "https://cf.shopee.com.br/file/br-11134207-820l5-mt476pfc5c07d1",
-   "link": "https://s.shopee.com.br/60TMlI8mME",
+   "link": "https://s.shopee.com.br/9zzWPLs9fx",
    "desconto": 34,
    "loja": "MODA FASHION SECRET",
    "categoria": "Vestidos",
@@ -733,10 +733,10 @@
   },
   {
    "nome": "Pisca Pisca Natal Cordão 100 Leds 10m 8 Funções Varias Cores 110v / 220v ANJIN",
-   "preco": 13.5,
+   "preco": 12.99,
    "foto": "https://cf.shopee.com.br/file/sg-11134201-7rdyh-m0yj94qxv1hjb2",
    "link": "https://s.shopee.com.br/6VPdMFbD2F",
-   "desconto": 55,
+   "desconto": 57,
    "loja": "ANJIN IMPORTS",
    "categoria": "Decoração",
    "busca": "decoração de natal"
@@ -832,6 +832,16 @@
    "busca": "árvore de natal"
   },
   {
+   "nome": "Fita De Natal Decoração De Árvore Malha Tule Rolo Tecido Pingente Feliz Para Casa",
+   "preco": 14.44,
+   "foto": "https://cf.shopee.com.br/file/sg-11134201-7rdw0-m1clvkpoqjo881",
+   "link": "https://s.shopee.com.br/70LuPXXFsR",
+   "desconto": 53,
+   "loja": "Vison Mall-BR",
+   "categoria": "Decoração",
+   "busca": "árvore de natal"
+  },
+  {
    "nome": "Árvore de Natal Premium Super Cheia Grande Luxo Decoração de Natal",
    "preco": 179.89,
    "foto": "https://cf.shopee.com.br/file/br-11134207-81z1k-mfyeoex5dudh03",
@@ -872,26 +882,6 @@
    "busca": "árvore de natal"
   },
   {
-   "nome": "Natal Artificial Ramos De Frutas Vermelhas DIY Grinalda Decorativa para Árvore De Natal Ornamento Para Festa",
-   "preco": 9.4,
-   "foto": "https://cf.shopee.com.br/file/cn-11134207-820l4-mthi7n1xagp189",
-   "link": "https://s.shopee.com.br/906yrk42o6",
-   "desconto": 43,
-   "loja": "LarBrilho",
-   "categoria": "Decoração",
-   "busca": "árvore de natal"
-  },
-  {
-   "nome": "Strobo Pisca Pisca Cordão Natal 500 Leds 50m Prova D'Água Bivolt  100 Flash  Decoração Enfeite Natal LuvinCo",
-   "preco": 159.99,
-   "foto": "https://cf.shopee.com.br/file/br-11134207-820lg-mu2deg1ohybl3b",
-   "link": "https://s.shopee.com.br/114hGWc5pd",
-   "desconto": 77,
-   "loja": "LuvinCo",
-   "categoria": "Decoração",
-   "busca": "pisca pisca led natal"
-  },
-  {
    "nome": "Cordão 500/300 Led interno 9 fixo 1 strobo - 50/30 metros fio verde pisca pisca decoração natal Conector m/f",
    "preco": 31.99,
    "foto": "https://cf.shopee.com.br/file/cn-11134207-820l4-mtqeclks5zpgf3",
@@ -912,22 +902,22 @@
    "busca": "pisca pisca led natal"
   },
   {
-   "nome": "LED Cortina luz led pisca pisca de natal ao Luzes Pisca Cascata Decoração Branco Quente Janela",
-   "preco": 25.9,
-   "foto": "https://cf.shopee.com.br/file/br-11134207-820lh-mudnxmogs077a2",
-   "link": "https://s.shopee.com.br/1BO7SpbSUe",
-   "desconto": 62,
-   "loja": "CHUANGXIN",
-   "categoria": "Decoração",
-   "busca": "pisca pisca led natal"
-  },
-  {
    "nome": "10m Cascata 400 Led 8 Funções Decoração Natal 110v 220v Conexão Macho Branco Frio Quente Pisca Pisca Enfeites de Natal",
    "preco": 62.97,
    "foto": "https://cf.shopee.com.br/file/br-11134207-820mg-mtgwtlf6mjurf5",
    "link": "https://s.shopee.com.br/9zzVz43pZH",
    "desconto": 60,
    "loja": "Supreo",
+   "categoria": "Decoração",
+   "busca": "pisca pisca led natal"
+  },
+  {
+   "nome": "LED Cortina luz led pisca pisca de natal ao Luzes Pisca Cascata Decoração Branco Quente Janela",
+   "preco": 25.9,
+   "foto": "https://cf.shopee.com.br/file/br-11134207-820lh-mudnxmogs077a2",
+   "link": "https://s.shopee.com.br/1BO7SpbSUe",
+   "desconto": 59,
+   "loja": "CHUANGXIN",
    "categoria": "Decoração",
    "busca": "pisca pisca led natal"
   },
@@ -962,16 +952,6 @@
    "busca": "pisca pisca led natal"
   },
   {
-   "nome": "Pisca Pisca de Natal Cordão 100 Leds 10 m 8 Funçõe Fio Transparente/Verde 110V",
-   "preco": 13.9,
-   "foto": "https://cf.shopee.com.br/file/br-11134207-820lc-mubdxr4qsbnm3e",
-   "link": "https://s.shopee.com.br/8pnYav8Gvu",
-   "desconto": 52,
-   "loja": "ASINA CASA E DECORAÇAO",
-   "categoria": "Decoração",
-   "busca": "pisca pisca led natal"
-  },
-  {
    "nome": "Pisca Pisca Natal 10m 100 LEDs 8 Funções 110V/220V Colorido ou Amarelo Decoração",
    "preco": 16.9,
    "foto": "https://cf.shopee.com.br/file/br-11134207-820ls-muixqmy72qyp4f",
@@ -998,6 +978,26 @@
    "link": "https://s.shopee.com.br/1LhXf8ap9n",
    "desconto": 50,
    "loja": "Zafielle",
+   "categoria": "Decoração",
+   "busca": "pisca pisca led natal"
+  },
+  {
+   "nome": "Pisca Pisca de Natal Cordão 100 Leds 10 m 8 Funçõe Fio Transparente/Verde 110V",
+   "preco": 14.9,
+   "foto": "https://cf.shopee.com.br/file/br-11134207-820lc-mubdxr4qsbnm3e",
+   "link": "https://s.shopee.com.br/8pnYav8Gvu",
+   "desconto": 49,
+   "loja": "ASINA CASA E DECORAÇAO",
+   "categoria": "Decoração",
+   "busca": "pisca pisca led natal"
+  },
+  {
+   "nome": "Pisca Pisca Meteoro Cascata 8 Tubos 50cm Chuva De Gelo Led Bivolt Resistente À Água Para Natal Bivolt",
+   "preco": 38.99,
+   "foto": "https://cf.shopee.com.br/file/sg-11134201-825aw-mtovzurp0jk2c5",
+   "link": "https://s.shopee.com.br/9V3FO95ja6",
+   "desconto": 48,
+   "loja": "Novatrade",
    "categoria": "Decoração",
    "busca": "pisca pisca led natal"
   },
@@ -1033,7 +1033,7 @@
   },
   {
    "nome": "Kit 10 Flores de Natal com Haste de 14 cm para Árvore, Guirlanda e Arranjos",
-   "preco": 37.97,
+   "preco": 37.99,
    "foto": "https://cf.shopee.com.br/file/br-11134207-820lc-muhsy5sgsdmp25",
    "link": "https://s.shopee.com.br/1LhXf8wkpG",
    "desconto": 65,
