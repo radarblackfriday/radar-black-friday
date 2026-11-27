@@ -1,55 +1,255 @@
 {
- "atualizado": "26/11/2026 14:21",
+ "atualizado": "26/11/2026 22:57",
  "produtos": [
   {
-   "nome": "Vestido Feminino Curto Branco Réveillon Ano Novo Frente Única Costa Nua Soltinho Rodado",
-   "preco": 45.9,
-   "foto": "https://cf.shopee.com.br/file/sg-11134201-8257z-mtxafqqyhog2f0",
-   "link": "https://s.shopee.com.br/AAJ1YfSYG8",
-   "desconto": 46,
-   "loja": "Lady-Pink",
+   "nome": "Vestido Infantil Menina Vermelho Pompom MODELO LUXO FESTAS NATAL",
+   "preco": 34.9,
+   "foto": "https://cf.shopee.com.br/file/br-11134207-820mh-mqgrksjkbym8bb",
+   "link": "https://s.shopee.com.br/20xJpebiFg",
+   "desconto": 67,
+   "loja": "Florenzza kids",
+   "categoria": "Vestidos",
+   "busca": "vestido de natal"
+  },
+  {
+   "nome": "Vestido Poá com Amarração Feminino no Canelado Verão e Natal",
+   "preco": 28.99,
+   "foto": "https://cf.shopee.com.br/file/br-11134207-820lj-mvesq5ca8qv70e",
+   "link": "https://s.shopee.com.br/6AmtK4WuRX",
+   "desconto": 67,
+   "loja": "LOLO FASHION OFC",
+   "categoria": "Vestidos",
+   "busca": "vestido de natal"
+  },
+  {
+   "nome": "Vestido Infantil Menina 2 ao 8 anos  Algodão Premium Festa Natal  Cores Toque Macio Suave Princesa .",
+   "preco": 21.92,
+   "foto": "https://cf.shopee.com.br/file/br-11134207-820lv-mncvq5re8kjl2d",
+   "link": "https://s.shopee.com.br/W8W2thQIV",
+   "desconto": 66,
+   "loja": "Family Work Shope",
+   "categoria": "Vestidos",
+   "busca": "vestido de natal"
+  },
+  {
+   "nome": "Vestido Infantil Menina Princesa Vermelho  Natal Listrado Barrado Varias Cores para Festas De Natal",
+   "preco": 34.9,
+   "foto": "https://cf.shopee.com.br/file/br-11134207-820lo-musm60a0v20yb6",
+   "link": "https://s.shopee.com.br/2BGk1xb4uj",
+   "desconto": 65,
+   "loja": "Florenzza kids",
+   "categoria": "Vestidos",
+   "busca": "vestido de natal"
+  },
+  {
+   "nome": "Vestido Infantil Menina Vermelho Natal Listrado Barrado Luxo Para Festas  Disponível Em 2 Cores",
+   "preco": 34.9,
+   "foto": "https://cf.shopee.com.br/file/br-11134207-820m9-mtxsyci6daf750",
+   "link": "https://s.shopee.com.br/1CFRyjKJM",
+   "desconto": 65,
+   "loja": "Florenzza kids",
+   "categoria": "Vestidos",
+   "busca": "vestido de natal"
+  },
+  {
+   "nome": "Vestido Longo Feminino Multiformas para Festa, Casamento e Formatura",
+   "preco": 29.99,
+   "foto": "https://cf.shopee.com.br/file/br-11134207-820lx-mtjl7ay4od1f38",
+   "link": "https://s.shopee.com.br/6VPjBvtqYv",
+   "desconto": 62,
+   "loja": "foryou moda feminina",
+   "categoria": "Vestidos",
+   "busca": "vestido de natal"
+  },
+  {
+   "nome": "Vestido Vermelho Longo Feminino Frente Unica Costa Nua de Festa Natal Ano Novo Casamento Madrinha Formatura  Plus Size",
+   "preco": 29.98,
+   "foto": "https://cf.shopee.com.br/file/br-11134207-820ly-mt1m004s9m2u20",
+   "link": "https://s.shopee.com.br/4fy50Z0pHh",
+   "desconto": 62,
+   "loja": "GRA JEANS OFICIAL",
+   "categoria": "Vestidos",
+   "busca": "vestido de natal"
+  },
+  {
+   "nome": "Macaquinho Vestido Short Saia Plus Size All Curve Feminino  Disfarça Barriga Amarração Frente Única Natal Ano novo",
+   "preco": 61.99,
+   "foto": "https://cf.shopee.com.br/file/br-11134207-820l4-mum8p3z4lywz23",
+   "link": "https://s.shopee.com.br/9pgBA37tMQ",
+   "desconto": 59,
+   "loja": "Charme de Maria",
+   "categoria": "Vestidos",
+   "busca": "vestido de natal"
+  },
+  {
+   "nome": "Vestido Longo Estampado Laise Elegante Leve Confortável tecido Premium NATAL REVEILLÃO ENTREGA RAPID",
+   "preco": 79.99,
+   "foto": "https://cf.shopee.com.br/file/br-11134207-820lf-mr8xs6g45fyd71",
+   "link": "https://s.shopee.com.br/9pgBgoIx0P",
+   "desconto": 58,
+   "loja": "Valeska Moda Moderna",
+   "categoria": "Vestidos",
+   "busca": "vestido de natal"
+  },
+  {
+   "nome": "Vestido Longo Feminino Elegante Decote Assimétrico Fenda Lateral Justo Moda para formatura, festas, encontros e natal",
+   "preco": 64.0,
+   "foto": "https://cf.shopee.com.br/file/br-11134207-820lp-mv9kv4kh4xkxf2",
+   "link": "https://s.shopee.com.br/9fMkxk8WhP",
+   "desconto": 57,
+   "loja": "Luna Moda Feminina LTDA",
+   "categoria": "Vestidos",
+   "busca": "vestido de natal"
+  },
+  {
+   "nome": "Vestido Feminino Elegante Manga Princesa Tubinho Com Bojo Tendencia Natal",
+   "preco": 44.9,
+   "foto": "https://cf.shopee.com.br/file/br-11134207-81z1k-mgpkcapi1hc470",
+   "link": "https://s.shopee.com.br/2LaAEGaRZm",
+   "desconto": 50,
+   "loja": "RRM MODAS",
+   "categoria": "Vestidos",
+   "busca": "vestido de natal"
+  },
+  {
+   "nome": "Vestido Longo Colado Feminino Vermelho Luxo Tomara que caia Liso Festa Noite Fenda Justo Sensual formatura natal",
+   "preco": 49.99,
+   "foto": "https://cf.shopee.com.br/file/br-11134207-820li-muwt2ukqu60w6c",
+   "link": "https://s.shopee.com.br/AUvrxH5M0c",
+   "desconto": 50,
+   "loja": "IS_Modas",
+   "categoria": "Vestidos",
+   "busca": "vestido de natal"
+  },
+  {
+   "nome": "Vestido Branco Paetê Franja Réveillon Ano Novo Curto Costas Nua Brilho Festa Balada Feminino Luxo",
+   "preco": 75.9,
+   "foto": "https://cf.shopee.com.br/file/br-11134207-820m5-mtgwk43xo07629",
+   "link": "https://s.shopee.com.br/4LLG5G7X4g",
+   "desconto": 30,
+   "loja": "VOLEDAM |Fashion Store ",
    "categoria": "Vestidos",
    "busca": "vestido réveillon branco"
   },
   {
-   "nome": "Vestido Longo Réveillon Branco Trançado nas Costas com Fenda Alça Fina Festa Ano Novo Madrinha Formatura Verão",
-   "preco": 38.94,
-   "foto": "https://cf.shopee.com.br/file/br-11134207-820lx-mu0r13pqik1u89",
-   "link": "https://s.shopee.com.br/9AQUMXdHo7",
-   "desconto": 40,
-   "loja": "tibstore2",
+   "nome": "Vestido Longo De Festa Feminino Elegante Super Promoção",
+   "preco": 49.9,
+   "foto": "https://cf.shopee.com.br/file/br-11134207-81ztm-mkmhh6ezk8ox05",
+   "link": "https://s.shopee.com.br/1qdtdMBc2M",
+   "desconto": 68,
+   "loja": "estilodellasatacado",
    "categoria": "Vestidos",
-   "busca": "vestido réveillon branco"
+   "busca": "vestido longo festa"
   },
   {
-   "nome": "Vestido Pet Réveillon Roupinha Para Cachorro Para Virada de Ano Vestido De Cachorro Branco",
-   "preco": 37.74,
-   "foto": "https://cf.shopee.com.br/file/br-11134207-81z1k-mhxuhecd8gsi55",
-   "link": "https://s.shopee.com.br/gRwEv9e3f",
-   "desconto": 37,
-   "loja": "MW Pet Shop Acessórios",
+   "nome": "Vestido feminino Várias Formas Multiuso Infinity Longo Festa Madrinha Casamento Formatura Batizado",
+   "preco": 29.99,
+   "foto": "https://cf.shopee.com.br/file/sg-11134201-823rs-mon15xcdi0i3d5",
+   "link": "https://s.shopee.com.br/5AuLbTyvGo",
+   "desconto": 67,
+   "loja": "foryou moda feminina",
    "categoria": "Vestidos",
-   "busca": "vestido réveillon branco"
+   "busca": "vestido longo festa"
   },
   {
-   "nome": "Vestido Branco de Ano Novo para Bebê com Pérolas Look Réveillon Infantil",
-   "preco": 44.99,
-   "foto": "https://cf.shopee.com.br/file/br-11134207-820l8-mvc7m4a9o4xv45",
-   "link": "https://s.shopee.com.br/W8W2u3LsE",
-   "desconto": 36,
-   "loja": "Fortuna Enxovais",
+   "nome": "vestido Longo Várias Formas Infinity Multiformas Festas Roupa de Casamento Madrinhas Formatura",
+   "preco": 29.99,
+   "foto": "https://cf.shopee.com.br/file/sg-11134201-823ov-momxk3qskh6ped",
+   "link": "https://s.shopee.com.br/3qOy123zyg",
+   "desconto": 67,
+   "loja": "foryou moda feminina",
    "categoria": "Vestidos",
-   "busca": "vestido réveillon branco"
+   "busca": "vestido longo festa"
   },
   {
-   "nome": "Vestido Feminino Midi Branco Vermelho Um Ombro Só Modelador Moda Gringa Sofisticado Festas",
-   "preco": 59.39,
-   "foto": "https://cf.shopee.com.br/file/br-11134207-820l5-mt476pfc5c07d1",
-   "link": "https://s.shopee.com.br/Lp5qb3zDD",
-   "desconto": 34,
-   "loja": "MODA FASHION SECRET",
+   "nome": "Vestido Longo Feminino Midi Frente Unica Costa Nua de Festa Casamento Madrinha Formatura Branco Plus Size",
+   "preco": 29.89,
+   "foto": "https://cf.shopee.com.br/file/br-11134207-820m9-mpa71g3cy4nad0",
+   "link": "https://s.shopee.com.br/5LDlnmyHve",
+   "desconto": 63,
+   "loja": "GRA JEANS OFICIAL",
    "categoria": "Vestidos",
-   "busca": "vestido réveillon branco"
+   "busca": "vestido longo festa"
+  },
+  {
+   "nome": "Vestido para casamento convidada civil Feminino Longo Elegante de Festa Formatura Madrinha plus size",
+   "preco": 32.99,
+   "foto": "https://cf.shopee.com.br/file/br-11134207-7r98o-lu4zgqvo0mlcae",
+   "link": "https://s.shopee.com.br/6L6IzcuTts",
+   "desconto": 63,
+   "loja": "wistlefashion",
+   "categoria": "Vestidos",
+   "busca": "vestido longo festa"
+  },
+  {
+   "nome": "Vestido Longo Feminino Costa Nua Midi Inverno Elegante de Festa Plus Size Praia",
+   "preco": 29.9,
+   "foto": "https://cf.shopee.com.br/file/br-11134207-820lf-mp70jdh2wqh14e",
+   "link": "https://s.shopee.com.br/60TSb0vkZq",
+   "desconto": 63,
+   "loja": "GRA JEANS OFICIAL",
+   "categoria": "Vestidos",
+   "busca": "vestido longo festa"
+  },
+  {
+   "nome": "Vestido Longo Gola Alta Com Costa Nua Frente Única Formatura Festa Madrinha Civil",
+   "preco": 29.9,
+   "foto": "https://cf.shopee.com.br/file/br-11134207-820lj-mp1pci1km0hxd6",
+   "link": "https://s.shopee.com.br/2qWQpC7o0O",
+   "desconto": 63,
+   "loja": "GRA JEANS OFICIAL",
+   "categoria": "Vestidos",
+   "busca": "vestido longo festa"
+  },
+  {
+   "nome": "Vestido Longo Frente Unica Feminino Costa Nua de Festa Casamento Madrinha Formatura Plus Size",
+   "preco": 29.89,
+   "foto": "https://cf.shopee.com.br/file/br-11134207-820lm-mu2xqfvei51cc0",
+   "link": "https://s.shopee.com.br/1gKTR3CFNL",
+   "desconto": 63,
+   "loja": "DG FASHION",
+   "categoria": "Vestidos",
+   "busca": "vestido longo festa"
+  },
+  {
+   "nome": "Vestido Longo Costa Nua Gola Alta Frente Única Formatura Festa Madrinha Civil Noivado Plus Size",
+   "preco": 29.56,
+   "foto": "https://cf.shopee.com.br/file/sg-11134201-8259k-msms5p8d6wp6e1",
+   "link": "https://s.shopee.com.br/2VtaQa94gY",
+   "desconto": 63,
+   "loja": "DG FASHION",
+   "categoria": "Vestidos",
+   "busca": "vestido longo festa"
+  },
+  {
+   "nome": "Vestido Longo Costa Nua Gola Alta Frente Única Formatura Festa Madrinha Civil Noivado Plus Size",
+   "preco": 29.98,
+   "foto": "https://cf.shopee.com.br/file/br-11134207-820ld-mpa8tlyxp62u1f",
+   "link": "https://s.shopee.com.br/3B9HDo6XKU",
+   "desconto": 62,
+   "loja": "GRA JEANS OFICIAL",
+   "categoria": "Vestidos",
+   "busca": "vestido longo festa"
+  },
+  {
+   "nome": "Vestido feminino Muscle Tee plus size Liso Longo elegante Casual Soltinho Noite Festa",
+   "preco": 38.7,
+   "foto": "https://cf.shopee.com.br/file/br-11134207-820li-mpn1ivo9hlhd61",
+   "link": "https://s.shopee.com.br/3Vm7cQ5Gea",
+   "desconto": 57,
+   "loja": "Bm___store",
+   "categoria": "Vestidos",
+   "busca": "vestido longo festa"
+  },
+  {
+   "nome": "Vestido Feminino Longo Festa Um Ombro Só Gola Alta Fenda Suplex Elegante",
+   "preco": 43.9,
+   "foto": "https://cf.shopee.com.br/file/br-11134207-81z1k-mihft2svtsee50",
+   "link": "https://s.shopee.com.br/4B1oPe2jIW",
+   "desconto": 56,
+   "loja": "MODAS.NAYR",
+   "categoria": "Vestidos",
+   "busca": "vestido longo festa"
   },
   {
    "nome": "Vestido Tubinho Feminino Justo Curto Alcinha Fina Básico Casual Festa Balada Verão",
@@ -172,122 +372,22 @@
    "busca": "vestido curto festa"
   },
   {
-   "nome": "Macaquinho Chiffon com Forro Tamanho Unico Verão Costas Abertas Casual Festas LUIZA",
-   "preco": 69.93,
-   "foto": "https://cf.shopee.com.br/file/br-11134207-81ztc-mk9nln1ivf297e",
-   "link": "https://s.shopee.com.br/6VPjBwSuKu",
-   "desconto": 63,
-   "loja": "RAIKKA STORE",
-   "categoria": "Vestidos",
-   "busca": "macacão feminino festa"
-  },
-  {
-   "nome": "Macacão Feminino Longo Festa Pantalona Amarração nas Costas Com Bolsos Elegante Confortável 38 ao 46",
-   "preco": 59.99,
-   "foto": "https://cf.shopee.com.br/file/br-11134207-820lg-mq8zutjxt6o279",
-   "link": "https://s.shopee.com.br/7pv6mONpdI",
-   "desconto": 60,
-   "loja": "Ka Martins",
-   "categoria": "Vestidos",
-   "busca": "macacão feminino festa"
-  },
-  {
-   "nome": "Macacão Feminino Assimétrico Pantalona Longo",
-   "preco": 79.8,
-   "foto": "https://cf.shopee.com.br/file/br-11134207-820m8-mtd9a5oe8fsyc1",
-   "link": "https://s.shopee.com.br/60TSb1UoLr",
-   "desconto": 58,
-   "loja": "Modas Ingrid",
-   "categoria": "Vestidos",
-   "busca": "macacão feminino festa"
-  },
-  {
-   "nome": "Vestido macaquinho Curto Alfaiataria Luxo Recortes com Detalhe em renda Dourada | Festa Balada",
-   "preco": 49.99,
-   "foto": "https://cf.shopee.com.br/file/br-11134207-81ztc-mis7kiccne9u1a",
-   "link": "https://s.shopee.com.br/5VXC06WiMo",
-   "desconto": 58,
-   "loja": "Saudao Da EB",
-   "categoria": "Vestidos",
-   "busca": "macacão feminino festa"
-  },
-  {
-   "nome": "Macacão Feminino para Festa Social Pantalona Bojo Crepe Duna P ao GG Plus Size Até 46 Envio Imediato",
-   "preco": 64.89,
-   "foto": "https://cf.shopee.com.br/file/br-11134207-820l8-mo2p3p2hvxfma3",
-   "link": "https://s.shopee.com.br/6L6IzdTXft",
-   "desconto": 54,
-   "loja": "CleoModaFeminina",
-   "categoria": "Vestidos",
-   "busca": "macacão feminino festa"
-  },
-  {
-   "nome": "Macacão Longo Liso Infantil Feminino Pantalona  Menina Juvenil Festa Casual 4 ao 16 Anos lançamento",
-   "preco": 60.0,
-   "foto": "https://cf.shopee.com.br/file/br-11134207-820ma-mrs6696z1ipy5d",
-   "link": "https://s.shopee.com.br/AUvrxIDgDY",
-   "desconto": 50,
-   "loja": "Fadinha Fashion",
-   "categoria": "Vestidos",
-   "busca": "macacão feminino festa"
-  },
-  {
-   "nome": "Macaquinho Feminino Elegante Casual de Festa com Alça Ajustavel Bojo Elastaex nas Costas Tecido Duna",
-   "preco": 49.4,
-   "foto": "https://cf.shopee.com.br/file/br-11134207-81ztc-mk4v1ymbylfl6e",
-   "link": "https://s.shopee.com.br/AAJ1YgEwtW",
-   "desconto": 48,
-   "loja": "Modas-Shirley",
-   "categoria": "Vestidos",
-   "busca": "macacão feminino festa"
-  },
-  {
-   "nome": "Macacão Feminina Calça Ampla de Festa Chá Revelação Casamento Convidada Confortável Final do Ano",
-   "preco": 64.8,
-   "foto": "https://cf.shopee.com.br/file/br-11134207-81z1k-mgtqk1srmivb08",
-   "link": "https://s.shopee.com.br/80EWyhNCI3",
-   "desconto": 46,
-   "loja": "RONY MODAS",
-   "categoria": "Vestidos",
-   "busca": "macacão feminino festa"
-  },
-  {
-   "nome": "Macacão Infantil Feminino Pantalona Longo Liso Menina Juvenil Festa Casual 4 ao 16 Anos lançamento",
-   "preco": 66.0,
-   "foto": "https://cf.shopee.com.br/file/br-11134207-820ly-mrs6696z4buu56",
-   "link": "https://s.shopee.com.br/5fqcCPW51p",
+   "nome": "Macacão Longo Feminino Plus Size Duna Premium com Manga e Gola V Chique Festa Confortável",
+   "preco": 94.2,
+   "foto": "https://cf.shopee.com.br/file/br-11134207-81zu2-mky6vh6x7vgha3",
+   "link": "https://s.shopee.com.br/60TU4LMN0O",
    "desconto": 45,
-   "loja": "Mi Fashion Store",
+   "loja": "FRS Modas",
    "categoria": "Vestidos",
    "busca": "macacão feminino festa"
   },
   {
-   "nome": "Macacão Feminino Longo Pantalona Ombro Único com Laço Elegante para Festa com Bolsos",
-   "preco": 66.0,
-   "foto": "https://cf.shopee.com.br/file/br-11134207-820l7-mmsgy48dqn0k31",
-   "link": "https://s.shopee.com.br/5LDlnnXLhn",
+   "nome": "Macacão Longo Feminino Plus Size Duna Premium Forrado Elegante Festa",
+   "preco": 94.0,
+   "foto": "https://cf.shopee.com.br/file/br-11134207-820lh-mvbw837lxvr6c7",
+   "link": "https://s.shopee.com.br/7KyrenHIIm",
    "desconto": 45,
-   "loja": "AJJE ALIENS",
-   "categoria": "Vestidos",
-   "busca": "macacão feminino festa"
-  },
-  {
-   "nome": "Macacão Feminino Elegante Pantalona com Bojo | Tecido Duna Premium | Festa e Casamento",
-   "preco": 69.6,
-   "foto": "https://cf.shopee.com.br/file/br-11134207-820ly-mmlxk2j4v6ro2b",
-   "link": "https://s.shopee.com.br/7AfPzAQMzE",
-   "desconto": 42,
-   "loja": "MUNOZ MODAS",
-   "categoria": "Vestidos",
-   "busca": "macacão feminino festa"
-  },
-  {
-   "nome": "Macacão Longo Feminino Alfaiataria Social Alça Fina Com Cinto Festa Eventos",
-   "preco": 79.99,
-   "foto": "https://cf.shopee.com.br/file/br-11134207-7r98o-mbx5ysja38o71e",
-   "link": "https://s.shopee.com.br/9KjuZ9I7aR",
-   "desconto": 34,
-   "loja": "JHFASHION_",
+   "loja": "FRS Modas",
    "categoria": "Vestidos",
    "busca": "macacão feminino festa"
   },
@@ -312,7 +412,7 @@
    "busca": "conjunto feminino réveillon"
   },
   {
-   "nome": "Conjunto Maiô Feminino com Saída de Praia Elegante Moda Praia Verão Luxo ano novo réveillon natal",
+   "nome": "BLACK FRIDAY Conjunto Maiô Feminino com Saída de Praia Elegante Moda Praia Verão Luxo ano novo réveillon natal",
    "preco": 68.2,
    "foto": "https://cf.shopee.com.br/file/br-11134207-820ln-mu9io5j3x7nl55",
    "link": "https://s.shopee.com.br/6L6IzLIs1S",
@@ -342,7 +442,7 @@
    "busca": "conjunto feminino réveillon"
   },
   {
-   "nome": "Conjunto Maiô Body e Saia Longa Praia Feminino Luxo Verão Decote V Saia Fenda ano novo réveillon natal",
+   "nome": "BLACK FRIDAY Conjunto Maiô Body e Saia Longa Praia Feminino Luxo Verão Decote V Saia Fenda ano novo réveillon natal",
    "preco": 79.0,
    "foto": "https://cf.shopee.com.br/file/br-11134207-820ln-mu9io5j3x7nl55",
    "link": "https://s.shopee.com.br/1qdtd4a09G",
@@ -603,10 +703,10 @@
   },
   {
    "nome": "Kit 60/100 Bolas de Natal + Estrela Mista Lisas Glitter Decoração Enfeite Árvore de Natal LuvinCo",
-   "preco": 59.99,
+   "preco": 49.99,
    "foto": "https://cf.shopee.com.br/file/br-11134207-820ls-muwn1kq7sqgy35",
    "link": "https://s.shopee.com.br/3g5XokYxTX",
-   "desconto": 56,
+   "desconto": 58,
    "loja": "LuvinCo",
    "categoria": "Decoração",
    "busca": "árvore de natal"
@@ -652,6 +752,16 @@
    "busca": "árvore de natal"
   },
   {
+   "nome": "Strobo Pisca Pisca Cordão Natal 500 Leds 50m Prova D'Água Bivolt  100 Flash  Decoração Enfeite Natal LuvinCo",
+   "preco": 159.99,
+   "foto": "https://cf.shopee.com.br/file/br-11134207-820lg-mu2deg1ohybl3b",
+   "link": "https://s.shopee.com.br/5fqcCQnPcL",
+   "desconto": 77,
+   "loja": "LuvinCo",
+   "categoria": "Decoração",
+   "busca": "pisca pisca led natal"
+  },
+  {
    "nome": "Cordão 500/300 Led interno 9 fixo 1 strobo - 50/30 metros fio verde pisca pisca decoração natal Conector m/f",
    "preco": 31.99,
    "foto": "https://cf.shopee.com.br/file/cn-11134207-820l4-mtqeclks5zpgf3",
@@ -672,22 +782,22 @@
    "busca": "pisca pisca led natal"
   },
   {
-   "nome": "LED Cortina luz led pisca pisca de natal ao Luzes Pisca Cascata Decoração Branco Quente Janela",
-   "preco": 25.9,
-   "foto": "https://cf.shopee.com.br/file/br-11134207-820lh-mudnxmogs077a2",
-   "link": "https://s.shopee.com.br/5qA2OjmmHM",
-   "desconto": 62,
-   "loja": "CHUANGXIN",
-   "categoria": "Decoração",
-   "busca": "pisca pisca led natal"
-  },
-  {
    "nome": "10m Cascata 400 Led 8 Funções Decoração Natal 110v 220v Conexão Macho Branco Frio Quente Pisca Pisca Enfeites de Natal",
    "preco": 123.99,
    "foto": "https://cf.shopee.com.br/file/br-11134207-820mg-mtgwtlf6mjurf5",
    "link": "https://s.shopee.com.br/4B1oPft7ex",
    "desconto": 60,
    "loja": "Supreo",
+   "categoria": "Decoração",
+   "busca": "pisca pisca led natal"
+  },
+  {
+   "nome": "LED Cortina luz led pisca pisca de natal ao Luzes Pisca Cascata Decoração Branco Quente Janela",
+   "preco": 25.9,
+   "foto": "https://cf.shopee.com.br/file/br-11134207-820lh-mudnxmogs077a2",
+   "link": "https://s.shopee.com.br/5qA2OjmmHM",
+   "desconto": 59,
+   "loja": "CHUANGXIN",
    "categoria": "Decoração",
    "busca": "pisca pisca led natal"
   },
@@ -708,16 +818,6 @@
    "link": "https://s.shopee.com.br/40iODMtkzu",
    "desconto": 57,
    "loja": "99 Presentes",
-   "categoria": "Decoração",
-   "busca": "pisca pisca led natal"
-  },
-  {
-   "nome": "Strobo Pisca Pisca Cordão Natal 500 Leds 50m Prova D'Água Bivolt  100 Flash  Decoração Enfeite Natal LuvinCo",
-   "preco": 299.99,
-   "foto": "https://cf.shopee.com.br/file/br-11134207-820lg-mu2deg1ohybl3b",
-   "link": "https://s.shopee.com.br/5fqcCQnPcL",
-   "desconto": 57,
-   "loja": "LuvinCo",
    "categoria": "Decoração",
    "busca": "pisca pisca led natal"
   },
@@ -895,7 +995,7 @@
    "nome": "ROMANTIC CROWN Bolsa Feminina Pequena de Ombro Impermeável, Mini Tiracolo de Couro para Trabalho e Festa",
    "preco": 69.98,
    "foto": "https://cf.shopee.com.br/file/br-11134207-820lh-mswgis250h6vb6",
-   "link": "https://s.shopee.com.br/8VAnZeK8tL",
+   "link": "https://s.shopee.com.br/7VIHVvjomg",
    "desconto": 90,
    "loja": "Romantic Crown.02",
    "categoria": "Acessórios",
