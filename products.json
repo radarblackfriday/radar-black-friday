@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "27/11/2026 12:57",
+  "atualizado_em": "27/11/2026 21:57",
   "produtos": [
     {
       "nome": "Panela de Pressão 4,5 Litros ASJ Preta Craqueada",
@@ -85,20 +85,6 @@
       "desconto": 68
     },
     {
-      "nome": "SANDUICHEIRA GRILL ELÉTRICA 2 EM 1 MULTIUSO INOX PRETA KAZA+",
-      "loja": "Shopee",
-      "cat": "Casa e cozinha",
-      "preco": 79.99,
-      "antes": null,
-      "visto": "27/11",
-      "link": "https://s.shopee.com.br/6AmtK13K68",
-      "imagem": "https://cf.shopee.com.br/file/br-11134207-820m5-muwf4u2uxp8jc4",
-      "exemplo": false,
-      "auto": true,
-      "busca": "sanduicheira elétrica",
-      "desconto": 55
-    },
-    {
       "nome": "Sanduicheira Elétrica e Grill Família 2 em 1 - Inox antiaderente - 750W Oliver Home",
       "loja": "Shopee",
       "cat": "Casa e cozinha",
@@ -125,6 +111,20 @@
       "auto": true,
       "busca": "sanduicheira elétrica",
       "desconto": 53
+    },
+    {
+      "nome": "SANDUICHEIRA GRILL ELÉTRICA 2 EM 1 MULTIUSO INOX PRETA KAZA+",
+      "loja": "Shopee",
+      "cat": "Casa e cozinha",
+      "preco": 89.99,
+      "antes": null,
+      "visto": "27/11",
+      "link": "https://s.shopee.com.br/6AmtK13K68",
+      "imagem": "https://cf.shopee.com.br/file/br-11134207-820m5-muwf4u2uxp8jc4",
+      "exemplo": false,
+      "auto": true,
+      "busca": "sanduicheira elétrica",
+      "desconto": 49
     },
     {
       "nome": "Chaleira Misturadora De Café Automática Agitadora Elétrica Giratória Para Chá Leite e Café",
@@ -203,7 +203,7 @@
       "preco": 47.66,
       "antes": null,
       "visto": "27/11",
-      "link": "https://s.shopee.com.br/6L6JWKfwY1",
+      "link": "https://s.shopee.com.br/40iRD94imx",
       "imagem": "https://cf.shopee.com.br/file/sg-11134201-824il-mpnyw08aap718c",
       "exemplo": false,
       "auto": true,
@@ -223,20 +223,6 @@
       "auto": true,
       "busca": "chaleira elétrica",
       "desconto": 67
-    },
-    {
-      "nome": "Chaleira Elétrica Jarra 1.8L Café Chá Inox 220v",
-      "loja": "Shopee",
-      "cat": "Casa e cozinha",
-      "preco": 38.99,
-      "antes": null,
-      "visto": "27/11",
-      "link": "https://s.shopee.com.br/8VAo6JXh96",
-      "imagem": "https://cf.shopee.com.br/file/br-11134207-820l8-mrk47ehpkr9j88",
-      "exemplo": false,
-      "auto": true,
-      "busca": "chaleira elétrica",
-      "desconto": 61
     },
     {
       "nome": "Chaleira Elétrica Jarra Água Quente e Fria Bule Café Chá Cozinha Design Moderno",
@@ -267,13 +253,27 @@
       "desconto": 60
     },
     {
+      "nome": "Chaleira elétrica Chaleira elétrica de alta tecnologia em aço inoxidável 110v--R1280",
+      "loja": "Shopee",
+      "cat": "Casa e cozinha",
+      "preco": 35.99,
+      "antes": null,
+      "visto": "27/11",
+      "link": "https://s.shopee.com.br/4Veho42om0",
+      "imagem": "https://cf.shopee.com.br/file/sg-11134201-7rdxj-ly2gzf42u6tldf",
+      "exemplo": false,
+      "auto": true,
+      "busca": "chaleira elétrica",
+      "desconto": 60
+    },
+    {
       "nome": "Chaleira Elétrica Inox 2 Litros Jarra Térmica Desligamento Automático Ferve Água Rápido Café Chá",
       "loja": "Shopee",
       "cat": "Casa e cozinha",
       "preco": 46.97,
       "antes": null,
       "visto": "27/11",
-      "link": "https://s.shopee.com.br/4VefKxmvGi",
+      "link": "https://s.shopee.com.br/4qHYCg1Y6A",
       "imagem": "https://cf.shopee.com.br/file/br-11134207-81ztc-mjtxpuufy1oi8d",
       "exemplo": false,
       "auto": true,
@@ -614,7 +614,7 @@
       "exemplo": false,
       "auto": true,
       "busca": "vestido de natal",
-      "desconto": 68
+      "desconto": 67
     },
     {
       "nome": "Vestido Poá com Amarração Feminino no Canelado Verão e Natal",
@@ -645,6 +645,20 @@
       "desconto": 66
     },
     {
+      "nome": "Vestido Infantil Menina Princesa Vermelho Natal Listrado Barrado Varias Cores para Festas De Natal",
+      "loja": "Shopee",
+      "cat": "Tendência",
+      "preco": 34.9,
+      "antes": null,
+      "visto": "27/11",
+      "link": "https://s.shopee.com.br/2BGk1xb4uj",
+      "imagem": "https://cf.shopee.com.br/file/br-11134207-820lo-musm60a0v20yb6",
+      "exemplo": false,
+      "auto": true,
+      "busca": "vestido de natal",
+      "desconto": 63
+    },
+    {
       "nome": "Vestido Infantil Menina Vermelho Natal Listrado Barrado Luxo Para Festas Disponível Em 2 Cores",
       "loja": "Shopee",
       "cat": "Tendência",
@@ -653,20 +667,6 @@
       "visto": "27/11",
       "link": "https://s.shopee.com.br/1CFRyjKJM",
       "imagem": "https://cf.shopee.com.br/file/br-11134207-820m9-mtxsyci6daf750",
-      "exemplo": false,
-      "auto": true,
-      "busca": "vestido de natal",
-      "desconto": 64
-    },
-    {
-      "nome": "Vestido Infantil Menina Princesa Vermelho Natal Listrado Barrado Varias Cores para Festas De Natal",
-      "loja": "Shopee",
-      "cat": "Tendência",
-      "preco": 33.9,
-      "antes": null,
-      "visto": "27/11",
-      "link": "https://s.shopee.com.br/2BGk1xb4uj",
-      "imagem": "https://cf.shopee.com.br/file/br-11134207-820lo-musm60a0v20yb6",
       "exemplo": false,
       "auto": true,
       "busca": "vestido de natal",
@@ -900,7 +900,7 @@
       "nome": "Vestido Feminino Curto Festa Elegante Frente Unica Gola Alta Babado ASSIMETRICO",
       "loja": "Shopee",
       "cat": "Tendência",
-      "preco": 29.99,
+      "preco": 34.99,
       "antes": null,
       "visto": "27/11",
       "link": "https://s.shopee.com.br/6AmsnKCeAZ",
@@ -908,7 +908,7 @@
       "exemplo": false,
       "auto": true,
       "busca": "vestido curto festa",
-      "desconto": 62
+      "desconto": 56
     },
     {
       "nome": "Vestido Curto Feminino Justo Sem Alça Colado Festa Balada Casual Verão Suplex",
@@ -1023,7 +1023,7 @@
       "desconto": 50
     },
     {
-      "nome": "BLACK FRIDAY Conjunto Maiô Body e Saia Longa Praia Feminino Luxo Verão Decote V Saia Fenda ano novo réveillon natal",
+      "nome": "Conjunto Maiô Body e Saia Longa Praia Feminino Luxo Verão Decote V Saia Fenda ano novo réveillon natal BLACK FRIDAY",
       "loja": "Shopee",
       "cat": "Tendência",
       "preco": 54.99,
@@ -1037,7 +1037,7 @@
       "desconto": 52
     },
     {
-      "nome": "BLACK FRIDAY Conjunto Maiô Feminino com Saída de Praia Elegante Moda Praia Verão Luxo ano novo réveillon natal",
+      "nome": "Conjunto Maiô Feminino com Saída de Praia Elegante Moda Praia Verão Luxo ano novo réveillon natal BLACK FRIDAY",
       "loja": "Shopee",
       "cat": "Tendência",
       "preco": 54.99,
@@ -1135,20 +1135,6 @@
       "desconto": 79
     },
     {
-      "nome": "Cordão de Luzes LED Solar 10m/20m para Uso Externo, 8 Funções, Prova d'Água, Decoração de Natal",
-      "loja": "Shopee",
-      "cat": "Tendência",
-      "preco": 26.99,
-      "antes": null,
-      "visto": "27/11",
-      "link": "https://s.shopee.com.br/2qWRLz02wn",
-      "imagem": "https://cf.shopee.com.br/file/sg-11134201-82589-mgew8ukw0b2kba",
-      "exemplo": false,
-      "auto": true,
-      "busca": "decoração de natal",
-      "desconto": 73
-    },
-    {
       "nome": "Fio De Fada De 2M Com Luzes De Fadas Led Para Decoração De Casa E Festa De Natal",
       "loja": "Shopee",
       "cat": "Tendência",
@@ -1175,6 +1161,20 @@
       "auto": true,
       "busca": "decoração de natal",
       "desconto": 71
+    },
+    {
+      "nome": "Cordão de Luzes LED Solar 10m/20m para Uso Externo, 8 Funções, Prova d'Água, Decoração de Natal",
+      "loja": "Shopee",
+      "cat": "Tendência",
+      "preco": 49.99,
+      "antes": null,
+      "visto": "27/11",
+      "link": "https://s.shopee.com.br/2qWRLz02wn",
+      "imagem": "https://cf.shopee.com.br/file/sg-11134201-82589-mgew8ukw0b2kba",
+      "exemplo": false,
+      "auto": true,
+      "busca": "decoração de natal",
+      "desconto": 70
     },
     {
       "nome": "【 exquisite Alta Qualidade 】 Snowflake Cartas Vermelhas Meias De Natal Pingentes De Árvore Ornamentos E Presentes",
@@ -1247,20 +1247,6 @@
       "desconto": 64
     },
     {
-      "nome": "Strobo Pisca Pisca Cordão Natal 500 Leds 50m Prova D'Água Bivolt 100 Flash Decoração Enfeite Natal LuvinCo",
-      "loja": "Shopee",
-      "cat": "Tendência",
-      "preco": 159.99,
-      "antes": null,
-      "visto": "27/11",
-      "link": "https://s.shopee.com.br/5fqcCQnPcL",
-      "imagem": "https://cf.shopee.com.br/file/br-11134207-820lg-mu2deg1ohybl3b",
-      "exemplo": false,
-      "auto": true,
-      "busca": "pisca pisca led natal",
-      "desconto": 77
-    },
-    {
       "nome": "Cordão 500/300 Led interno 9 fixo 1 strobo - 50/30 metros fio verde pisca pisca decoração natal Conector m/f",
       "loja": "Shopee",
       "cat": "Tendência",
@@ -1315,6 +1301,20 @@
       "auto": true,
       "busca": "pisca pisca led natal",
       "desconto": 63
+    },
+    {
+      "nome": "Pisca Pisca Natal 10m 100 Led Branco Quente Luzes 8 Funções Decoração Luz",
+      "loja": "Shopee",
+      "cat": "Tendência",
+      "preco": 18.99,
+      "antes": null,
+      "visto": "27/11",
+      "link": "https://s.shopee.com.br/W8Yy6nZFM",
+      "imagem": "https://cf.shopee.com.br/file/br-11134207-81z1k-me5vj94acfls75",
+      "exemplo": false,
+      "auto": true,
+      "busca": "pisca pisca led natal",
+      "desconto": 62
     },
     {
       "nome": "Pisca Pisca Natal Cordão 100 Leds 10m 8 Funções Varias Cores 110v / 220v ANJIN",
@@ -1413,6 +1413,90 @@
       "auto": true,
       "busca": "guirlanda de natal",
       "desconto": 61
+    },
+    {
+      "nome": "ROMANTIC CROWN Bolsa Feminina Pequena de Ombro Impermeável, Mini Tiracolo de Couro para Trabalho e Festa",
+      "loja": "Shopee",
+      "cat": "Tendência",
+      "preco": 62.98,
+      "antes": null,
+      "visto": "27/11",
+      "link": "https://s.shopee.com.br/7VIHVvjomg",
+      "imagem": "https://cf.shopee.com.br/file/br-11134207-820lh-mswgis250h6vb6",
+      "exemplo": false,
+      "auto": true,
+      "busca": "bolsa festa feminina",
+      "desconto": 90
+    },
+    {
+      "nome": "Bolsa Clutch Feminina com Corrente Removível para Casamento Formatura e Festas Elegantes Y1001",
+      "loja": "Shopee",
+      "cat": "Tendência",
+      "preco": 31.15,
+      "antes": null,
+      "visto": "27/11",
+      "link": "https://s.shopee.com.br/9KjuZBGyCa",
+      "imagem": "https://cf.shopee.com.br/file/sg-11134201-7rd5a-m76cy3e9ng5u99",
+      "exemplo": false,
+      "auto": true,
+      "busca": "bolsa festa feminina",
+      "desconto": 79
+    },
+    {
+      "nome": "Bolsa de Festa Luxuosa com Brilho para Casamento e Jantares Clutch Feminina com Alça Y1055",
+      "loja": "Shopee",
+      "cat": "Tendência",
+      "preco": 31.15,
+      "antes": null,
+      "visto": "27/11",
+      "link": "https://s.shopee.com.br/6VPjByRkx9",
+      "imagem": "https://cf.shopee.com.br/file/sg-11134201-7rd5u-lvimhrz6fa60d6",
+      "exemplo": false,
+      "auto": true,
+      "busca": "bolsa festa feminina",
+      "desconto": 76
+    },
+    {
+      "nome": "ROMANTIC CROWN Bolsa Feminina Mão Transversal Ombro Clutch, Couro PU Vegan Trançada Festa Balada Casamento Alça Ajustáve",
+      "loja": "Shopee",
+      "cat": "Tendência",
+      "preco": 62.99,
+      "antes": null,
+      "visto": "27/11",
+      "link": "https://s.shopee.com.br/7KyqBVOaGO",
+      "imagem": "https://cf.shopee.com.br/file/br-11134207-820le-msxmjt5vnif9f3",
+      "exemplo": false,
+      "auto": true,
+      "busca": "bolsa festa feminina",
+      "desconto": 70
+    },
+    {
+      "nome": "Bolsa Clutch Feminina 2 em 1 com Corrente Removível parasamento Festa e Jantar Y1108",
+      "loja": "Shopee",
+      "cat": "Tendência",
+      "preco": 79.49,
+      "antes": null,
+      "visto": "27/11",
+      "link": "https://s.shopee.com.br/3qOy14buMt",
+      "imagem": "https://cf.shopee.com.br/file/br-11134207-81z1k-mifn116u5lvq2d",
+      "exemplo": false,
+      "auto": true,
+      "busca": "bolsa festa feminina",
+      "desconto": 67
+    },
+    {
+      "nome": "Bolsa feminina pequena com corrente alça de ombro e transversal luxo elegante bolsa festa",
+      "loja": "Shopee",
+      "cat": "Tendência",
+      "preco": 39.9,
+      "antes": null,
+      "visto": "27/11",
+      "link": "https://s.shopee.com.br/7VIGNoNwvR",
+      "imagem": "https://cf.shopee.com.br/file/br-11134207-81ztc-mk9kqdgrkbup0e",
+      "exemplo": false,
+      "auto": true,
+      "busca": "bolsa festa feminina",
+      "desconto": 60
     },
     {
       "nome": "Brincos femininos 1 par, na cor dourada, com zircônia embutida, design de estrela de oito pontas, feitos de liga metálic",
@@ -1726,7 +1810,7 @@
       "nome": "Escorredor de Louças Rack Aço Carbono Organizador Preto",
       "loja": "Shopee",
       "cat": "Casa e cozinha",
-      "preco": 91.9,
+      "preco": 92.0,
       "antes": null,
       "visto": "27/11",
       "link": "https://s.shopee.com.br/7VIHxAJFM6",
@@ -1765,20 +1849,6 @@
       "desconto": 60
     },
     {
-      "nome": "Jogo de Toalhas de Banho Yuna 100% Algodão 3 Peças Karsten",
-      "loja": "Shopee",
-      "cat": "Casa e cozinha",
-      "preco": 105.16,
-      "antes": null,
-      "visto": "27/11",
-      "link": "https://s.shopee.com.br/5qA2vZIDjT",
-      "imagem": "https://cf.shopee.com.br/file/br-11134207-81ztc-mk2oauw8csn5fa",
-      "exemplo": false,
-      "auto": true,
-      "busca": "jogo de toalhas",
-      "desconto": 58
-    },
-    {
       "nome": "Jogo Toalha de Banho Grande 4 Peça 100% Algodão alta absorção 2 Banho + 2 Rosto Escolha sua cor",
       "loja": "Shopee",
       "cat": "Casa e cozinha",
@@ -1807,20 +1877,6 @@
       "desconto": 56
     },
     {
-      "nome": "Jogo De Toalhas 4 Peças - Banho e Rosto Algodão Antipiling Yuna Karsten - BF Casa",
-      "loja": "Shopee",
-      "cat": "Casa e cozinha",
-      "preco": 114.75,
-      "antes": null,
-      "visto": "27/11",
-      "link": "https://s.shopee.com.br/AUvsU90SGB",
-      "imagem": "https://cf.shopee.com.br/file/br-11134201-820lq-mqxxfib8s6iuea",
-      "exemplo": false,
-      "auto": true,
-      "busca": "jogo de toalhas",
-      "desconto": 55
-    },
-    {
       "nome": "Jogo de Toalhas Banhão Gigante 2 Peças Fios Penteados Lumina Karsten - Emcompre",
       "loja": "Shopee",
       "cat": "Casa e cozinha",
@@ -1835,18 +1891,32 @@
       "desconto": 50
     },
     {
-      "nome": "Lixeira Suspensa 9 Litros Com Tampa E Suporte Alto De Adesivos E Alça De Pentura Para Cozinha",
+      "nome": "Jogo de Toalhas 4 Peças Banhão e Rosto 100% Algodão Brisa Karsten",
       "loja": "Shopee",
       "cat": "Casa e cozinha",
-      "preco": 30.99,
+      "preco": 146.32,
       "antes": null,
       "visto": "27/11",
-      "link": "https://s.shopee.com.br/3g5Ywk6RkT",
-      "imagem": "https://cf.shopee.com.br/file/br-11134207-7r98p-lm7tu24132nf21",
+      "link": "https://s.shopee.com.br/9pgBgv2zc7",
+      "imagem": "https://cf.shopee.com.br/file/br-11134207-820md-mrhns62xkhs642",
       "exemplo": false,
       "auto": true,
-      "busca": "lixeira cozinha",
-      "desconto": 66
+      "busca": "jogo de toalhas",
+      "desconto": 49
+    },
+    {
+      "nome": "Jogo de Toalhas 4 Peças Banhão Gigante + Rosto Fio Penteado Lumina Karsten - Emcompre",
+      "loja": "Shopee",
+      "cat": "Casa e cozinha",
+      "preco": 188.42,
+      "antes": null,
+      "visto": "27/11",
+      "link": "https://s.shopee.com.br/5LDmKeK7kK",
+      "imagem": "https://cf.shopee.com.br/file/br-11134207-820lg-mner7lyfkpac01",
+      "exemplo": false,
+      "auto": true,
+      "busca": "jogo de toalhas",
+      "desconto": 49
     },
     {
       "nome": "Lixeira Cesto de Lixo 09 Litros Automática Suspensa Rose Preta Banheiro Cozinha Escritório Quarto",
@@ -1863,20 +1933,6 @@
       "desconto": 62
     },
     {
-      "nome": "Lixeira com Pedal 14 Litros preta Plástica com Tampa para Cozinha Banheiro Escritório 34x31x25 cm",
-      "loja": "Shopee",
-      "cat": "Casa e cozinha",
-      "preco": 19.99,
-      "antes": null,
-      "visto": "27/11",
-      "link": "https://s.shopee.com.br/6q2aiYuOKA",
-      "imagem": "https://cf.shopee.com.br/file/br-11134207-820m2-mtec7rhe6uwy4e",
-      "exemplo": false,
-      "auto": true,
-      "busca": "lixeira cozinha",
-      "desconto": 60
-    },
-    {
       "nome": "Kit Saco de Lixo Perfumado Lavanda 10L Anti Odor Banheiro Pia Cozinha Lixeira 40 Sacos por Rolo",
       "loja": "Shopee",
       "cat": "Casa e cozinha",
@@ -1885,6 +1941,20 @@
       "visto": "27/11",
       "link": "https://s.shopee.com.br/8KrNuAqhYW",
       "imagem": "https://cf.shopee.com.br/file/br-11134207-820mb-mu8rl42h6dq8ee",
+      "exemplo": false,
+      "auto": true,
+      "busca": "lixeira cozinha",
+      "desconto": 56
+    },
+    {
+      "nome": "Lixeira com Pedal 14 Litros preta Plástica com Tampa para Cozinha Banheiro Escritório 34x31x25 cm",
+      "loja": "Shopee",
+      "cat": "Casa e cozinha",
+      "preco": 21.99,
+      "antes": null,
+      "visto": "27/11",
+      "link": "https://s.shopee.com.br/6q2aiYuOKA",
+      "imagem": "https://cf.shopee.com.br/file/br-11134207-820m2-mtec7rhe6uwy4e",
       "exemplo": false,
       "auto": true,
       "busca": "lixeira cozinha",
@@ -1912,6 +1982,20 @@
       "antes": null,
       "visto": "27/11",
       "link": "https://s.shopee.com.br/80EXVYryEU",
+      "imagem": "https://cf.shopee.com.br/file/sg-11134201-7rdwa-mccb5id6es7v2d",
+      "exemplo": false,
+      "auto": true,
+      "busca": "lixeira cozinha",
+      "desconto": 55
+    },
+    {
+      "nome": "Lixeira Automática 12 Litros Sensor Infravermelho Tampa Para Cozinha Banheiro Escritório Quarto Top&casa",
+      "loja": "Shopee",
+      "cat": "Casa e cozinha",
+      "preco": 53.99,
+      "antes": null,
+      "visto": "27/11",
+      "link": "https://s.shopee.com.br/8fUEImpQsg",
       "imagem": "https://cf.shopee.com.br/file/sg-11134201-7rdwa-mccb5id6es7v2d",
       "exemplo": false,
       "auto": true,
@@ -2048,7 +2132,7 @@
       "nome": "RODO LIMPA VIDRO 2 EM 1 ARTICULADO LIMPADOR DE JANELA MOP GIRATÓRIO RODINHO PARA LIMPEZA DE BOX ESPELHO ESFREGÃO SACADA",
       "loja": "Shopee",
       "cat": "Casa e cozinha",
-      "preco": 19.99,
+      "preco": 21.99,
       "antes": null,
       "visto": "27/11",
       "link": "https://s.shopee.com.br/5LDoCfV8BI",
@@ -2056,7 +2140,7 @@
       "exemplo": false,
       "auto": true,
       "busca": "mop giratório",
-      "desconto": 73
+      "desconto": 71
     },
     {
       "nome": "Escova Eletrica Limpeza Mop Giratorio Recarregavel Sem Fio Cabo Extensor 9 em 1 Banheiro Piso Rejunte Azulejo Cozinha",
@@ -2395,102 +2479,18 @@
       "desconto": 72
     },
     {
-      "nome": "Caixa de som Bluetooth Portátil Com Led RGB Portátil FM USB TWS 30W Para Praia, Festa ou Viagem",
+      "nome": "Caixa De Som Bluetooth Amplificada Potente LED RGB USB SD Radio Fm Mp3 Celular Note Tablet Conexão TWS",
       "loja": "Shopee",
       "cat": "Eletrônicos",
-      "preco": 89.96,
+      "preco": 26.99,
       "antes": null,
       "visto": "27/11",
-      "link": "https://s.shopee.com.br/7pv7uRpRPr",
-      "imagem": "https://cf.shopee.com.br/file/br-11134207-7r98o-lqo1mmf95gcjc2",
+      "link": "https://s.shopee.com.br/9pgCjV99VP",
+      "imagem": "https://cf.shopee.com.br/file/sg-11134201-7ratx-ma1h9d9oo1ape0",
       "exemplo": false,
       "auto": true,
       "busca": "caixa de som bluetooth",
-      "desconto": 70
-    },
-    {
-      "nome": "Headset Gamer 7.1 Surround Rgb Delta-f7140 Com Microfone Para Pc E Console",
-      "loja": "Shopee",
-      "cat": "Eletrônicos",
-      "preco": 49.04,
-      "antes": null,
-      "visto": "27/11",
-      "link": "https://s.shopee.com.br/BVgBDSxwo",
-      "imagem": "https://cf.shopee.com.br/file/br-11134207-820lk-moa3sgm6molj9c",
-      "exemplo": false,
-      "auto": true,
-      "busca": "fone gamer",
-      "desconto": 77
-    },
-    {
-      "nome": "Fone de Ouvido Gamer Bluetooth Fone TWS Gamer Com Redução de ruído original",
-      "loja": "Shopee",
-      "cat": "Eletrônicos",
-      "preco": 39.3,
-      "antes": null,
-      "visto": "27/11",
-      "link": "https://s.shopee.com.br/Lp6NWSKbp",
-      "imagem": "https://cf.shopee.com.br/file/sg-11134201-825ao-ms57tqad6fb4bb",
-      "exemplo": false,
-      "auto": true,
-      "busca": "fone gamer",
-      "desconto": 75
-    },
-    {
-      "nome": "Fone Sem Fio Bluetooth 5.3 Gamer Estéreo Touch Case M90 Pro - TOPMIX",
-      "loja": "Shopee",
-      "cat": "Eletrônicos",
-      "preco": 20.99,
-      "antes": null,
-      "visto": "27/11",
-      "link": "https://s.shopee.com.br/3qOyXxF0VI",
-      "imagem": "https://cf.shopee.com.br/file/sg-11134201-820mh-mng5tsui4v0jc1",
-      "exemplo": false,
-      "auto": true,
-      "busca": "fone gamer",
-      "desconto": 74
-    },
-    {
-      "nome": "Fone De Ouvido Bluetooth5.3 M25 TWS Sem Fio Gamer Com Tela LED Som Surround Case Carregador Portátil Preto",
-      "loja": "Shopee",
-      "cat": "Eletrônicos",
-      "preco": 22.49,
-      "antes": null,
-      "visto": "27/11",
-      "link": "https://s.shopee.com.br/3Vm89LGHBG",
-      "imagem": "https://cf.shopee.com.br/file/br-11134207-820l5-motyagba1nnk38",
-      "exemplo": false,
-      "auto": true,
-      "busca": "fone gamer",
-      "desconto": 71
-    },
-    {
-      "nome": "Headset Gamer TGT Diver V2, Rainbow, Drivers 40mm, Preto, TGT-DVR-RGB02",
-      "loja": "Shopee",
-      "cat": "Eletrônicos",
-      "preco": 56.02,
-      "antes": null,
-      "visto": "27/11",
-      "link": "https://s.shopee.com.br/3g5YLeFdqH",
-      "imagem": "https://cf.shopee.com.br/file/br-11134207-81z1k-mf1f34sgcnwkd3",
-      "exemplo": false,
-      "auto": true,
-      "busca": "fone gamer",
       "desconto": 68
-    },
-    {
-      "nome": "Fone KZ EDX Pro Profissional Intra-auricular Driver Dinâmico Magnético 10mm Original Gamer",
-      "loja": "Shopee",
-      "cat": "Eletrônicos",
-      "preco": 48.9,
-      "antes": null,
-      "visto": "27/11",
-      "link": "https://s.shopee.com.br/1qduAHMcYy",
-      "imagem": "https://cf.shopee.com.br/file/br-11134207-81zto-mkpgj0t7shs33d",
-      "exemplo": false,
-      "auto": true,
-      "busca": "fone gamer",
-      "desconto": 62
     },
     {
       "nome": "Carregador Portátil 5000Mah/10000Mah Indução Sem fio Bateria Carga",
@@ -2575,6 +2575,90 @@
       "auto": true,
       "busca": "carregador portátil power bank",
       "desconto": 61
+    },
+    {
+      "nome": "Kit 6 Forma de Silicone para Fritadeira Air Fryer com Alça Antiaderente Cozinha",
+      "loja": "Shopee",
+      "cat": "Casa e cozinha",
+      "preco": 11.99,
+      "antes": null,
+      "visto": "27/11",
+      "link": "https://s.shopee.com.br/9074hSi9AI",
+      "imagem": "https://cf.shopee.com.br/file/br-11134207-81ztc-mk35l9kuakg158",
+      "exemplo": false,
+      "auto": true,
+      "busca": "air fryer",
+      "desconto": 83
+    },
+    {
+      "nome": "Kit 100 Forma de airfryer descartavel antiaderente de papel cozinha quadrado fritadeira cozimento",
+      "loja": "Shopee",
+      "cat": "Casa e cozinha",
+      "preco": 16.98,
+      "antes": null,
+      "visto": "27/11",
+      "link": "https://s.shopee.com.br/8VAo6Xk3BH",
+      "imagem": "https://cf.shopee.com.br/file/br-11134207-820l5-mvhiu678rkea1f",
+      "exemplo": false,
+      "auto": true,
+      "busca": "air fryer",
+      "desconto": 76
+    },
+    {
+      "nome": "Borrifador Spray de Azeite 220ml em Vidro Óleo Vinagre Shoyu Pulverizador Air Fryer Cozinha Moderna",
+      "loja": "Shopee",
+      "cat": "Casa e cozinha",
+      "preco": 12.9,
+      "antes": null,
+      "visto": "27/11",
+      "link": "https://s.shopee.com.br/6VPjirrfF5",
+      "imagem": "https://cf.shopee.com.br/file/br-11134207-820l7-muf11hlp6c5eb6",
+      "exemplo": false,
+      "auto": true,
+      "busca": "air fryer",
+      "desconto": 70
+    },
+    {
+      "nome": "Kit 12/24/36 Forminhas Silicone Cupcake Empadinha Air Fryer",
+      "loja": "Shopee",
+      "cat": "Casa e cozinha",
+      "preco": 8.99,
+      "antes": null,
+      "visto": "27/11",
+      "link": "https://s.shopee.com.br/5LDmKiw6bs",
+      "imagem": "https://cf.shopee.com.br/file/sg-11134201-822zd-moeo4sxj318tb2",
+      "exemplo": false,
+      "auto": true,
+      "busca": "air fryer",
+      "desconto": 64
+    },
+    {
+      "nome": "Kit 100/200/300 Forro de Papel Descartável para Airfryer Antiaderente,Quadrado,Anti-Óleo Sem Limpeza",
+      "loja": "Shopee",
+      "cat": "Casa e cozinha",
+      "preco": 14.99,
+      "antes": null,
+      "visto": "27/11",
+      "link": "https://s.shopee.com.br/9zzbtIeL8a",
+      "imagem": "https://cf.shopee.com.br/file/sg-11134201-821ee-mggvnhpoe5n07f",
+      "exemplo": false,
+      "auto": true,
+      "busca": "air fryer",
+      "desconto": 62
+    },
+    {
+      "nome": "Adaptador de Tomada Ultra Resistente de Porcelana para Secador Air Fryer Benjamin Bivolt 10A e 20A",
+      "loja": "Shopee",
+      "cat": "Casa e cozinha",
+      "preco": 12.73,
+      "antes": null,
+      "visto": "27/11",
+      "link": "https://s.shopee.com.br/AUvsUDcR7j",
+      "imagem": "https://cf.shopee.com.br/file/sg-11134201-7rep2-m8i16u5pyp4wcf",
+      "exemplo": false,
+      "auto": true,
+      "busca": "air fryer",
+      "desconto": 60
     },
     {
       "nome": "Espremedor Elétrico de Frutas Automático | Laranja, Limão e Outras Frutas | Suco Natural Rápido | Design Premium",
@@ -2801,18 +2885,18 @@
       "desconto": 54
     },
     {
-      "nome": "Jogo de Panelas Legacy Antiaderente Revestimento Cerâmico 5 Peças Tampa de Vidro",
+      "nome": "Jogo De Panelas Induçao Antiaderente Cerâmica 10 Peças Ppg Pfoa Free Vanila Premium",
       "loja": "Shopee",
       "cat": "Casa e cozinha",
-      "preco": 249.0,
+      "preco": 296.9,
       "antes": null,
       "visto": "27/11",
-      "link": "https://s.shopee.com.br/BVgBFkEnH",
-      "imagem": "https://cf.shopee.com.br/file/br-11134207-81z1k-mf2p13dpzuvbd9",
+      "link": "https://s.shopee.com.br/2BGkYvccjj",
+      "imagem": "https://cf.shopee.com.br/file/sg-11134201-821f4-mgn7gut3553e33",
       "exemplo": false,
       "auto": true,
       "busca": "panela antiaderente",
-      "desconto": 52
+      "desconto": 54
     },
     {
       "nome": "MINI Refrigerador De Ar Ventilador Umidificador Dupla Giratório+rgb Camada Ventilador Climatizador Ar C/ Reservatório",
@@ -2958,7 +3042,7 @@
       "nome": "Garrafa térmica 550ML/650ML de aço inoxidável de alta qualidade com alça canudo",
       "loja": "Shopee",
       "cat": "Casa e cozinha",
-      "preco": 29.99,
+      "preco": 33.33,
       "antes": null,
       "visto": "27/11",
       "link": "https://s.shopee.com.br/20xKMiahK6",
@@ -3028,7 +3112,7 @@
       "nome": "TENIS MASCULINO ACADEMIA CAMINHADA TREINO ADAPTION KIEV",
       "loja": "Shopee",
       "cat": "Moda e acessórios",
-      "preco": 39.0,
+      "preco": 39.4,
       "antes": null,
       "visto": "27/11",
       "link": "https://s.shopee.com.br/3Vm89P1sEQ",
@@ -3151,18 +3235,88 @@
       "desconto": 70
     },
     {
-      "nome": "ROMANTIC CROWN Bolsa Feminina Pequena de Ombro Impermeável, Mini Tiracolo de Couro para Trabalho e Festa",
+      "nome": "Camisa de Compressão Poliamida LISA Masculina Camiseta BASICA Rash Guard Jiujitsu Academia Treino",
       "loja": "Shopee",
       "cat": "Moda e acessórios",
-      "preco": 62.98,
+      "preco": 27.9,
       "antes": null,
       "visto": "27/11",
-      "link": "https://s.shopee.com.br/7VIHVvjomg",
-      "imagem": "https://cf.shopee.com.br/file/br-11134207-820lh-mswgis250h6vb6",
+      "link": "https://s.shopee.com.br/4LLF8x2cyY",
+      "imagem": "https://cf.shopee.com.br/file/sg-11134201-824ir-mpx01diao1lb06",
       "exemplo": false,
       "auto": true,
-      "busca": "bolsa feminina",
-      "desconto": 90
+      "busca": "camiseta masculina",
+      "desconto": 77
+    },
+    {
+      "nome": "Camisa Polo Poliamida Premium Camiseta Masculina com Gola e Botao Tecido Gelado Elastico Sem Costura",
+      "loja": "Shopee",
+      "cat": "Moda e acessórios",
+      "preco": 39.89,
+      "antes": null,
+      "visto": "27/11",
+      "link": "https://s.shopee.com.br/5LDmKmyowa",
+      "imagem": "https://cf.shopee.com.br/file/br-11134207-820mf-mrq0gq29d9tz73",
+      "exemplo": false,
+      "auto": true,
+      "busca": "camiseta masculina",
+      "desconto": 73
+    },
+    {
+      "nome": "Camiseta Masculino Light T-shirt Insider",
+      "loja": "Shopee",
+      "cat": "Moda e acessórios",
+      "preco": 54.0,
+      "antes": null,
+      "visto": "27/11",
+      "link": "https://s.shopee.com.br/AUvsUHf9SJ",
+      "imagem": "https://cf.shopee.com.br/file/sg-11134201-825b1-mslhnyfht91jde",
+      "exemplo": false,
+      "auto": true,
+      "busca": "camiseta masculina",
+      "desconto": 71
+    },
+    {
+      "nome": "Jaqueta Blusa Jogger Masculina com Capuz Para Frio Com Refletivo",
+      "loja": "Shopee",
+      "cat": "Moda e acessórios",
+      "preco": 28.96,
+      "antes": null,
+      "visto": "27/11",
+      "link": "https://s.shopee.com.br/60TT80wHam",
+      "imagem": "https://cf.shopee.com.br/file/br-11134207-7r98o-m9xmicgozq6150",
+      "exemplo": false,
+      "auto": true,
+      "busca": "camiseta masculina",
+      "desconto": 68
+    },
+    {
+      "nome": "T-shirt Masculina Looney Tunes modelo novo Camiseta Versátil Camisa Tendência Blusa Premium Crt Unissex",
+      "loja": "Shopee",
+      "cat": "Moda e acessórios",
+      "preco": 29.67,
+      "antes": null,
+      "visto": "27/11",
+      "link": "https://s.shopee.com.br/6VPjivuNZv",
+      "imagem": "https://cf.shopee.com.br/file/br-11134207-820mg-mqxgrhjzl2px4a",
+      "exemplo": false,
+      "auto": true,
+      "busca": "camiseta masculina",
+      "desconto": 67
+    },
+    {
+      "nome": "Kit 2 Camisetas Masculinas Caneladas Slim Fit Estilo Americana Ribana Justa ao Corpo",
+      "loja": "Shopee",
+      "cat": "Moda e acessórios",
+      "preco": 26.59,
+      "antes": null,
+      "visto": "27/11",
+      "link": "https://s.shopee.com.br/4fy5XZ1MIe",
+      "imagem": "https://cf.shopee.com.br/file/br-11134207-820l6-ms0bxpblqm8533",
+      "exemplo": false,
+      "auto": true,
+      "busca": "camiseta masculina",
+      "desconto": 62
     },
     {
       "nome": "ROMANTIC CROWN Bolsa Feminina Mão Transversal Ombro Trançada Couro PU Vegan, Clutch Noite Balada Casamento Alça Ajustáve",
@@ -3185,7 +3339,7 @@
       "preco": 15.89,
       "antes": null,
       "visto": "27/11",
-      "link": "https://s.shopee.com.br/70M0v0lind",
+      "link": "https://s.shopee.com.br/7pv9BPDzSP",
       "imagem": "https://cf.shopee.com.br/file/br-11134207-820m3-mpnvskafmdc004",
       "exemplo": false,
       "auto": true,
@@ -3207,6 +3361,20 @@
       "desconto": 75
     },
     {
+      "nome": "Kit Glow Kokeshi Colágeno Anti Olheiras Hidratação Completa",
+      "loja": "Shopee",
+      "cat": "Beleza",
+      "preco": 49.9,
+      "antes": null,
+      "visto": "27/11",
+      "link": "https://s.shopee.com.br/6L6JWe3ThB",
+      "imagem": "https://cf.shopee.com.br/file/br-11134207-820m5-mqby2sqnc54w5c",
+      "exemplo": false,
+      "auto": true,
+      "busca": "kit skincare",
+      "desconto": 72
+    },
+    {
       "nome": "Kit Linha Coreana Hidrabene K-Sérum Harmonizador Facial + Sérum GHK-Cu + Sérum PDRN Skincare",
       "loja": "Shopee",
       "cat": "Beleza",
@@ -3219,20 +3387,6 @@
       "auto": true,
       "busca": "kit skincare",
       "desconto": 67
-    },
-    {
-      "nome": "Kit Glow Kokeshi Colágeno Anti Olheiras Hidratação Completa",
-      "loja": "Shopee",
-      "cat": "Beleza",
-      "preco": 59.9,
-      "antes": null,
-      "visto": "27/11",
-      "link": "https://s.shopee.com.br/6L6JWe3ThB",
-      "imagem": "https://cf.shopee.com.br/file/br-11134207-820m5-mqby2sqnc54w5c",
-      "exemplo": false,
-      "auto": true,
-      "busca": "kit skincare",
-      "desconto": 66
     },
     {
       "nome": "Kit Hidrabene Clareador Skincare Clareador Facial: Sabonete, Protetor 70 FPS e Sérum Multicorretivo",
@@ -3308,7 +3462,7 @@
       "nome": "ANA 1108 KIT 3 Pcs Porta Perfume Recarregavel Portatil Spray 5ml",
       "loja": "Shopee",
       "cat": "Beleza",
-      "preco": 11.98,
+      "preco": 12.76,
       "antes": null,
       "visto": "27/11",
       "link": "https://s.shopee.com.br/5qA4njLbVp",
@@ -3316,7 +3470,7 @@
       "exemplo": false,
       "auto": true,
       "busca": "perfume",
-      "desconto": 76
+      "desconto": 74
     },
     {
       "nome": "ESSÊNCIAS 20ML + UMIDIFICADOR | AROMAS PARA CASA | PERFUME AMBIENTE",
@@ -3359,90 +3513,6 @@
       "auto": true,
       "busca": "perfume",
       "desconto": 64
-    },
-    {
-      "nome": "Kit 6 Forma de Silicone para Fritadeira Air Fryer com Alça Antiaderente Cozinha",
-      "loja": "Shopee",
-      "cat": "Casa e cozinha",
-      "preco": 11.99,
-      "antes": null,
-      "visto": "27/11",
-      "link": "https://s.shopee.com.br/9074hSi9AI",
-      "imagem": "https://cf.shopee.com.br/file/br-11134207-81ztc-mk35l9kuakg158",
-      "exemplo": false,
-      "auto": true,
-      "busca": "air fryer",
-      "desconto": 83
-    },
-    {
-      "nome": "Kit 100 Forma de airfryer descartavel antiaderente de papel cozinha quadrado fritadeira cozimento",
-      "loja": "Shopee",
-      "cat": "Casa e cozinha",
-      "preco": 16.98,
-      "antes": null,
-      "visto": "27/11",
-      "link": "https://s.shopee.com.br/8VAo6Xk3BH",
-      "imagem": "https://cf.shopee.com.br/file/br-11134207-820l5-mvhiu678rkea1f",
-      "exemplo": false,
-      "auto": true,
-      "busca": "air fryer",
-      "desconto": 76
-    },
-    {
-      "nome": "Borrifador Spray de Azeite 220ml em Vidro Óleo Vinagre Shoyu Pulverizador Air Fryer Cozinha Moderna",
-      "loja": "Shopee",
-      "cat": "Casa e cozinha",
-      "preco": 12.9,
-      "antes": null,
-      "visto": "27/11",
-      "link": "https://s.shopee.com.br/6VPjirrfF5",
-      "imagem": "https://cf.shopee.com.br/file/br-11134207-820l7-muf11hlp6c5eb6",
-      "exemplo": false,
-      "auto": true,
-      "busca": "air fryer",
-      "desconto": 70
-    },
-    {
-      "nome": "Kit 12/24/36 Forminhas Silicone Cupcake Empadinha Air Fryer",
-      "loja": "Shopee",
-      "cat": "Casa e cozinha",
-      "preco": 8.99,
-      "antes": null,
-      "visto": "27/11",
-      "link": "https://s.shopee.com.br/5LDmKiw6bs",
-      "imagem": "https://cf.shopee.com.br/file/sg-11134201-822zd-moeo4sxj318tb2",
-      "exemplo": false,
-      "auto": true,
-      "busca": "air fryer",
-      "desconto": 64
-    },
-    {
-      "nome": "Kit 100/200/300 Forro de Papel Descartável para Airfryer Antiaderente,Quadrado,Anti-Óleo Sem Limpeza",
-      "loja": "Shopee",
-      "cat": "Casa e cozinha",
-      "preco": 14.99,
-      "antes": null,
-      "visto": "27/11",
-      "link": "https://s.shopee.com.br/9zzbtIeL8a",
-      "imagem": "https://cf.shopee.com.br/file/sg-11134201-821ee-mggvnhpoe5n07f",
-      "exemplo": false,
-      "auto": true,
-      "busca": "air fryer",
-      "desconto": 62
-    },
-    {
-      "nome": "Adaptador de Tomada Ultra Resistente de Porcelana para Secador Air Fryer Benjamin Bivolt 10A e 20A",
-      "loja": "Shopee",
-      "cat": "Casa e cozinha",
-      "preco": 12.73,
-      "antes": null,
-      "visto": "27/11",
-      "link": "https://s.shopee.com.br/AUvsUDcR7j",
-      "imagem": "https://cf.shopee.com.br/file/sg-11134201-7rep2-m8i16u5pyp4wcf",
-      "exemplo": false,
-      "auto": true,
-      "busca": "air fryer",
-      "desconto": 60
     }
   ]
 }
